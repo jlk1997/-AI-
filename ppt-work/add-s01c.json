@@ -1,0 +1,44 @@
+﻿lark-cli : {
+所在位置 行:1 字符: 70
++ ... \ppt-work"; lark-cli slides +add-slide --presentation "CzdAsa5Fhlonhs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  "ok": false,
+  "identity": "user",
+  "error": {
+    "type": "api",
+    "subtype": "unknown",
+    "code": 4000153,
+    "message": "{\"schema_version\": \"2.0\", \"tool\": \"xml_lint\", \"file\": null, \"slide_size\": {\"width\": 960, 
+\"height\": 540}, \"summary\": {\"slide_count\": 1, \"error_count\": 1, \"warning_count\": 0, \"info_count\": 0, \"stat
+us\": \"blocked\", \"release_ready\": false, \"screenshot_review_required\": false}, \"document\": {\"errors\": [], \"w
+arnings\": [], \"infos\": []}, \"slides\": [{\"slide_number\": 1, \"status\": \"blocked\", \"element_count\": 8, \"erro
+rs\": [{\"level\": \"error\", \"code\": \"text_overflows_container\", \"elements\": [\"slide[1]/data/shape[3]\", \"slid
+e[1]/data/shape[1]\"], \"overflow\": {\"left\": 0, \"top\": 0, \"right\": 56, \"bottom\": 0}, \"message\": \"text shape
+ slide[1]/data/shape[3] overflows its background container slide[1]/data/shape[1]\", \"hint\": \"Locate via related_obj
+ects[].xml_path. Enlarge the container shape, shrink the text, or reduce the text so the glyphs stay inside the box.\",
+ \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"text_overflo
+ws_container\", \"name\": \"text_overflows_container\", \"comparison\": \"violation_count == 0\"}, \"measurement\": {\"
+overflow\": {\"left\": 0, \"top\": 0, \"right\": 56, \"bottom\": 0}}, \"related_objects\": [{\"kind\": \"shape\", \"typ
+e\": \"text\", \"bbox\": {\"x\": 56, \"y\": 150, \"width\": 520, \"height\": 110}, \"xml_path\": \"slide[1]/data/shape[
+3]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 0, \"y\": 0, \"width\": 520, \"height\": 540}, \"xml
+_path\": \"slide[1]/data/shape[1]\"}]}], \"warnings\": [], \"infos\": [], \"issues\": [{\"level\": \"error\", \"code\":
+ \"text_overflows_container\", \"elements\": [\"slide[1]/data/shape[3]\", \"slide[1]/data/shape[1]\"], \"overflow\": {\
+"left\": 0, \"top\": 0, \"right\": 56, \"bottom\": 0}, \"message\": \"text shape slide[1]/data/shape[3] overflows its b
+ackground container slide[1]/data/shape[1]\", \"hint\": \"Locate via related_objects[].xml_path. Enlarge the container 
+shape, shrink the text, or reduce the text so the glyphs stay inside the box.\", \"schema_version\": \"2.0\", \"element
+_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"text_overflows_container\", \"name\": \"text_overfl
+ows_container\", \"comparison\": \"violation_count == 0\"}, \"measurement\": {\"overflow\": {\"left\": 0, \"top\": 0, \
+"right\": 56, \"bottom\": 0}}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"text\", \"bbox\": {\"x\": 56, \"
+y\": 150, \"width\": 520, \"height\": 110}, \"xml_path\": \"slide[1]/data/shape[3]\"}, {\"kind\": \"shape\", \"type\": 
+\"rect\", \"bbox\": {\"x\": 0, \"y\": 0, \"width\": 520, \"height\": 540}, \"xml_path\": \"slide[1]/data/shape[1]\"}]}]
+}]}",
+    "hint": "xml lint blocked: 1 error(s). the page was not written. Fix the error-level findings in the message and re
+try; if the lint is wrong about a page that has to ship as-is, re-run with --no-lint",
+    "log_id": "20261028125048B9BE90C95F9D5500774A",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202610281
+25048B9BE90C95F9D5500774A&code=4000153&method_id=7626729071087471804"
+  }
+}

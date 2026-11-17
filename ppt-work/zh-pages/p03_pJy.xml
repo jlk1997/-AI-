@@ -1,0 +1,69 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJy">
+    <style>
+      <fill id="fJy">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bqd">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>02 · OUR ANSWER</p>
+        </content>
+      </shape>
+      <shape width="850" height="120" topLeftX="56" topLeftY="120" type="text" id="bql">
+        <content textType="title" fontSize="52" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" lineSpacing="multiple:1.08" wrap="false">
+          <p>Run the world forward,</p>
+          <p><span color="rgba(34, 211, 238, 1)">before it runs you.</span></p>
+        </content>
+      </shape>
+      <line id="bqu" startX="56" startY="270" endX="120.00781202322105" endY="270">
+        <border color="rgba(34, 211, 238, 1)"/>
+      </line>
+      <shape width="848" height="80" topLeftX="56" topLeftY="290" type="text" id="bqq">
+        <content fontSize="16" fontFamily="Inter" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.6">
+          <p>OpenGame builds a <strong><span color="rgba(241, 245, 249, 1)">living, checkable, playable digital twin</span></strong> of a community from a single prompt. We run its future thousands of times, inject decisions and rumors, and read out what happens — before reality does.</p>
+        </content>
+      </shape>
+      <shape width="200" height="30" topLeftX="56" topLeftY="410" type="text" id="bqp">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>SIMULATE</p>
+        </content>
+      </shape>
+      <line id="bqZ" startX="252" startY="426" endX="300.0104155366312" endY="426">
+        <border color="rgba(34, 211, 238, 1)"/>
+        <endArrow type="arrow"/>
+      </line>
+      <shape width="200" height="30" topLeftX="312" topLeftY="410" type="text" id="bqV">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>INTERVENE</p>
+        </content>
+      </shape>
+      <line id="bqB" startX="508" startY="426" endX="556.0104155366312" endY="426">
+        <border color="rgba(34, 211, 238, 1)"/>
+        <endArrow type="arrow"/>
+      </line>
+      <shape width="200" height="30" topLeftX="568" topLeftY="410" type="text" id="bqf">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>FORECAST</p>
+        </content>
+      </shape>
+      <line id="bqb" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bqW">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bqy">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>03 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqP">
+      <content>
+        <p>Our answer is a living digital twin. Instead of reasoning about the world from a static model, you build a checkable, playable community that runs on its own, and you run its future forward. You inject the decision you are considering, or a rumor, and watch how it spreads. The loop is simple: simulate, intervene, forecast. That loop is the core of the product, and it is what the next slide shows in detail.</p>
+      </content>
+    </note>
+  </slide>

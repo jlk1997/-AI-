@@ -1,0 +1,62 @@
+# Local infra for the Gebi hosted platform.
+# Usage: docker compose -f docker-compose.platform.yml up -d postgres redis minio
+# Then: npm run migrate --workspace=@opengame/platform-db
+#       npm run platform:dev
+# Process images (API / Worker / Web): npm run platform:launch
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: opengame_platform
+    ports:
+      - '5433:5432'
+    volumes:
+      - platform_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - '6380:6379'
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+    ports:
+      - '9002:9000'
+      - '9001:9001'
+    volumes:
+      - platform_minio:/data
+
+  # After `mc mb`, dist previews can use either (a) platform-api `/v1/preview-dist/...` signed proxy (default),
+  # or (b) `PLATFORM_PUBLIC_OBJECT_BASE_URL` pointing at this MinIO port mapped on the host (e.g. 9002) with a bucket policy allowing GetObject on `projects/*/artifacts/*/dist/*` (dev-only).
+  minio-init:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      sleep 2;
+      mc alias set local http://minio:9000 minio minio123;
+      mc mb local/opengame-platform --ignore-existing;
+      exit 0;
+      "
+
+volumes:
+  platform_pg:
+  platform_minio:

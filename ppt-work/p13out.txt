@@ -1,0 +1,13 @@
+﻿python : [drawing 细节审查] rect0「Monetize foresig」 是图里的主体之一（1 条连线），但只画成一个矩形：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外形、再
+ node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；rect7「Monetize play」 是图里的主体之一（1 条连线），但只画成一个矩形：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…
+），用对应部件或 svg_at 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可 → 有提示时先 d.preview() 看一次再精修；没有提示就不用预览
+所在位置 行:1 字符: 70
++ ... enGame-main\OpenGame-main\ppt-work"; python build_p13.py 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([drawing 细节审查] ...一次再精修；没有提示就不用预览:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[drawing 排版提示 @ 900px] 1 条（不阻断）：
+  - 画布留白偏大（上108px）：缩小画布或把内容铺开，否则放到页面后主体偏小
+OK: True SID: pJt
+

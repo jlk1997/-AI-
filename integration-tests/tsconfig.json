@@ -1,0 +1,24 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "composite": false,
+    "noEmit": true,
+    "allowJs": true,
+    "verbatimModuleSyntax": false,
+    "strict": false,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@opengame/sdk": ["../packages/sdk-typescript/dist/index.d.ts"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist", "output"],
+  "references": [{ "path": "../packages/core" }]
+}

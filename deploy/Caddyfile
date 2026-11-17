@@ -1,0 +1,34 @@
+# Dual-launch edge for Gebi / 隔壁.
+# Replace {$PLATFORM_WEB_ROOT}, {$PLATFORM_API_ORIGIN}, {$PLATFORM_WEB_HOST}.
+
+{$PLATFORM_WEB_HOST} {
+	encode gzip
+
+	@readyz path /readyz /health
+	handle @readyz {
+		reverse_proxy {$PLATFORM_API_ORIGIN}
+	}
+
+	@playCrawler {
+		path_regexp playSlug ^/play/([^/?#]+)
+		header_regexp User-Agent (?i)(MicroMessenger|Weibo|Slackbot|facebookexternalhit|Twitterbot|Discordbot|TelegramBot|LinkedInBot|WhatsApp)
+	}
+	handle @playCrawler {
+		rewrite * /v1/public/games/{re.playSlug.1}/share.html
+		reverse_proxy {$PLATFORM_API_ORIGIN}
+	}
+
+	handle /v1/* {
+		reverse_proxy {$PLATFORM_API_ORIGIN}
+	}
+
+	handle /api/public/* {
+		reverse_proxy {$PLATFORM_API_ORIGIN}
+	}
+
+	handle {
+		root * {$PLATFORM_WEB_ROOT}
+		try_files {path} /index.html
+		file_server
+	}
+}

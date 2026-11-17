@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opengame.app/schemas/game.schema.json",
+  "title": "OpenGame Game DSL",
+  "description": "Declarative scene description for @opengame/runtime. Complex flows (RPG, TD, narrative) should use src/scenes/*.ts + extraScenes; do not rely on gameFlow/spawners/scene.rules until documented as supported.",
+  "type": "object",
+  "required": ["dslVersion", "meta", "scenes"],
+  "properties": {
+    "dslVersion": {
+      "type": "string",
+      "description": "SemVer of the DSL this document targets. 1.x is backwards-compatible.",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.+-]+)?$"
+    },
+    "meta": {
+      "type": "object",
+      "required": ["title"],
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "description": { "type": "string", "maxLength": 2000 },
+        "genre": { "type": "string" },
+        "orientation": { "type": "string", "enum": ["portrait", "landscape"] },
+        "canvas": {
+          "type": "object",
+          "properties": {
+            "width": { "type": "integer", "minimum": 100, "maximum": 4096 },
+            "height": { "type": "integer", "minimum": 100, "maximum": 4096 },
+            "background": { "type": "string", "pattern": "^#[0-9a-fA-F]{3,8}$" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "url"],
+        "properties": {
+          "id": { "type": "string" },
+          "kind": { "type": "string", "enum": ["image", "audio", "spritesheet", "video"] },
+          "url": { "type": "string", "minLength": 1 },
+          "frame": {
+            "type": "object",
+            "properties": {
+              "width": { "type": "integer", "minimum": 1 },
+              "height": { "type": "integer", "minimum": 1 }
+            },
+            "required": ["width", "height"]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "trigger", "effects"],
+        "properties": {
+          "id": { "type": "string" },
+          "trigger": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": ["onTick", "onKey", "onPointerDown", "onCollision", "onTimer", "manual"]
+              },
+              "key": { "type": "string" },
+              "otherTag": { "type": "string" },
+              "periodSec": { "type": "number", "exclusiveMinimum": 0 }
+            }
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["kind"],
+              "properties": {
+                "kind": { "type": "string", "enum": ["spawn", "damage", "heal", "destroy", "emit", "setState", "addScore", "playSound"] },
+                "payload": { "type": "object", "additionalProperties": true }
+              }
+            }
+          },
+          "cooldownSec": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "entities"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string" },
+          "dialogueKey": {
+            "type": "string",
+            "description": "Starts root dialogue[] group via DialogueRunner when scene loads."
+          },
+          "entities": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/entity" }
+          },
+          "hud": {
+            "type": "object",
+            "properties": {
+              "score": { "type": "boolean" },
+              "lives": { "type": "boolean" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "initialSceneId": { "type": "string" },
+    "customModules": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^src/.+\\.ts$" }
+    },
+    "dialogue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "id": { "type": "string" },
+          "group": { "type": "string" },
+          "speaker": { "type": "string" },
+          "text": { "type": "string" },
+          "choices": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label"],
+              "properties": {
+                "label": { "type": "string" },
+                "nextId": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "win": { "type": "string" },
+        "lose": { "type": "string" },
+        "scoreLabel": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "audioTracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "assetId"],
+        "properties": {
+          "id": { "type": "string" },
+          "assetId": { "type": "string" },
+          "loop": { "type": "boolean" },
+          "volume": { "type": "number", "minimum": 0, "maximum": 1 },
+          "role": { "type": "string", "enum": ["bgm", "sfx"] }
+        }
+      }
+    },
+    "cutscenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "assetId": { "type": "string" },
+          "durationSec": { "type": "number" },
+          "caption": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "sprite": {
+          "type": "object",
+          "required": ["x", "y"],
+          "properties": {
+            "assetId": { "type": "string" },
+            "shape": { "type": "string", "enum": ["rect", "circle"] },
+            "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{3,8}$" },
+            "width": { "type": "number", "exclusiveMinimum": 0 },
+            "height": { "type": "number", "exclusiveMinimum": 0 },
+            "x": { "type": "number" },
+            "y": { "type": "number" }
+          },
+          "additionalProperties": false
+        },
+        "behaviors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["kind"],
+            "properties": {
+              "kind": { "type": "string" },
+              "options": { "type": "object", "additionalProperties": true }
+            },
+            "additionalProperties": false
+          }
+        },
+        "skills": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "tunables": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/tunable" }
+        },
+        "state": {
+          "type": "object",
+          "additionalProperties": { "type": "number" },
+          "description": "Per-entity numeric stats (hp, mp) via EntityStateRegistry."
+        }
+      },
+      "additionalProperties": false
+    },
+    "tunable": {
+      "type": "object",
+      "required": ["type", "value"],
+      "properties": {
+        "type": { "type": "string", "enum": ["number", "string", "boolean"] },
+        "value": { "type": ["number", "string", "boolean"] },
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "step": { "type": "number" },
+        "label": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

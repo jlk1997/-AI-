@@ -1,0 +1,187 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJq">
+    <style>
+      <fill id="fJq">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bqE">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 · 工作原理</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bbP">
+        <content textType="title" fontSize="34" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>预测推演闭环</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bbs">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>我们不是只预测一次，而是跑一个闭环——每跑一次，预测就更准一次。</p>
+        </content>
+      </shape>
+      <line id="bqm" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bqz">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bbb">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>04 / 20</p>
+        </content>
+      </shape>
+      <shape width="150" height="56" topLeftX="405" topLeftY="159" presetHandlers="28" type="rect" id="bbB">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="13" topLeftX="405" topLeftY="171.8" type="text" id="bbS">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>模拟</p>
+        </content>
+      </shape>
+      <shape width="150" height="10" topLeftX="405" topLeftY="193.2" type="text" id="bqe">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>世界向前演进</p>
+        </content>
+      </shape>
+      <shape width="150" height="56" topLeftX="609" topLeftY="245" presetHandlers="28" type="rect" id="bbq">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="13" topLeftX="609" topLeftY="257.8" type="text" id="bbd">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>干预</p>
+        </content>
+      </shape>
+      <shape width="150" height="10" topLeftX="609" topLeftY="279.2" type="text" id="bbF">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>注入决策与谣言</p>
+        </content>
+      </shape>
+      <shape width="150" height="56" topLeftX="531" topLeftY="385" presetHandlers="28" type="rect" id="bqQ">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="13" topLeftX="531" topLeftY="397.8" type="text" id="bqn">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>观测</p>
+        </content>
+      </shape>
+      <shape width="150" height="10" topLeftX="531" topLeftY="419.2" type="text" id="bbW">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>读取人群反应</p>
+        </content>
+      </shape>
+      <shape width="150" height="56" topLeftX="279" topLeftY="385" presetHandlers="28" type="rect" id="bbf">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="13" topLeftX="279" topLeftY="397.8" type="text" id="bbX">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>预测</p>
+        </content>
+      </shape>
+      <shape width="150" height="10" topLeftX="279" topLeftY="419.2" type="text" id="bqt">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>输出概率区间</p>
+        </content>
+      </shape>
+      <shape width="150" height="56" topLeftX="201" topLeftY="245" presetHandlers="28" type="rect" id="bqc">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="13" topLeftX="201" topLeftY="257.8" type="text" id="bbp">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>决策</p>
+        </content>
+      </shape>
+      <shape width="150" height="10" topLeftX="201" topLeftY="279.2" type="text" id="bbl">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>选择并行动</p>
+        </content>
+      </shape>
+      <line id="bqU" startX="565" startY="222.8333333333" endX="599.0124844458624" endY="237.17192971770686">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="9.04" height="7.46" topLeftX="590.71" topLeftY="230.6" path="M3.15,0 L9.04,6.88 L0,7.46 Z" type="custom" id="bqk">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bby" startX="662.828571429" startY="311" endX="627.1681071052333" endY="375.0059616052222">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.48" height="9.05" topLeftX="626.78" topLeftY="366.66" path="M7.48,3.94 L0,9.05 L0.4,0 Z" type="custom" id="bba">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bqr" startX="521" startY="413.00000000000006" endX="438.9939026657164" endY="413.00000000000006">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="8.1" height="8.1" topLeftX="438.19" topLeftY="408.95" path="M8.1,8.1 L0,4.05 L8.1,0 Z" type="custom" id="bqw">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bbZ" startX="332.828571429" startY="374.99999999999994" endX="297.1681071052333" endY="310.9940383947777">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.48" height="9.05" topLeftX="296.78" topLeftY="310.29" path="M0.4,9.05 L0,0 L7.48,5.1 Z" type="custom" id="bbJ">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bqi" startX="361" startY="237.16666700002" endX="395.0124844458624" endY="222.82807028259316">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="9.04" height="7.46" topLeftX="386.71" topLeftY="221.93" path="M0,0 L9.04,0.59 L3.15,7.46 Z" type="custom" id="bqM">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="150" height="16" topLeftX="405" topLeftY="296.4" type="text" id="bbV">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>闭环</p>
+        </content>
+      </shape>
+      <shape width="150" height="12" topLeftX="405" topLeftY="322.3" type="text" id="bbu">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>每跑一次，更准一次</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqv">
+      <content>
+        <p>这一页是整个产品的心脏。我们不是给出一个预测就结束，而是跑一个闭环：活的世界先向前模拟，我们注入一个决策或一条谣言进行干预，观测人群怎么反应，再把它转化成概率预测，最后由决策者行动。行动又会改变世界，进入下一次模拟。因为每一次推演都会和真实发生的结果做对比，引擎会随着时间越来越准。这就是我们和"一次性预测"最本质的区别。</p>
+      </content>
+    </note>
+  </slide>

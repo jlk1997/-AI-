@@ -1,0 +1,30 @@
+{
+  "name": "@opengame/platform-db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PostgreSQL schema and migrations for the OpenGame hosted platform.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "migrate": "tsx --env-file=../../.env src/migrate.ts",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.36.4",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

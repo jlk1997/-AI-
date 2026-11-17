@@ -1,0 +1,77 @@
+# Validates hosted platform packages (TypeScript + unit tests) on Ubuntu only.
+
+name: 'Platform stack'
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'release/**'
+  pull_request:
+    branches:
+      - 'main'
+      - 'release/**'
+
+concurrency:
+  group: '${{ github.workflow }}-${{ github.head_ref || github.ref }}'
+  cancel-in-progress: true
+
+permissions:
+  contents: 'read'
+
+defaults:
+  run:
+    shell: 'bash'
+
+jobs:
+  platform:
+    name: 'Platform typecheck & tests'
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8' # ratchet:actions/checkout@v5
+
+      - name: 'Set up Node.js'
+        uses: 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' # ratchet:actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: 'Install dependencies'
+        run: 'npm ci --prefer-offline --no-audit --progress=false'
+
+      - name: 'Build platform-db packages (dist for workspace resolution)'
+        run: |-
+          npm run build --workspace=@opengame/platform-shared
+          npm run build --workspace=@opengame/platform-db
+          npm run build --workspace=@opengame/opengame-core
+
+      - name: 'Typecheck platform workspaces'
+        run: |-
+          npm run typecheck --workspace=@opengame/platform-shared
+          npm run typecheck --workspace=@opengame/platform-db
+          npm run typecheck --workspace=@opengame/platform-api
+          npm run typecheck --workspace=@opengame/platform-worker
+          npm run typecheck --workspace=@opengame/platform-web
+
+      - name: 'Test platform API'
+        run: 'npm run test:ci --workspace=@opengame/platform-api'
+
+      - name: 'Test platform worker (ChangePlan / arcade / juice)'
+        run: 'npm run test:ci --workspace=@opengame/platform-worker'
+
+      - name: 'Quality eval + multiturn + blind scorecard'
+        run: |-
+          npm run build --workspace=@opengame/world-spec
+          npm run build --workspace=@opengame/world-sim
+          npm run build --workspace=@opengame/world-planner
+          npm run build --workspace=@opengame/platform-worker
+          node scripts/quality-eval-smoke.mjs
+          node scripts/quality-multiturn-smoke.mjs
+          node scripts/quality-blind-scorecard.mjs
+
+      - name: 'Society town emergence eval'
+        run: |-
+          npm run build --workspace=@opengame/world-agents
+          npm run test:ci --workspace=@opengame/world-agents
+          node scripts/smoke-society-town.mjs 24

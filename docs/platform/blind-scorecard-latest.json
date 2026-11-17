@@ -1,0 +1,57 @@
+{
+  "schema": "opengame-blind-scorecard-v1",
+  "northStar": "横版 → 更难+Boss → 赛博画风：三轮都绿，玩法与美术肉眼可见变化",
+  "automated": {
+    "multiturnSmoke": {
+      "ok": true,
+      "turns": [
+        "做一个横版跑酷，两关",
+        "更难一点，加一个 Boss",
+        "画风换成赛博朋克"
+      ],
+      "patches": [
+        "dsl:add boss_1 entity",
+        "tunable:enemyCount=5",
+        "tunable:enemyHp=4",
+        "tunable:difficultyTier=3",
+        "tunable:spawnIntervalMs=900",
+        "dsl:harder enemy attrs",
+        "og_intent.json"
+      ],
+      "failures": []
+    },
+    "contracts": {
+      "ok": true,
+      "failures": []
+    },
+    "ok": true
+  },
+  "humanChecklist": [
+    {
+      "id": "play_visible",
+      "prompt": "第二轮后：难度/Boss 是否肉眼可见？",
+      "passBar": "≥80% blind"
+    },
+    {
+      "id": "art_visible",
+      "prompt": "第三轮后：赛博画风是否肉眼可见？",
+      "passBar": "≥80% blind"
+    },
+    {
+      "id": "juice_survived",
+      "prompt": "三轮后：音效/镜头/暂停是否仍在？",
+      "passBar": "no mute color-block regression"
+    },
+    {
+      "id": "world_expand",
+      "prompt": "世界「扩一片林子」后新区海报是否更新？",
+      "passBar": "no stale start poster"
+    },
+    {
+      "id": "lingbot_honest",
+      "prompt": "Lab /step 是否误标成真视频？",
+      "passBar": "0 incidents"
+    }
+  ],
+  "generatedAt": "2026-08-08T13:03:58.390Z"
+}

@@ -1,0 +1,12 @@
+﻿text_overflows_container ['slide[1]/data/shape[20]', 'slide[1]/data/shape[18]'] meas: {'overflow': {'left': 0.5, 'top': 0, 'right': 0, 'bottom': 0}}
+    text {'x': 773.5, 'y': 296.2, 'width': 108, 'height': 10}
+    rect {'x': 774, 'y': 264, 'width': 132, 'height': 52}
+bbox_overlap ['slide[1]/data/shape[15]', 'slide[1]/data/shape[25]'] meas: {'intersection_area': 115.062, 'left_fill_alpha': 1, 'right_fill_alpha': 0}
+    rect {'x': 594, 'y': 264, 'width': 132, 'height': 52}
+    custom {'x': 660.25, 'y': 314.25, 'width': 181.5, 'height': 73.5}
+bbox_overlap ['slide[1]/data/shape[18]', 'slide[1]/data/shape[25]'] meas: {'intersection_area': 118.562, 'left_fill_alpha': 1, 'right_fill_alpha': 0}
+    rect {'x': 774, 'y': 264, 'width': 132, 'height': 52}
+    custom {'x': 660.25, 'y': 314.25, 'width': 181.5, 'height': 73.5}
+bbox_overlap ['slide[1]/data/line[6]', 'slide[1]/data/shape[15]'] meas: {'intersection_width': 0, 'intersection_height': 8, 'intersection_area': 0}
+    line {'x': 660, 'y': 308, 'width': 0, 'height': 78}
+    rect {'x': 594, 'y': 264, 'width': 132, 'height': 52}

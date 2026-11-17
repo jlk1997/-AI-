@@ -1,0 +1,76 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style><fill><fillColor color="rgba(10,14,20,1)"/></fill></style>
+  <data>
+    <shape type="text" topLeftX="56" topLeftY="42" width="500" height="20">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34,211,238,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>10  ·  TRACTION</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="70" width="848" height="48">
+      <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241,245,249,1)" bold="true" wrap="false">
+        <p>One prompt, many playable worlds</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="118" width="848" height="24">
+      <content textType="body" fontSize="14" fontFamily="Inter" color="rgba(148,163,184,1)" wrap="false">
+        <p>The same engine generates entirely different genres, each end-to-end and playable.</p>
+      </content>
+    </shape>
+
+    <img src="YtWzbYjldodGnRxkNRqcmi6UnOg" topLeftX="70" topLeftY="172" width="190" height="128"/>
+    <img src="SmR6bnfwYoi25Px0mRrcLnUtn5d" topLeftX="285" topLeftY="172" width="190" height="128"/>
+    <img src="MIAFbqC0uo67tixsVHwcPjOtnzf" topLeftX="500" topLeftY="172" width="190" height="128"/>
+    <img src="HKY6bJ3BHoVWVjxZb3ccPcEMnwc" topLeftX="715" topLeftY="172" width="190" height="128"/>
+
+    <shape type="text" topLeftX="70" topLeftY="312" width="190" height="22">
+      <content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>Platformer</p></content>
+    </shape>
+    <shape type="text" topLeftX="285" topLeftY="312" width="190" height="22">
+      <content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>Top-down</p></content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="312" width="190" height="22">
+      <content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>Top-down</p></content>
+    </shape>
+    <shape type="text" topLeftX="715" topLeftY="312" width="190" height="22">
+      <content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>Tower defense</p></content>
+    </shape>
+
+    <shape type="text" topLeftX="70" topLeftY="340" width="190" height="20">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>Marvel</p></content>
+    </shape>
+    <shape type="text" topLeftX="285" topLeftY="340" width="190" height="20">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>Star Wars</p></content>
+    </shape>
+    <shape type="text" topLeftX="500" topLeftY="340" width="190" height="20">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>Squid Game</p></content>
+    </shape>
+    <shape type="text" topLeftX="715" topLeftY="340" width="190" height="20">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>Hajimi</p></content>
+    </shape>
+
+    <line startX="56" startY="398" endX="904" endY="398"><border color="rgba(148,163,184,0.15)" width="1"/></line>
+    <shape type="text" topLeftX="56" topLeftY="420" width="848" height="24">
+      <content textType="body" fontSize="13" fontFamily="Inter" color="rgba(241,245,249,1)" wrap="false">
+        <p>Genre, art, layout, and core loop are generated from one sentence — not stitched from templates.</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="448" width="848" height="24">
+      <content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" wrap="false">
+        <p>Each demo ships as a working game with a documented mechanic spec and a downloadable build.</p>
+      </content>
+    </shape>
+
+    <line startX="56" startY="496" endX="904" endY="496"><border color="rgba(148,163,184,0.15)" width="1"/></line>
+    <shape type="text" topLeftX="56" topLeftY="504" width="500" height="18">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100,116,139,1)" wrap="false"><p>OpenGame  ·  Investor Briefing</p></content>
+    </shape>
+    <shape type="text" topLeftX="820" topLeftY="504" width="84" height="18">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100,116,139,1)" textAlign="right" wrap="false"><p>17 / 20</p></content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body" fontSize="14" fontFamily="Inter">
+      <p>This is the system working today. From one sentence each, the engine produced four different genres: a platformer, two top-down games, and a tower defense. The art, the layout, the camera, and the core gameplay loop are all generated, not assembled from a fixed template. Each one is a genuinely playable game, with a documented mechanic spec and a downloadable build. The point for investors is twofold: the generation is real and genre-agnostic, and the same engine that produces these worlds is the engine that runs our forecasts. The playable surface proves the world underneath is coherent. We are not showing a concept; we are showing working worlds.</p>
+    </content>
+  </note>
+</slide>

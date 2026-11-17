@@ -1,0 +1,25 @@
+{
+  "name": "@opengame/game-planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "GameIntent / MechanicSpec / GameOps planner — world-planner analogue for 加戏. Pure planning; worker owns disk I/O.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

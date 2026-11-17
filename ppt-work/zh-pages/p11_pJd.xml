@@ -1,0 +1,160 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJd">
+    <style>
+      <fill id="fJd">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bPI">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>06 · FORECASTING</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bPb">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Decision support: run the what-ifs first</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bPB">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Compare interventions, see their outcomes, and know which assumptions drive them.</p>
+        </content>
+      </shape>
+      <line id="bPa" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bPO">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bPp">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>11 / 20</p>
+        </content>
+      </shape>
+      <shape width="83.6" height="10" topLeftX="90" topLeftY="277.2" type="text" id="bPl">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>INTERVENTION</p>
+        </content>
+      </shape>
+      <shape width="186.2" height="10" topLeftX="280" topLeftY="277.2" type="text" id="bPg">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>P50 ESCALATION (ILLUSTRATIVE)</p>
+        </content>
+      </shape>
+      <shape width="58" height="10" topLeftX="670" topLeftY="277.2" type="text" id="bPK">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>OUTCOME</p>
+        </content>
+      </shape>
+      <line id="bPW" startX="90" startY="302" endX="870.0006410253776" endY="302">
+        <border color="rgba(148, 163, 184, 0.25)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="57.9" height="12" topLeftX="90" topLeftY="318.3" type="text" id="bPf">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>A · Hold</p>
+        </content>
+      </shape>
+      <shape width="82.5" height="10" topLeftX="90" topLeftY="339.2" type="text" id="bPR">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>No intervention</p>
+        </content>
+      </shape>
+      <shape width="320" height="10" topLeftX="280" topLeftY="327" presetHandlers="5" alpha="0.12" type="rect" id="bPj">
+        <fill>
+          <fillColor color="rgba(148, 163, 184, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="300" height="10" topLeftX="280" topLeftY="327" presetHandlers="5" alpha="0.85" type="rect" id="bPZ">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="101.6" height="10.5" topLeftX="670" topLeftY="327" type="text" id="bPu">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>High, drift upward</p>
+        </content>
+      </shape>
+      <shape width="104.8" height="12" topLeftX="90" topLeftY="368.3" type="text" id="bPx">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>B · De-escalate</p>
+        </content>
+      </shape>
+      <shape width="71.3" height="10" topLeftX="90" topLeftY="389.2" type="text" id="bPL">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Open dialogue</p>
+        </content>
+      </shape>
+      <shape width="320" height="10" topLeftX="280" topLeftY="377" presetHandlers="5" alpha="0.12" type="rect" id="bPy">
+        <fill>
+          <fillColor color="rgba(148, 163, 184, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="110" height="10" topLeftX="280" topLeftY="377" presetHandlers="5" alpha="0.85" type="rect" id="bPJ">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="83.5" height="10.5" topLeftX="670" topLeftY="377" type="text" id="bPT">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Lowest, stable</p>
+        </content>
+      </shape>
+      <shape width="89.2" height="10" topLeftX="850" topLeftY="377.2" type="text" id="bPP">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>RECOMMENDED</p>
+        </content>
+      </shape>
+      <shape width="68.4" height="12" topLeftX="90" topLeftY="418.3" type="text" id="bPS">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>C · Deter</p>
+        </content>
+      </shape>
+      <shape width="77.2" height="10" topLeftX="90" topLeftY="439.2" type="text" id="bPA">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Show of force</p>
+        </content>
+      </shape>
+      <shape width="320" height="10" topLeftX="280" topLeftY="427" presetHandlers="5" alpha="0.12" type="rect" id="bPV">
+        <fill>
+          <fillColor color="rgba(148, 163, 184, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="200" height="10" topLeftX="280" topLeftY="427" presetHandlers="5" alpha="0.85" type="rect" id="bPs">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="96.4" height="10.5" topLeftX="670" topLeftY="427" type="text" id="bPC">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Medium, tail risk</p>
+        </content>
+      </shape>
+      <line id="bPd" startX="90" startY="454" endX="870.0006410253776" endY="454">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="482.1" height="10" topLeftX="90" topLeftY="469.2" type="text" id="bPX">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Sensitivity: which assumptions move the result most — crowd size, rumor speed, force posture.</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bPF">
+      <content>
+        <p>Before acting in the real world, a decision-maker can run every option: hold, de-escalate, or deter. Each intervention is simulated as a full ensemble, so the decision-maker sees not just a predicted outcome but the probability band around it, the casualties and turnout implied, and the risk of a sudden spike. In this illustrative comparison, opening dialogue lowers the median escalation while holding leaves it high; deterrence can work but carries a tail risk. A sensitivity analysis then shows which assumptions, such as crowd size or rumor speed, move the result most. The system does not make the decision, but it makes the trade-offs visible and comparable before anyone commits.</p>
+      </content>
+    </note>
+  </slide>

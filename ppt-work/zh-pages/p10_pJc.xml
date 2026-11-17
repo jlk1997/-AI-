@@ -1,0 +1,208 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJc">
+    <style>
+      <fill id="fJc">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bWn">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>06 · FORECASTING</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bZp">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>The forecasting engine</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bZl">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>An ensemble of simulated futures, turned into calibrated probability bands.</p>
+        </content>
+      </shape>
+      <line id="bZf" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bZa">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bWw">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>10 / 20</p>
+        </content>
+      </shape>
+      <shape width="154.1" height="13" topLeftX="90" topLeftY="283.8" type="text" id="bZW">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Monte Carlo ensemble</p>
+        </content>
+      </shape>
+      <shape width="14" height="14" topLeftX="113" topLeftY="353" type="ellipse" id="bZg">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="64.3" height="10" topLeftX="80.1" topLeftY="380.2" type="text" id="bZK">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>one decision</p>
+        </content>
+      </shape>
+      <shape width="286.2" height="103.2" topLeftX="125.4" topLeftY="258.4" path="M1.6,101.6 C104.6,101.6 184.6,1.6 284.6,1.6" alpha="0.45" type="custom" id="bWk">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="406" topLeftY="256" alpha="0.7" type="ellipse" id="bZZ">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="286.2" height="63.2" topLeftX="125.4" topLeftY="298.4" path="M1.6,61.6 C104.6,61.6 184.6,1.6 284.6,1.6" alpha="0.45" type="custom" id="bZu">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="406" topLeftY="296" alpha="0.7" type="ellipse" id="bZR">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="286.2" height="23.2" topLeftX="125.4" topLeftY="338.4" path="M1.6,21.6 C104.6,21.6 184.6,1.6 284.6,1.6" alpha="0.45" type="custom" id="bWE">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="406" topLeftY="336" alpha="0.7" type="ellipse" id="bZy">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="286.2" height="23.2" topLeftX="125.4" topLeftY="358.4" path="M1.6,1.6 C104.6,1.6 184.6,21.6 284.6,21.6" alpha="0.45" type="custom" id="bZJ">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="406" topLeftY="376" alpha="0.7" type="ellipse" id="bZx">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="286.2" height="63.2" topLeftX="125.4" topLeftY="358.4" path="M1.6,1.6 C104.6,1.6 184.6,61.6 284.6,61.6" alpha="0.45" type="custom" id="bWM">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="406" topLeftY="416" alpha="0.7" type="ellipse" id="bZP">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="237.1" height="10" topLeftX="90" topLeftY="435.2" type="text" id="bZS">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Presets: contested decision · nearby exercise</p>
+        </content>
+      </shape>
+      <line id="bZT" startX="460.00000000000006" startY="280" endX="460.00000000000006" endY="450.0029411510283">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="195.2" height="13" topLeftX="490" topLeftY="283.8" type="text" id="bZV">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Calibrated probability bands</p>
+        </content>
+      </shape>
+      <shape width="203.2" height="10" topLeftX="490" topLeftY="323.2" type="text" id="bZs">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Turnout / escalation level (illustrative)</p>
+        </content>
+      </shape>
+      <line id="bZA" startX="510" startY="350" endX="890.0013157871956" endY="350">
+        <border color="rgba(148, 163, 184, 0.4)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="280" height="12" topLeftX="590" topLeftY="344" presetHandlers="6" alpha="0.25" type="rect" id="bWz">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="4" height="20" topLeftX="588" topLeftY="336" presetHandlers="0" type="rect" id="bZq">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="4" height="20" topLeftX="868" topLeftY="336" presetHandlers="0" type="rect" id="bZd">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="4" height="24" topLeftX="728" topLeftY="332" presetHandlers="0" type="rect" id="bZX">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="24" height="10" topLeftX="579.5" topLeftY="369.2" type="text" id="bZC">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>P10</p>
+        </content>
+      </shape>
+      <shape width="24.8" height="10" topLeftX="719.5" topLeftY="369.2" type="text" id="bWc">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>P50</p>
+        </content>
+      </shape>
+      <shape width="24" height="10" topLeftX="859.5" topLeftY="369.2" type="text" id="bZb">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>P90</p>
+        </content>
+      </shape>
+      <shape width="246.3" height="10" topLeftX="490" topLeftY="407.2" type="text" id="bZB">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Turnout · casualties · hotspots · level timeline</p>
+        </content>
+      </shape>
+      <shape width="220.3" height="10" topLeftX="490" topLeftY="427.2" type="text" id="bZF">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Calibrated on historical cases: Brier score,</p>
+        </content>
+      </shape>
+      <shape width="166.1" height="10" topLeftX="490" topLeftY="445.2" type="text" id="bZI">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>case distance, interval coverage</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bZO">
+      <content>
+        <p>We do not output a single guess. The engine runs a Monte Carlo ensemble of futures, seeded from two presets: a contested decision and an exercise near a residential area. Each run is a complete simulation, and the ensemble becomes a probability distribution: P10, P50, and P90 bands for turnout, casualties, hotspots, and the escalation timeline, together with the causal chain, alternatives, and a sensitivity analysis. Crucially, those probabilities are calibrated against a library of historical cases, using a Brier score, case distance, and interval coverage. That means the number we call 80 percent actually happens about 80 percent of the time. This is a forecast you can trust and audit, not a confident hallucination.</p>
+      </content>
+    </note>
+  </slide>

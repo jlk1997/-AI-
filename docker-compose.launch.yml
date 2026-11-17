@@ -1,0 +1,71 @@
+# Dual-launch process images on top of local infra.
+# Secrets stay in .env — this file does not fill payment merchant keys.
+#
+#   docker compose -f docker-compose.platform.yml -f docker-compose.launch.yml up -d
+#
+# Production boot still goes through productionGates. Do not set
+# PLATFORM_RUNTIME=production until the launch-day checklist is green.
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.platform-api
+    env_file:
+      - .env
+    environment:
+      PLATFORM_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/opengame_platform
+      PLATFORM_REDIS_URL: redis://redis:6379
+      PLATFORM_S3_ENDPOINT: http://minio:9000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_started
+    ports:
+      - '3847:3847'
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://127.0.0.1:3847/readyz').then((r)=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 15s
+      timeout: 5s
+      retries: 8
+      start_period: 40s
+
+  worker:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.platform-worker
+    env_file:
+      - .env
+    environment:
+      PLATFORM_DATABASE_URL: postgresql://postgres:postgres@postgres:5432/opengame_platform
+      PLATFORM_REDIS_URL: redis://redis:6379
+      PLATFORM_S3_ENDPOINT: http://minio:9000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      api:
+        condition: service_healthy
+
+  web:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.platform-web
+      args:
+        VITE_WEB_API_BASE: /v1
+    depends_on:
+      - api
+    ports:
+      - '8080:80'

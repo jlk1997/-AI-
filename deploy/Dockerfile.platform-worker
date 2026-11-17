@@ -1,0 +1,24 @@
+# Gebi dual-launch worker. Build from the repo root:
+#   docker build -f deploy/Dockerfile.platform-worker -t gebi-worker .
+FROM node:20-bookworm-slim AS build
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ \
+  && rm -rf /var/lib/apt/lists/*
+COPY package.json package-lock.json ./
+COPY packages ./packages
+COPY apps ./apps
+COPY agent-test ./agent-test
+COPY scripts ./scripts
+COPY tsconfig.json ./
+RUN npm ci --ignore-scripts && npm rebuild sharp
+RUN npm run build --workspace=@opengame/platform-shared \
+  && npm run build --workspace=@opengame/platform-db \
+  && npm run build --workspaces --if-present
+
+FROM node:20-bookworm-slim
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends python3 make g++ \
+  && rm -rf /var/lib/apt/lists/*
+ENV NODE_ENV=production
+COPY --from=build /app /app
+CMD ["npm", "run", "start", "--workspace=@opengame/platform-worker"]

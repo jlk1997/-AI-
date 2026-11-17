@@ -1,0 +1,3 @@
+﻿res ok: False
+errors extracted: 12
+codes: {'bbox_overlap': 12}

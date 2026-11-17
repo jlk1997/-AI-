@@ -1,0 +1,31 @@
+﻿{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "output_dir": "./shots/",
+    "screenshots": [
+      {
+        "format": "jpeg",
+        "path": "E:\\OpenGame-main\\OpenGame-main\\ppt-work\\shots\\CzdAsa5FhlonhsdqTVVciALPnPb_p048_pkg.jpg",
+        "size": 339382,
+        "slide_id": "pkg",
+        "slide_number": 48
+      },
+      {
+        "format": "jpeg",
+        "path": "E:\\OpenGame-main\\OpenGame-main\\ppt-work\\shots\\CzdAsa5FhlonhsdqTVVciALPnPb_p049_pkN.jpg",
+        "size": 155447,
+        "slide_id": "pkN",
+        "slide_number": 49
+      },
+      {
+        "format": "jpeg",
+        "path": "E:\\OpenGame-main\\OpenGame-main\\ppt-work\\shots\\CzdAsa5FhlonhsdqTVVciALPnPb_p050_pkG.jpg",
+        "size": 124393,
+        "slide_id": "pkG",
+        "slide_number": 50
+      }
+    ],
+    "xml_presentation_id": "CzdAsa5FhlonhsdqTVVciALPnPb"
+  }
+}

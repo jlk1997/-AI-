@@ -1,0 +1,618 @@
+/**
+ * Phone shell styling. Loaded unconditionally (it is small) but every rule is
+ * scoped under `.og-mobile`, so the desktop studio is untouched.
+ */
+
+:root {
+  --og-tabbar-height: 54px;
+  --og-safe-top: env(safe-area-inset-top, 0px);
+  --og-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --og-safe-left: env(safe-area-inset-left, 0px);
+  --og-safe-right: env(safe-area-inset-right, 0px);
+}
+
+.og-mobile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--bg-body, var(--bg-layout));
+  color: var(--text-primary);
+  /* Rubber-band scrolling on iOS drags the whole shell; keep it inside panes. */
+  overscroll-behavior-y: none;
+}
+
+.og-mobile__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  padding-left: var(--og-safe-left);
+  padding-right: var(--og-safe-right);
+}
+
+/* Immersive routes (fullscreen play, mobile studio) own the whole viewport. */
+.og-mobile__body--flush {
+  overflow: hidden;
+  padding: 0;
+}
+
+.og-mobile__header {
+  flex: none;
+  padding-top: var(--og-safe-top);
+  padding-left: calc(var(--og-safe-left) + 12px);
+  padding-right: calc(var(--og-safe-right) + 12px);
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.og-mobile__header-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+}
+
+.og-mobile__header-title {
+  flex: 1;
+  min-width: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.og-mobile__tabbar {
+  flex: none;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: stretch;
+  background: var(--bg-header);
+  border-top: 1px solid var(--border-color);
+  box-shadow: 0 -10px 28px rgba(28, 25, 23, 0.08);
+  padding-bottom: var(--og-safe-bottom);
+  padding-left: var(--og-safe-left);
+  padding-right: var(--og-safe-right);
+}
+
+.og-mobile__tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  height: var(--og-tabbar-height);
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 11px;
+  line-height: 1.2;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.og-mobile__tab[aria-current='page'] {
+  color: var(--color-ember);
+  font-weight: 700;
+}
+
+.og-mobile__tab-icon {
+  font-size: 19px;
+  line-height: 1;
+}
+
+/* Fullscreen hosted play surface. */
+.og-play-stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+.og-play-stage__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.og-play-stage__overlay {
+  position: absolute;
+  top: calc(var(--og-safe-top) + 8px);
+  left: calc(var(--og-safe-left) + 8px);
+  right: calc(var(--og-safe-right) + 8px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.og-play-stage__overlay > * {
+  pointer-events: auto;
+}
+
+.og-play-stage__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(244, 238, 228, 0.18);
+  background: rgba(20, 18, 26, 0.72);
+  backdrop-filter: blur(10px);
+  color: #f4eee4;
+  font-size: 13px;
+}
+
+.og-play-stage__chip--stake {
+  background: color-mix(in srgb, var(--color-teal) 78%, #14121a);
+  border-color: color-mix(in srgb, var(--color-teal) 40%, rgba(244, 238, 228, 0.18));
+  font-weight: 700;
+}
+
+/* ---- Phone studio: preview owns the screen, everything else is a sheet ---- */
+
+.og-studio {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  background: var(--bg-body, var(--bg-layout));
+  color: var(--text-primary);
+}
+
+.og-studio__stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.og-studio__empty {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 24px;
+  background: var(--bg-body, var(--bg-layout));
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.og-studio__empty .ant-empty-description,
+.og-studio__empty .ant-empty-description .ant-typography {
+  color: inherit;
+}
+
+.og-studio:not(:has(.og-play-stage__frame)) .og-play-stage__chip {
+  border-color: var(--border-color);
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.og-studio__banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.og-studio__dock {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px calc(var(--og-safe-right) + 10px) 8px calc(var(--og-safe-left) + 10px);
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+}
+
+.og-studio__prompt {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: rgba(127, 127, 127, 0.08);
+  background: color-mix(in srgb, var(--text-primary) 6%, var(--bg-card));
+  color: var(--text-secondary);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.og-studio__prompt:active {
+  transform: scale(0.99);
+  border-color: var(--color-ember);
+}
+
+.og-studio__prompt span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.og-studio__resume {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 64px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 0;
+  background: var(--color-ember);
+  color: var(--text-inverse);
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: var(--glow-ember);
+}
+
+.og-config-chip {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.og-config-chip--on {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-ember) 14%, transparent);
+}
+
+/* Fullscreen generation progress — theme-owned, never inherit a black void. */
+.og-pipeline {
+  --og-pipeline-bg: var(--color-paper);
+  --og-pipeline-fg: var(--color-ink);
+  --og-pipeline-muted: var(--text-secondary);
+  --og-pipeline-card: var(--bg-card);
+  --og-pipeline-line: var(--border-color);
+  --og-pipeline-trail: var(--bg-lane);
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  background: var(--og-pipeline-bg);
+  color: var(--og-pipeline-fg);
+  padding: calc(var(--og-safe-top) + 8px) calc(var(--og-safe-right) + 16px)
+    calc(var(--og-safe-bottom) + 12px) calc(var(--og-safe-left) + 16px);
+}
+
+[data-theme='dark'] .og-pipeline {
+  --og-pipeline-bg: var(--color-night);
+  --og-pipeline-fg: #f4eee4;
+  --og-pipeline-muted: #b8aea0;
+  --og-pipeline-card: #1c1917;
+  --og-pipeline-line: #3a3228;
+  --og-pipeline-trail: #221c18;
+}
+
+.og-pipeline__head {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.og-pipeline__head .ant-btn {
+  color: var(--og-pipeline-fg);
+}
+
+.og-pipeline__elapsed {
+  font-variant-numeric: tabular-nums;
+  color: var(--og-pipeline-muted);
+  font-size: 12px;
+}
+
+.og-pipeline__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 8px;
+}
+
+.og-pipeline__ring {
+  display: grid;
+  place-items: center;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  background: var(--og-pipeline-card);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.og-pipeline .ant-progress-text,
+.og-pipeline .ant-progress-text .og-pipeline__pct {
+  color: var(--og-pipeline-fg) !important;
+  font-weight: 700;
+}
+
+.og-pipeline__pct {
+  font-size: 28px;
+  letter-spacing: -0.03em;
+}
+
+.og-pipeline__headline {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--og-pipeline-fg);
+  text-align: center;
+  line-height: 1.35;
+}
+
+.og-pipeline__sub {
+  margin: 0;
+  max-width: 280px;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--og-pipeline-muted);
+}
+
+.og-pipeline__steps {
+  width: 100%;
+  margin: 8px 0 0;
+  padding: 12px 14px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--og-pipeline-card);
+  border: 1px solid var(--og-pipeline-line);
+  border-radius: 16px;
+}
+
+.og-pipeline__step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--og-pipeline-muted);
+}
+
+.og-pipeline__step--active .og-pipeline__label,
+.og-pipeline__step--done .og-pipeline__label {
+  color: var(--og-pipeline-fg);
+  font-weight: 600;
+}
+
+.og-pipeline__step--pending .og-pipeline__label {
+  color: var(--og-pipeline-muted);
+}
+
+.og-pipeline__icon {
+  width: 18px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.og-pipeline__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1.5px solid var(--og-pipeline-muted);
+  background: transparent;
+}
+
+.og-pipeline__note {
+  margin-left: auto;
+  font-size: 11px;
+  color: var(--og-pipeline-muted);
+}
+
+.og-pipeline__log {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--og-pipeline-line);
+  background: var(--og-pipeline-card);
+}
+
+.og-pipeline__log-line {
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--og-pipeline-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.og-pipeline__foot {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 10px;
+}
+
+.og-pipeline__foot .ant-btn-primary {
+  height: 44px;
+  font-weight: 600;
+}
+
+/* Bottom action bar that sits above the home indicator. */
+.og-mobile__actionbar {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px calc(10px + var(--og-safe-bottom));
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+}
+
+.og-mobile__actionbar .ant-btn {
+  flex: 1;
+}
+
+/* Antd sheets should feel like native bottom sheets. */
+.og-sheet .ant-drawer-content {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  background: var(--bg-layout);
+}
+
+.og-sheet .ant-drawer-header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.og-sheet .ant-drawer-body {
+  padding: 12px 16px calc(16px + var(--og-safe-bottom));
+}
+
+.og-play-dock {
+  position: absolute;
+  left: calc(var(--og-safe-left) + 12px);
+  right: calc(var(--og-safe-right) + 12px);
+  bottom: calc(var(--og-safe-bottom) + 12px);
+  display: flex;
+  gap: 8px;
+  z-index: 4;
+}
+
+.og-play-dock .ant-btn-primary {
+  flex: 1;
+}
+
+.og-mobile .ant-list-item {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* A phone card grid: two up, tight gutters, no desktop padding. */
+.og-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 12px;
+}
+
+.og-card-grid--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.og-work-card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-night);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.og-work-card__cover {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background:
+    radial-gradient(80% 60% at 50% 20%, rgba(224, 178, 90, 0.28), transparent 60%),
+    linear-gradient(180deg, #2a2118, var(--color-night));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.og-work-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.og-work-card__badge {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.og-work-card__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 10px 10px 12px;
+}
+
+.og-work-card__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f4eee4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.og-work-card__meta {
+  margin-top: 4px;
+  font-size: 11px;
+  color: rgba(244, 238, 228, 0.72);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Horizontal chip rails (categories, remix suggestions). */
+.og-chip-rail {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 12px;
+  scrollbar-width: none;
+}
+
+.og-chip-rail::-webkit-scrollbar {
+  display: none;
+}
+
+.og-chip-rail > * {
+  flex: none;
+}
+
+@media (display-mode: standalone) {
+  /* Installed PWA has no browser chrome to absorb the status bar. */
+  .og-mobile__header {
+    padding-top: calc(var(--og-safe-top) + 4px);
+  }
+}

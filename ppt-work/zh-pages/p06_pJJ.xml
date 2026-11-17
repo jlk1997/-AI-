@@ -1,0 +1,130 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJJ">
+    <style>
+      <fill id="fJJ">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bbR">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>04 · TECHNOLOGY</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bbC">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>A hybrid world model</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bbL">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Symbolic truth at the core, neural dynamics as advisor, rendering as a skin.</p>
+        </content>
+      </shape>
+      <line id="bbN" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bbm">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bbx">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>06 / 20</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="170" presetHandlers="10" type="rect" id="bbI">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="190.6" type="text" id="bbo">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L3</p>
+        </content>
+      </shape>
+      <shape width="123.9" height="14" topLeftX="180" topLeftY="184.3" type="text" id="bbh">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>RENDER LAYER</p>
+        </content>
+      </shape>
+      <shape width="497.6" height="10.5" topLeftX="180" topLeftY="208" type="text" id="bbt">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Phaser / Three / LingBot / Marble — a playable skin; if the video breaks, the 2D game still runs</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="242" presetHandlers="10" type="rect" id="bbQ">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="262.6" type="text" id="bbg">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L2</p>
+        </content>
+      </shape>
+      <shape width="151.3" height="14" topLeftX="180" topLeftY="256.4" type="text" id="bbT">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>NEURAL DYNAMICS</p>
+        </content>
+      </shape>
+      <shape width="404" height="10.5" topLeftX="180" topLeftY="280" type="text" id="bbO">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Small networks imagine action consequences — advise only, never rewrite L1</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="314" presetHandlers="10" type="rect" id="bbG">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="126" height="14" topLeftX="180" topLeftY="328.4" type="text" id="bbY">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>LIVING SOCIETY</p>
+        </content>
+      </shape>
+      <shape width="357.9" height="10.5" topLeftX="180" topLeftY="352" type="text" id="bbr">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Residents with memory, plans, needs, and opinion &amp; rumor dynamics</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="386" presetHandlers="10" type="rect" id="bbA">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="406.6" type="text" id="bbK">
+        <content fontSize="22" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L1</p>
+        </content>
+      </shape>
+      <shape width="141.1" height="14" topLeftX="180" topLeftY="400.4" type="text" id="bbj">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>SYMBOLIC TRUTH</p>
+        </content>
+      </shape>
+      <shape width="466.8" height="10.5" topLeftX="180" topLeftY="424" type="text" id="bbD">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>World Spec (single source of truth) · deterministic simulator · WorldOp version lineage</p>
+        </content>
+      </shape>
+      <shape width="115.7" height="10" topLeftX="743" topLeftY="412.2" type="text" id="bbH">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>single source of truth</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bbU">
+      <content>
+        <p>Pure neural world models hallucinate and cannot be checked; pure symbolic engines are rigid. We combine them. At the bottom is L1, symbolic truth: a typed World Spec, a deterministic simulator, and versioned WorldOps that can be rolled back. Above it sits the living society of residents. L2 is a small neural layer that imagines consequences and can only advise, never overwrite L1. L3 is the render layer, a playable skin. If the video breaks, the 2D game still runs because L1 keeps the world consistent. This is why our worlds are both generative and checkable.</p>
+      </content>
+    </note>
+  </slide>

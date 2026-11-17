@@ -1,0 +1,90 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style><fill><fillColor color="rgba(10,14,20,1)"/></fill></style>
+  <data>
+    <shape type="text" topLeftX="56" topLeftY="42" width="500" height="20">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34,211,238,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>09  ·  COMPETITION</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="70" width="848" height="48">
+      <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241,245,249,1)" bold="true" wrap="false">
+        <p>Competitive landscape</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="118" width="848" height="24">
+      <content textType="body" fontSize="14" fontFamily="Inter" color="rgba(148,163,184,1)" wrap="false">
+        <p>Others build one layer. We combine a playable, checkable, living world with a market on it.</p>
+      </content>
+    </shape>
+
+    <!-- two vertical rules framing the OpenGame column (no filled card, so the row lines never cross it) -->
+    <line startX="752" startY="150" endX="752" endY="438"><border color="rgba(34,211,238,0.35)" width="1"/></line>
+    <line startX="904" startY="150" endX="904" endY="438"><border color="rgba(34,211,238,0.35)" width="1"/></line>
+
+    <!-- table header -->
+    <shape type="text" topLeftX="56" topLeftY="160" width="220" height="24">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100,116,139,1)" bold="true" wrap="false"><p>CAPABILITY</p></content>
+    </shape>
+    <shape type="text" topLeftX="290" topLeftY="160" width="140" height="24">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148,163,184,1)" bold="true" textAlign="center" wrap="false"><p>Chat-to-code</p></content>
+    </shape>
+    <shape type="text" topLeftX="450" topLeftY="160" width="140" height="24">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148,163,184,1)" bold="true" textAlign="center" wrap="false"><p>Video world models</p></content>
+    </shape>
+    <shape type="text" topLeftX="610" topLeftY="160" width="140" height="24">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148,163,184,1)" bold="true" textAlign="center" wrap="false"><p>NPC-town research</p></content>
+    </shape>
+    <shape type="text" topLeftX="752" topLeftY="160" width="152" height="24">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>OpenGame</p></content>
+    </shape>
+    <line startX="56" startY="192" endX="904" endY="192"><border color="rgba(148,163,184,0.25)" width="1"/></line>
+
+    <!-- rows -->
+    <shape type="text" topLeftX="56" topLeftY="208" width="220" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(241,245,249,1)" bold="true" wrap="false"><p>Playable</p></content></shape>
+    <shape type="text" topLeftX="290" topLeftY="208" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>~</p></content></shape>
+    <shape type="text" topLeftX="450" topLeftY="208" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>~</p></content></shape>
+    <shape type="text" topLeftX="610" topLeftY="208" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="752" topLeftY="208" width="152" height="22"><content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>✓</p></content></shape>
+    <line startX="56" startY="238" endX="904" endY="238"><border color="rgba(148,163,184,0.12)" width="1"/></line>
+
+    <shape type="text" topLeftX="56" topLeftY="252" width="220" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(241,245,249,1)" bold="true" wrap="false"><p>Checkable / auditable world</p></content></shape>
+    <shape type="text" topLeftX="290" topLeftY="252" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="450" topLeftY="252" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="610" topLeftY="252" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="752" topLeftY="252" width="152" height="22"><content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>✓</p></content></shape>
+    <line startX="56" startY="282" endX="904" endY="282"><border color="rgba(148,163,184,0.12)" width="1"/></line>
+
+    <shape type="text" topLeftX="56" topLeftY="296" width="220" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(241,245,249,1)" bold="true" wrap="false"><p>Continuous, living evolution</p></content></shape>
+    <shape type="text" topLeftX="290" topLeftY="296" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="450" topLeftY="296" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>~</p></content></shape>
+    <shape type="text" topLeftX="610" topLeftY="296" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>✓</p></content></shape>
+    <shape type="text" topLeftX="752" topLeftY="296" width="152" height="22"><content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>✓</p></content></shape>
+    <line startX="56" startY="326" endX="904" endY="326"><border color="rgba(148,163,184,0.12)" width="1"/></line>
+
+    <shape type="text" topLeftX="56" topLeftY="340" width="220" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(241,245,249,1)" bold="true" wrap="false"><p>Opinion, grievance &amp; rumors</p></content></shape>
+    <shape type="text" topLeftX="290" topLeftY="340" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="450" topLeftY="340" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="610" topLeftY="340" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>~</p></content></shape>
+    <shape type="text" topLeftX="752" topLeftY="340" width="152" height="22"><content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>✓</p></content></shape>
+    <line startX="56" startY="370" endX="904" endY="370"><border color="rgba(148,163,184,0.12)" width="1"/></line>
+
+    <shape type="text" topLeftX="56" topLeftY="384" width="220" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(241,245,249,1)" bold="true" wrap="false"><p>Prediction market</p></content></shape>
+    <shape type="text" topLeftX="290" topLeftY="384" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="450" topLeftY="384" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="610" topLeftY="384" width="140" height="22"><content textType="body" fontSize="12" fontFamily="Inter" color="rgba(148,163,184,1)" textAlign="center" wrap="false"><p>—</p></content></shape>
+    <shape type="text" topLeftX="752" topLeftY="384" width="152" height="22"><content textType="body" fontSize="13" fontFamily="Inter" color="rgba(34,211,238,1)" bold="true" textAlign="center" wrap="false"><p>✓</p></content></shape>
+
+    <line startX="56" startY="496" endX="904" endY="496"><border color="rgba(148,163,184,0.15)" width="1"/></line>
+    <shape type="text" topLeftX="56" topLeftY="504" width="500" height="18">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100,116,139,1)" wrap="false"><p>OpenGame  ·  Investor Briefing</p></content>
+    </shape>
+    <shape type="text" topLeftX="820" topLeftY="504" width="84" height="18">
+      <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100,116,139,1)" textAlign="right" wrap="false"><p>16 / 20</p></content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body" fontSize="14" fontFamily="Inter">
+      <p>This table shows why we do not see a direct competitor. Chat-to-code tools generate code, but they have no checkable world, no continuous society, and no market. Video world models produce impressive clips, but they are not truly playable or auditable. The NPC-town research pioneered living agents, but those demos are not playable, not checkable, and not monetized. OpenGame is the only system that combines all five: a playable surface, a checkable world, continuous living evolution, opinion and rumor dynamics, and a prediction market on top. The moat is not any single feature; it is the combination, because each layer makes the others more valuable. A competitor would have to build all five at once, and they are already integrated and running.</p>
+    </content>
+  </note>
+</slide>

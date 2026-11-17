@@ -1,0 +1,270 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJF">
+    <style>
+      <fill id="fJF">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bZv">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 · MOAT</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bZE">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Moat 3 · A living society</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="byP">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Residents are not scripted NPCs — they remember, plan, need, form opinions, and wonder.</p>
+        </content>
+      </shape>
+      <line id="byF" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="byT">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bZL">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>09 / 20</p>
+        </content>
+      </shape>
+      <shape width="33.4" height="33.4" topLeftX="93.3" topLeftY="178.9" type="ellipse" id="bZm">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="66" height="40.96" topLeftX="77" topLeftY="208.52" path="M2.39,38.57 C2.39,14.45 12.59,2.39 33,2.39 C53.41,2.39 63.61,14.45 63.61,38.57 Z" type="custom" id="bZz">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="59.4" height="10" topLeftX="75" topLeftY="252.2" type="text" id="byb">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>A resident</p>
+        </content>
+      </shape>
+      <line id="byB" startX="142" startY="213" endX="180.0131556174964" endY="213">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="128" height="46" topLeftX="186" topLeftY="190" presetHandlers="10" type="rect" id="byX">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="58.1" height="11" topLeftX="226.9" topLeftY="201.8" type="text" id="bZj">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>MEMORY</p>
+        </content>
+      </shape>
+      <shape width="60.6" height="10" topLeftX="220.1" topLeftY="222.2" type="text" id="bZH">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>remembers</p>
+        </content>
+      </shape>
+      <shape width="128" height="46" topLeftX="336" topLeftY="190" presetHandlers="10" type="rect" id="bZe">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="37.5" height="11" topLeftX="384.6" topLeftY="201.8" type="text" id="byq">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>PLAN</p>
+        </content>
+      </shape>
+      <shape width="72.7" height="10" topLeftX="353.4" topLeftY="222.2" type="text" id="byd">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>daily schedule</p>
+        </content>
+      </shape>
+      <shape width="128" height="46" topLeftX="486" topLeftY="190" presetHandlers="10" type="rect" id="byg">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="45.5" height="11" topLeftX="530.8" topLeftY="201.8" type="text" id="byC">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>NEEDS</p>
+        </content>
+      </shape>
+      <shape width="69.4" height="10" topLeftX="506.8" topLeftY="222.2" type="text" id="bZG">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>interruptible</p>
+        </content>
+      </shape>
+      <shape width="128" height="46" topLeftX="636" topLeftY="190" presetHandlers="10" type="rect" id="bZQ">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="56.5" height="11" topLeftX="673" topLeftY="201.8" type="text" id="bZn">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>OPINION</p>
+        </content>
+      </shape>
+      <shape width="104.4" height="10" topLeftX="640.1" topLeftY="222.2" type="text" id="byW">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>grievance &amp; rumors</p>
+        </content>
+      </shape>
+      <line id="byf" startX="90" startY="280" endX="870.0006410253776" endY="280">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="305.3" height="13" topLeftX="90" topLeftY="303.8" type="text" id="bya">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Inside every heartbeat: an inner world model</p>
+        </content>
+      </shape>
+      <shape width="130" height="48" topLeftX="55" topLeftY="361" presetHandlers="10" type="rect" id="bZo">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="59.3" height="11.5" topLeftX="91.8" topLeftY="373.5" type="text" id="bZt">
+        <content fontSize="11.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>PREDICT</p>
+        </content>
+      </shape>
+      <shape width="61.3" height="10" topLeftX="86.8" topLeftY="392.2" type="text" id="bZc">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>next crowd</p>
+        </content>
+      </shape>
+      <shape width="130" height="48" topLeftX="235" topLeftY="361" presetHandlers="10" type="rect" id="byp">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="66.7" height="11.5" topLeftX="271.8" topLeftY="373.5" type="text" id="byl">
+        <content fontSize="11.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>COMPARE</p>
+        </content>
+      </shape>
+      <shape width="61.3" height="10" topLeftX="263.4" topLeftY="392.2" type="text" id="byJ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>with actual</p>
+        </content>
+      </shape>
+      <shape width="130" height="48" topLeftX="415" topLeftY="361" presetHandlers="10" type="rect" id="bZN">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="30.9" height="11.5" topLeftX="467.9" topLeftY="373.5" type="text" id="bZU">
+        <content fontSize="11.5" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>GAP</p>
+        </content>
+      </shape>
+      <shape width="55.9" height="10" topLeftX="446.8" topLeftY="392.2" type="text" id="bZk">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>= surprise</p>
+        </content>
+      </shape>
+      <shape width="130" height="48" topLeftX="595" topLeftY="361" presetHandlers="10" type="rect" id="byy">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="71.1" height="11.5" topLeftX="623.8" topLeftY="373.5" type="text" id="byu">
+        <content fontSize="11.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>CURIOSITY</p>
+        </content>
+      </shape>
+      <shape width="30.2" height="10" topLeftX="643.4" topLeftY="392.2" type="text" id="byx">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>rises</p>
+        </content>
+      </shape>
+      <shape width="130" height="48" topLeftX="775" topLeftY="361" presetHandlers="10" type="rect" id="bZD">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="59.9" height="11.5" topLeftX="811.8" topLeftY="373.5" type="text" id="bZr">
+        <content fontSize="11.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>GO LOOK</p>
+        </content>
+      </shape>
+      <shape width="52.9" height="10" topLeftX="810.1" topLeftY="392.2" type="text" id="bZw">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>walk over</p>
+        </content>
+      </shape>
+      <line id="byZ" startX="195" startY="385" endX="225.01666203960727" endY="385">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="218.7" topLeftY="381.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bys">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="byR" startX="375" startY="385" endX="405.01666203960724" endY="385">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="398.7" topLeftY="381.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bZY">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bZi" startX="555" startY="385" endX="585.0166620396072" endY="385">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="578.7" topLeftY="381.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bZM">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="byV" startX="735" startY="385" endX="765.0166620396072" endY="385">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="758.7" topLeftY="381.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="byS">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="191" height="11" topLeftX="90" topLeftY="459.8" type="text" id="byA">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Attention is earned, not scripted.</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bZh">
+      <content>
+        <p>Each resident is a living agent: they hold memory, keep a daily plan, have four needs that can interrupt that plan, and run opinion dynamics that become grievance, legitimacy, and rumors. The key addition is an inner world model running inside every heartbeat. A resident predicts where the crowd will be next, then compares that with what actually happens. The gap is surprise, which raises curiosity and drives the resident to walk over and look. Because attention is earned by surprise rather than scripted, behavior is genuinely emergent; a gate guards the emergence and a template is the fallback. This is a society that lives on its own.</p>
+      </content>
+    </note>
+  </slide>

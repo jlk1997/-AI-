@@ -1,0 +1,215 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJu">
+    <style>
+      <fill id="fJu">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bpn">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>03 · HOW IT WORKS</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bWW">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Four analytical capabilities</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bWl">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>One engine, four ways to read the world before it moves.</p>
+        </content>
+      </shape>
+      <line id="bpo" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bpG">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bpH">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>05 / 20</p>
+        </content>
+      </shape>
+      <line id="bpe" startX="192" startY="260" endX="354.00308639035245" endY="260">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <line id="bWq" startX="418" startY="260" endX="574.00320509528" endY="260">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <line id="bpj" startX="638" startY="260" endX="788.0033332962971" endY="260">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="22.7" height="13" topLeftX="150.9" topLeftY="197.8" type="text" id="bpm">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="64" height="64" topLeftX="128" topLeftY="228" type="ellipse" id="bpz">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="10.2" height="23.5" topLeftX="139.6" topLeftY="254.5" presetHandlers="3" type="rect" id="bWb">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="10.2" height="37.6" topLeftX="154.9" topLeftY="240.4" presetHandlers="3" type="rect" id="bWd">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="10.2" height="15.7" topLeftX="170.3" topLeftY="263.9" presetHandlers="3" type="rect" id="bpL">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="158.3" height="12.5" topLeftX="76.9" topLeftY="314.1" type="text" id="bph">
+        <content fontSize="12.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>OPINION &amp; SENTIMENT</p>
+        </content>
+      </shape>
+      <shape width="118.4" height="10.5" topLeftX="82.8" topLeftY="341.9" type="text" id="bpv">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Grievance, legitimacy</p>
+        </content>
+      </shape>
+      <shape width="121.3" height="10.5" topLeftX="82.8" topLeftY="356.1" type="text" id="bpE">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>and mood per resident</p>
+        </content>
+      </shape>
+      <shape width="22.7" height="13" topLeftX="376.9" topLeftY="197.8" type="text" id="bWB">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="64" height="64" topLeftX="354" topLeftY="228" type="ellipse" id="bpO">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.9" height="40.9" topLeftX="365.6" topLeftY="239.6" type="ellipse" id="bpY">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="46" height="46" topLeftX="363" topLeftY="237" path="M2.57,23 L43.43,23 M23,2.57 L23,43.43" type="custom" id="bpi">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.9" height="17.3" topLeftX="365.6" topLeftY="251.4" type="ellipse" id="bpM">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="163.9" height="12.5" topLeftX="302.9" topLeftY="314.1" type="text" id="bWP">
+        <content fontSize="12.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>SCENARIO SIMULATION</p>
+        </content>
+      </shape>
+      <shape width="102.5" height="10.5" topLeftX="286.8" topLeftY="341.9" type="text" id="bpK">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Replay decisions &amp;</p>
+        </content>
+      </shape>
+      <shape width="151" height="10.5" topLeftX="286.8" topLeftY="356.1" type="text" id="bpr">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>rumors in a checkable world</p>
+        </content>
+      </shape>
+      <shape width="22.7" height="13" topLeftX="596.9" topLeftY="197.8" type="text" id="bpw">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="64" height="64" topLeftX="574" topLeftY="228" type="ellipse" id="bWV">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="46.26" height="30.73" topLeftX="582.87" topLeftY="244.64" path="M2.42,28.31 C8.46,28.31 13.42,21.4 17.31,7.6 C21.19,0.7 25.07,0.7 28.95,7.6 C32.84,21.4 37.8,28.31 43.84,28.31" type="custom" id="bpD">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="3" lineCap="round" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="185.3" height="12.5" topLeftX="509.8" topLeftY="314.1" type="text" id="bpN">
+        <content fontSize="12.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>PROBABILISTIC FORECAST</p>
+        </content>
+      </shape>
+      <shape width="104.3" height="10.5" topLeftX="528.8" topLeftY="341.9" type="text" id="bpU">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>P10–P90 outcomes</p>
+        </content>
+      </shape>
+      <shape width="115.1" height="10.5" topLeftX="528.8" topLeftY="356.1" type="text" id="bpk">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>calibrated to history</p>
+        </content>
+      </shape>
+      <shape width="22.7" height="13" topLeftX="810.9" topLeftY="197.8" type="text" id="bWZ">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>04</p>
+        </content>
+      </shape>
+      <shape width="64" height="64" topLeftX="788" topLeftY="228" type="ellipse" id="bpI">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="38.18" height="46.33" topLeftX="800.91" topLeftY="236.84" path="M19.09,43.53 L19.09,17.46 M19.09,17.46 L2.79,2.79 M19.09,17.46 L35.39,2.79" type="custom" id="bpc">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="4" lineCap="round" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="136.1" height="12.5" topLeftX="750" topLeftY="314.1" type="text" id="bWp">
+        <content fontSize="12.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>DECISION SUPPORT</p>
+        </content>
+      </shape>
+      <shape width="122.2" height="10.5" topLeftX="742.8" topLeftY="341.9" type="text" id="bWy">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Compare options, test</p>
+        </content>
+      </shape>
+      <shape width="112.1" height="10.5" topLeftX="742.8" topLeftY="356.1" type="text" id="bpt">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>sensitivity, then act</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bpQ">
+      <content>
+        <p>The same engine produces four distinct outputs. First, opinion and sentiment: we track grievance, legitimacy and mood for every resident. Second, scenario simulation: we replay a decision or a rumor inside a living world that can be checked. Third, probabilistic forecasting: we return P10 to P90 outcomes calibrated against historical cases. Fourth, decision support: we compare options, test sensitivity, and let the decision-maker act. These are not four separate products; they are four reads of one simulated world.</p>
+      </content>
+    </note>
+  </slide>

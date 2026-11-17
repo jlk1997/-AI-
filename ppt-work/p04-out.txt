@@ -1,0 +1,17 @@
+﻿python : [drawing 细节审查·需修改] rect6「Read crowd behav」 是图里的主体之一（2 条连线），但只画成一个矩形：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写
+外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；rect9「Probability band」 是图里的主体之一（2 条连线），但只画成一个矩形：如果它是实体（蛋白、细胞、器件、颗
+粒、模型结构…），用 energy_diagram 或 svg_at 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；rect0「World runs forwa」 是图里的主
+体之一（2 条连线），但只画成一个矩形：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用 circuit_loop 或 svg_at 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保
+留方框即可；5 个主体里只有 0 个有细节，整张图读起来像流程图而不是机制图（可换成部件：rect0 → circuit_loop；rect3 → ion_marker；rect9 → energy_diagram） → 写入前先把主体换
+成部件或带结构的 svg_at，再 d.preview() 看一次
+所在位置 行:1 字符: 70
++ ... enGame-main\OpenGame-main\ppt-work"; python build_p04.py 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([drawing 细节审查·需...d.preview() 看一次:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[drawing 排版提示 @ 900px] 1 条（不阻断）：
+  - 画布留白偏大（左170px、右170px）：缩小画布或把内容铺开，否则放到页面后主体偏小
+OK: False SID: 
+upload_failed（cli 4000153）：{"schema_version": "2.0", "tool": "xml_lint", "file": null, "slide_size": {"width": 960, "height": 540}, "summary": {"slide_count": 1, "error_count": 12, "warning_count": 0, "info_count": 0, "status": → 不是排版问题：按 message 修正 XML 结构/参数后用同一调用重试，不要加 --no-lint，也不要绕过 publish_slide 直接 +add-slide。
+ERR: upload_failed 不是排版问题：按 message 修正 XML 结构/参数后用同一调用重试，不要加 --no-lint，也不要绕过 publish_slide 直接 +add-slide。

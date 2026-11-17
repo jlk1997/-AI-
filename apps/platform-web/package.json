@@ -1,0 +1,34 @@
+{
+  "name": "@opengame/platform-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal web console for the OpenGame hosted platform.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run --config vitest.config.ts",
+    "test:ci": "vitest run --config vitest.config.ts"
+  },
+  "dependencies": {
+    "@opengame/platform-shared": "*",
+    "@opengame/world-spec": "*",
+    "@ant-design/icons": "^6.2.2",
+    "@monaco-editor/react": "^4.7.0",
+    "antd": "^6.3.7",
+    "axios": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.15.0",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.0"
+  }
+}

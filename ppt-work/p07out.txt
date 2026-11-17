@@ -1,0 +1,21 @@
+﻿python : [drawing check] 2 处问题（2 处必须改），写入前先改：
+所在位置 行:1 字符: 70
++ ... enGame-main\OpenGame-main\ppt-work"; python build_p07.py 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([drawing check] 2 处问题（2 处必须改），写入前先改：:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  - line_through_text link23/text17 'v2' bbox=(563, 231, 15, 13) → link23 is drawn between raw (x, y) points: pass the 
+node objects instead, e.g. d.arrow(node_a, node_b) — ends then land on outlines and never cross the nodes' own text
+  - off_canvas text27 'Audit why, then roll' bbox=(640, 323, 192, 14) → text27 spans x 640–832, y 323–337 on a 900×330 
+canvas: move it inside (place/*_at put the shape's centre at `at`; geometry built in canvas coordinates goes in with d.
+add)
+[drawing 细节审查·需修改] ellipse16 是图里的主体之一（3 条连线），但只画成一个椭圆：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外形、再 node.replace_svg 原
+位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；ellipse19 是图里的主体之一（2 条连线），但只画成一个椭圆：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外形、再 node.re
+place_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；ellipse13 是图里的主体之一（1 条连线），但只画成一个椭圆：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外
+形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；7 个主体里只有 0 个有细节，整张图读起来像流程图而不是机制图 → 写入前先把主体换成部件或带结构的 svg_at，再 d.prev
+iew() 看一次
+[drawing 排版提示 @ 900px] 1 条（不阻断）：
+  - 画布留白偏大（上142px）：缩小画布或把内容铺开，否则放到页面后主体偏小
+OK: True SID: pJJ
+

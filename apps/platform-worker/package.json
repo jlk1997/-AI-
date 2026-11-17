@@ -1,0 +1,47 @@
+{
+  "name": "@opengame/platform-worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BullMQ worker for OpenGame hosted platform jobs.",
+  "scripts": {
+    "predev": "npm run build --workspace=@opengame/platform-db",
+    "dev": "node --env-file ../../.env ../../node_modules/tsx/dist/cli.cjs watch --clear-screen=false --exclude \"**/*.json\" --exclude \"**/*.md\" --exclude \"**/*.test.ts\" --exclude \"dist/**\" src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@opengame/asset-forge": "*",
+    "@opengame/design-compiler": "*",
+    "@opengame/game-planner": "*",
+    "@opengame/opengame-core": "*",
+    "@opengame/platform-agent": "*",
+    "@opengame/platform-db": "*",
+    "@opengame/platform-rag": "*",
+    "@opengame/platform-shared": "*",
+    "@opengame/vision-qa": "*",
+    "@opengame/world-agents": "*",
+    "@opengame/world-memory": "*",
+    "@opengame/world-neural": "*",
+    "@opengame/world-ops": "*",
+    "@opengame/world-planner": "*",
+    "@opengame/world-runtime": "*",
+    "@opengame/world-sim": "*",
+    "@opengame/world-spec": "*",
+    "bullmq": "^5.34.10",
+    "drizzle-orm": "^0.36.4",
+    "ioredis": "^5.4.2",
+    "postgres": "^3.4.5",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

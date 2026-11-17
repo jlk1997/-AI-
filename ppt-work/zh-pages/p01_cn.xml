@@ -1,0 +1,52 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJY">
+    <style>
+      <fill id="fJY">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <img id="bqo" src="SDKbb2uvUo6YaWxkaChcO6UanYg" width="960" height="540" topLeftX="0" topLeftY="0">
+        <crop type="rect" leftOffset="0" rightOffset="0" topOffset="0.0659340659340728" bottomOffset="0.06593406593412965"/>
+      </img>
+      <shape width="620" height="540" topLeftX="0" topLeftY="0" presetHandlers="0" type="rect" id="bqD">
+        <fill>
+          <fillColor color="linear-gradient(90deg,rgba(10, 14, 20, 0.92) 0%,rgba(10, 14, 20, 0.72) 55%,rgba(10, 14, 20, 0) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="420" height="24" topLeftX="60" topLeftY="118" type="text" id="bqh">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>世界模拟 · 预测引擎</p>
+        </content>
+      </shape>
+      <shape width="520" height="110" topLeftX="56" topLeftY="150" type="text" id="bqH">
+        <content textType="title" fontSize="84" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" lineSpacing="multiple:1" letterSpacing="1" wrap="false">
+          <p>OpenGame</p>
+        </content>
+      </shape>
+      <line id="bqL" startX="60" startY="278" endX="150.0055553840984" endY="278">
+        <border color="rgba(34, 211, 238, 1)"/>
+      </line>
+      <shape width="480" height="36" topLeftX="60" topLeftY="296" type="text" id="bqG">
+        <content textType="sub-headline" fontSize="21" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>世界模拟与预测推演引擎</p>
+        </content>
+      </shape>
+      <shape width="480" height="72" topLeftX="60" topLeftY="342" type="text" id="bqN">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.5">
+          <p>在真实世界发生之前，</p>
+          <p>先模拟、预测并引导真实世界的走向。</p>
+        </content>
+      </shape>
+      <shape width="420" height="20" topLeftX="60" topLeftY="478" type="text" id="bqY">
+        <content textType="caption" fontSize="11" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" letterSpacing="1" wrap="false">
+          <p>投资人汇报 · 保密文件</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqj">
+      <content>
+        <p>OpenGame 是一个世界模拟与预测推演引擎。我们为一个社区构建一个会自主运行的数字孪生，把它的未来推演成千上万次，并在其中注入决策和谣言，观察接下来会发生什么。游戏只是看得见的表层，真正的核心产品是在真实世界发生之前，先预测并引导它的走向。接下来我会讲清楚四件事：我们解决什么问题、核心技术是什么、商业模式是什么，以及为什么我们能赢。</p>
+      </content>
+    </note>
+  </slide>

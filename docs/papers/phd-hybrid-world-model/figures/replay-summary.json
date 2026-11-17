@@ -1,0 +1,250 @@
+{
+  "village": {
+    "title": "pack：居民有住处和职场，约 18–25 人。",
+    "genre": "society.town",
+    "n_regions": 3,
+    "region_ids": [
+      "dock",
+      "boat_yard",
+      "net_yard"
+    ],
+    "region_names": [
+      "码头",
+      "船坞",
+      "晒网场"
+    ],
+    "n_entities": 23,
+    "n_agents": 22,
+    "n_events": 397,
+    "kinds": {
+      "action": 72,
+      "reflection": 215,
+      "use-object": 31,
+      "move": 58,
+      "dialogue": 16,
+      "observe": 1,
+      "plan": 4
+    },
+    "spread": {
+      "rate": 0.9545454545454546,
+      "awareIds": [
+        "npc_syn_0_阿禾",
+        "npc_syn_1_林嫂",
+        "npc_syn_2_老周",
+        "npc_syn_3_小荷",
+        "npc_syn_4_铁柱",
+        "npc_syn_5_桂花",
+        "npc_syn_7_春妮",
+        "npc_syn_8_福伯",
+        "npc_syn_9_二兰",
+        "npc_syn_10_茂才",
+        "npc_syn_11_巧手",
+        "npc_syn_12_阿麦",
+        "npc_syn_13_苏大夫",
+        "npc_syn_14_陈叔",
+        "npc_syn_15_玛拉",
+        "npc_syn_16_白衣",
+        "npc_syn_17_小满",
+        "npc_syn_18_织娘",
+        "npc_syn_19_老陈",
+        "npc_syn_20_阿六",
+        "npc_syn_21_芸姐"
+      ],
+      "seedText": "阿禾 正在码头组织一场聚会",
+      "awareCount": 21,
+      "totalAgents": 22
+    },
+    "coord": {
+      "invited": 1,
+      "attendees": 0,
+      "peakGathering": 0,
+      "attendanceRate": 0,
+      "invitationText": "聚会",
+      "peakGatheringRate": 0
+    },
+    "div": {
+      "rate": 0,
+      "agents": 22,
+      "distinctRoutes": 0,
+      "avgDestinationsPerAgent": 0
+    },
+    "nov": {
+      "rate": 1,
+      "dialogues": 4,
+      "uniqueLines": 14,
+      "groupDialogues": 3
+    },
+    "rel": {
+      "avgAffinity": 0.8080141843971632,
+      "newRelations": 141
+    },
+    "quality": {
+      "summary": "像本人 0% · 引用记忆 93% · 接上一句 100%",
+      "citesMemory": 0.9285714285714286,
+      "followsLast": 1,
+      "inCharacter": 0
+    },
+    "summary": "信息扩散 95% (21/22) · 新关系 141（均亲和 0.81） · 最大聚集 0 人（0%） · 日程多样性 0% · 台词非重复 100% · 对白质量 像本人 0% · 引用记忆 93% · 接上一句 100%"
+  },
+  "crew": {
+    "title": "空间站值班社会",
+    "genre": "society.crew",
+    "n_regions": 5,
+    "region_ids": [
+      "bridge",
+      "greenhouse",
+      "sleep_bay",
+      "place_k8ekc",
+      "place_fkld8"
+    ],
+    "region_names": [
+      "舰桥",
+      "温室",
+      "休眠舱",
+      "水培区",
+      "主走廊"
+    ],
+    "n_entities": 9,
+    "n_agents": 8,
+    "n_events": 308,
+    "kinds": {
+      "intervene": 1,
+      "action": 192,
+      "move": 70,
+      "plan": 10,
+      "dialogue": 6,
+      "observe": 3,
+      "use-object": 2,
+      "reflection": 24
+    },
+    "spread": {
+      "rate": 0.625,
+      "awareIds": [
+        "npc_syn_0_沈班",
+        "npc_syn_1_阿舱",
+        "npc_syn_3_通管",
+        "npc_syn_4_园丁",
+        "npc_syn_7_舵手"
+      ],
+      "seedText": "沈班 正在舰桥组织交班",
+      "awareCount": 5,
+      "totalAgents": 8
+    },
+    "coord": {
+      "invited": 1,
+      "attendees": 0,
+      "peakGathering": 0,
+      "attendanceRate": 0,
+      "invitationText": "交班",
+      "peakGatheringRate": 0
+    },
+    "div": {
+      "rate": 1,
+      "agents": 8,
+      "distinctRoutes": 8,
+      "avgDestinationsPerAgent": 2.25
+    },
+    "nov": {
+      "rate": 1,
+      "dialogues": 6,
+      "uniqueLines": 13,
+      "groupDialogues": 1
+    },
+    "rel": {
+      "avgAffinity": 0.24571428571428572,
+      "newRelations": 14
+    },
+    "quality": {
+      "summary": "像本人 0% · 引用记忆 73% · 接上一句 100%",
+      "citesMemory": 0.7307692307692307,
+      "followsLast": 1,
+      "inCharacter": 0
+    },
+    "summary": "信息扩散 63% (5/8) · 新关系 14（均亲和 0.25） · 最大聚集 0 人（0%） · 日程多样性 100% · 台词非重复 100% · 对白质量 像本人 0% · 引用记忆 73% · 接上一句 100%"
+  },
+  "cloister": {
+    "title": "日课修道院",
+    "genre": "society.cloister",
+    "n_regions": 10,
+    "region_ids": [
+      "chapel",
+      "scriptorium",
+      "garden",
+      "chapel_3",
+      "scriptorium_4",
+      "garden_5",
+      "place_ivz6f",
+      "place_fes88r",
+      "place_qmcc",
+      "place_ly200c"
+    ],
+    "region_names": [
+      "礼拜堂",
+      "抄经房",
+      "菜园",
+      "Chapel",
+      "Scriptorium",
+      "Garden",
+      "抄经桌",
+      "回廊中庭",
+      "菜畦",
+      "膳堂餐桌"
+    ],
+    "n_entities": 11,
+    "n_agents": 10,
+    "n_events": 355,
+    "kinds": {
+      "intervene": 1,
+      "plan": 18,
+      "action": 240,
+      "move": 56,
+      "observe": 1,
+      "dialogue": 8,
+      "use-object": 1,
+      "reflection": 30
+    },
+    "spread": {
+      "rate": 0.4,
+      "awareIds": [
+        "npc_syn_0_清远",
+        "npc_syn_1_慧心",
+        "npc_syn_6_门者",
+        "npc_syn_7_装订"
+      ],
+      "seedText": "清远 正在礼拜堂召集晚课",
+      "awareCount": 4,
+      "totalAgents": 10
+    },
+    "coord": {
+      "invited": 1,
+      "attendees": 5,
+      "peakGathering": 0,
+      "attendanceRate": 5,
+      "invitationText": "晚课",
+      "peakGatheringRate": 0
+    },
+    "div": {
+      "rate": 1,
+      "agents": 10,
+      "distinctRoutes": 10,
+      "avgDestinationsPerAgent": 1.5
+    },
+    "nov": {
+      "rate": 1,
+      "dialogues": 8,
+      "uniqueLines": 17,
+      "groupDialogues": 0
+    },
+    "rel": {
+      "avgAffinity": 0.30214285714285716,
+      "newRelations": 14
+    },
+    "quality": {
+      "summary": "像本人 44% · 引用记忆 94% · 接上一句 100%（含模型评判）",
+      "citesMemory": 0.9411764705882353,
+      "followsLast": 1,
+      "inCharacter": 0.4395424836601307
+    },
+    "summary": "信息扩散 40% (4/10) · 新关系 14（均亲和 0.30） · 最大聚集 0 人（0%） · 日程多样性 100% · 台词非重复 100% · 对白质量 像本人 44% · 引用记忆 94% · 接上一句 100%（含模型评判）"
+  }
+}

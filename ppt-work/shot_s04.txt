@@ -1,0 +1,17 @@
+﻿{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "output": "E:\\OpenGame-main\\OpenGame-main\\ppt-work\\shots\\pks_s04.jpg",
+    "screenshots": [
+      {
+        "format": "jpeg",
+        "path": "E:\\OpenGame-main\\OpenGame-main\\ppt-work\\shots\\pks_s04.jpg",
+        "size": 108088,
+        "slide_id": "pks",
+        "slide_number": 51
+      }
+    ],
+    "xml_presentation_id": "CzdAsa5FhlonhsdqTVVciALPnPb"
+  }
+}

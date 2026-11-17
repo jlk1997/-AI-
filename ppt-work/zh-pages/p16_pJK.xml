@@ -1,0 +1,213 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJK">
+    <style>
+      <fill id="fJK">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bdZ">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>09 · COMPETITION</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bdu">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Competitive landscape</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bdx">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Others build one layer. We combine a playable, checkable, living world with a market on it.</p>
+        </content>
+      </shape>
+      <line id="bdL" startX="752" startY="150" endX="752" endY="438.0017361058783">
+        <border color="rgba(34, 211, 238, 0.35)" width="1"/>
+      </line>
+      <line id="bVU" startX="904.0000000000001" startY="150" endX="904.0000000000001" endY="438.0017361058783">
+        <border color="rgba(34, 211, 238, 0.35)" width="1"/>
+      </line>
+      <shape width="220" height="24" topLeftX="56" topLeftY="160" type="text" id="bVE">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100, 116, 139, 1)" bold="true" wrap="false">
+          <p>CAPABILITY</p>
+        </content>
+      </shape>
+      <shape width="140" height="24" topLeftX="290" topLeftY="160" type="text" id="bdy">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148, 163, 184, 1)" bold="true" textAlign="center" wrap="false">
+          <p>Chat-to-code</p>
+        </content>
+      </shape>
+      <shape width="140" height="24" topLeftX="450" topLeftY="160" type="text" id="bdJ">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148, 163, 184, 1)" bold="true" textAlign="center" wrap="false">
+          <p>Video world models</p>
+        </content>
+      </shape>
+      <shape width="140" height="24" topLeftX="610" topLeftY="160" type="text" id="bdT">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(148, 163, 184, 1)" bold="true" textAlign="center" wrap="false">
+          <p>NPC-town research</p>
+        </content>
+      </shape>
+      <shape width="152" height="24" topLeftX="752" topLeftY="160" type="text" id="bdo">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>OpenGame</p>
+        </content>
+      </shape>
+      <line id="bVv" startX="56" startY="192" endX="904.0005896224365" endY="192">
+        <border color="rgba(148, 163, 184, 0.25)" width="1"/>
+      </line>
+      <shape width="220" height="22" topLeftX="56" topLeftY="208" type="text" id="bVM">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Playable</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="290" topLeftY="208" type="text" id="bdP">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>~</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="450" topLeftY="208" type="text" id="bdS">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>~</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="610" topLeftY="208" type="text" id="bdA">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="152" height="22" topLeftX="752" topLeftY="208" type="text" id="bdG">
+        <content fontSize="13" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <line id="bVi" startX="56" startY="238" endX="904.0005896224365" endY="238">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="220" height="22" topLeftX="56" topLeftY="252" type="text" id="bdV">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Checkable / auditable world</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="290" topLeftY="252" type="text" id="bds">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="450" topLeftY="252" type="text" id="bdX">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="610" topLeftY="252" type="text" id="bdC">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="152" height="22" topLeftX="752" topLeftY="252" type="text" id="bVe">
+        <content fontSize="13" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <line id="bdq" startX="56" startY="282" endX="904.0005896224365" endY="282">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="220" height="22" topLeftX="56" topLeftY="296" type="text" id="bdd">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Continuous, living evolution</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="290" topLeftY="296" type="text" id="bdF">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="450" topLeftY="296" type="text" id="bdI">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>~</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="610" topLeftY="296" type="text" id="bVz">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <shape width="152" height="22" topLeftX="752" topLeftY="296" type="text" id="bdb">
+        <content fontSize="13" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <line id="bdB" startX="56" startY="326" endX="904.0005896224365" endY="326">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="220" height="22" topLeftX="56" topLeftY="340" type="text" id="bda">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Opinion, grievance &amp; rumors</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="290" topLeftY="340" type="text" id="bdO">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="450" topLeftY="340" type="text" id="bVc">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="610" topLeftY="340" type="text" id="bdp">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>~</p>
+        </content>
+      </shape>
+      <shape width="152" height="22" topLeftX="752" topLeftY="340" type="text" id="bdl">
+        <content fontSize="13" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <line id="bdg" startX="56" startY="370" endX="904.0005896224365" endY="370">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="220" height="22" topLeftX="56" topLeftY="384" type="text" id="bdK">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Prediction market</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="290" topLeftY="384" type="text" id="bVn">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="450" topLeftY="384" type="text" id="bVw">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="140" height="22" topLeftX="610" topLeftY="384" type="text" id="bdW">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false">
+          <p>—</p>
+        </content>
+      </shape>
+      <shape width="152" height="22" topLeftX="752" topLeftY="384" type="text" id="bdf">
+        <content fontSize="13" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false">
+          <p>✓</p>
+        </content>
+      </shape>
+      <line id="bdR" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bdj">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bVr">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>16 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bVk">
+      <content>
+        <p>This table shows why we do not see a direct competitor. Chat-to-code tools generate code, but they have no checkable world, no continuous society, and no market. Video world models produce impressive clips, but they are not truly playable or auditable. The NPC-town research pioneered living agents, but those demos are not playable, not checkable, and not monetized. OpenGame is the only system that combines all five: a playable surface, a checkable world, continuous living evolution, opinion and rumor dynamics, and a prediction market on top. The moat is not any single feature; it is the combination, because each layer makes the others more valuable. A competitor would have to build all five at once, and they are already integrated and running.</p>
+      </content>
+    </note>
+  </slide>

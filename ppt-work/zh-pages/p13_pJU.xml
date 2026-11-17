@@ -1,0 +1,124 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJU">
+    <style>
+      <fill id="fJU">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bPU">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>08 · BUSINESS</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bPk">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Two revenue tracks, one world</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bPN">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Attention is free; we monetize the prediction and the drama, not the visit.</p>
+        </content>
+      </shape>
+      <line id="bPh" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bPt">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bPv">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>13 / 20</p>
+        </content>
+      </shape>
+      <shape width="380" height="178" topLeftX="80" topLeftY="239" presetHandlers="14" type="rect" id="bPc">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="108.3" height="13" topLeftX="219.9" topLeftY="251.8" type="text" id="bPn">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>WORLD TRACK</p>
+        </content>
+      </shape>
+      <shape width="96.6" height="11" topLeftX="208.4" topLeftY="274.8" type="text" id="bPE">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Watching is free</p>
+        </content>
+      </shape>
+      <shape width="166.3" height="11" topLeftX="158.3" topLeftY="302.8" type="text" id="bPo">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The product is the prediction</p>
+        </content>
+      </shape>
+      <shape width="109.6" height="11" topLeftX="204.6" topLeftY="330.8" type="text" id="bPY">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>15% platform rake</p>
+        </content>
+      </shape>
+      <shape width="188.3" height="10" topLeftX="147.5" topLeftY="359.2" type="text" id="bPQ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Most of the rake goes to the author</p>
+        </content>
+      </shape>
+      <shape width="101.3" height="10" topLeftX="207" topLeftY="393.2" type="text" id="bPi">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Monetize foresight</p>
+        </content>
+      </shape>
+      <shape width="380" height="178" topLeftX="500" topLeftY="239" presetHandlers="14" type="rect" id="bPe">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="98.8" height="13" topLeftX="644.5" topLeftY="251.8" type="text" id="bPM">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>GAME TRACK</p>
+        </content>
+      </shape>
+      <shape width="85.1" height="11" topLeftX="632.2" topLeftY="274.8" type="text" id="bPG">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Playing is free</p>
+        </content>
+      </shape>
+      <shape width="172.8" height="11" topLeftX="578.4" topLeftY="302.8" type="text" id="bPH">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The product is the drama card</p>
+        </content>
+      </shape>
+      <shape width="107.3" height="11" topLeftX="624.5" topLeftY="330.8" type="text" id="bPr">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>70% to the author</p>
+        </content>
+      </shape>
+      <shape width="194.7" height="10" topLeftX="550" topLeftY="359.2" type="text" id="bPz">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>First card half price to pull players in</p>
+        </content>
+      </shape>
+      <shape width="73.3" height="10" topLeftX="644.5" topLeftY="393.2" type="text" id="bPw">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Monetize play</p>
+        </content>
+      </shape>
+      <line id="bVq" startX="90" startY="424" endX="870.0006410253776" endY="424">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="521.9" height="10.5" topLeftX="112.5" topLeftY="435" type="text" id="bPD">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Authors pay to activate their world (light today / this week). Visitors are never charged per visit.</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bPm">
+      <content>
+        <p>The business model has two tracks over the same world. On the world track, watching is free and the product is the prediction: users place bets, and the platform takes a 15 percent rake, most of which goes to the author. On the game track, playing is free and the product is drama cards: small, reversible in-world enhancements, with 70 percent to the author and a half-price first card to pull new players in. On the cost side, authors pay to activate their world, lighting it for today or this week, while the platform never charges a visitor per visit. This aligns everyone: authors earn from both tracks, visitors pay only for the moments they choose, and the platform is paid for outcomes rather than access.</p>
+      </content>
+    </note>
+  </slide>

@@ -1,0 +1,79 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJB">
+    <style>
+      <fill id="fJB">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bqR">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>01 · THE PROBLEM</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bqC">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Decision-makers are flying blind</p>
+        </content>
+      </shape>
+      <line id="bqs" startX="56" startY="130" endX="904.0005896224365" endY="130">
+        <border color="rgba(148, 163, 184, 0.2)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="158" type="text" id="bqg">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="156" type="text" id="bqA">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">Static models miss emergence.</span></strong></p>
+          <p>Fixed dashboards and single-point forecasts cannot show how crowds, rumors, and reactions compound into outcomes nobody predicted.</p>
+        </content>
+      </shape>
+      <line id="bqK" startX="120" startY="252" endX="904.0006377548426" endY="252">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="270" type="text" id="bqS">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="268" type="text" id="bqa">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">Real-world trials are slow and irreversible.</span></strong></p>
+          <p>Testing a policy, deployment, or message in the real world takes weeks and costs money — and cannot be undone once people are harmed.</p>
+        </content>
+      </shape>
+      <line id="bqT" startX="120" startY="364" endX="904.0006377548426" endY="364">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="382" type="text" id="bqO">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="380" type="text" id="bqJ">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">Rumors move faster than analysis.</span></strong></p>
+          <p>Sentiment and disinformation spread in hours; by the time a report is written, the crowd has already made up its mind.</p>
+        </content>
+      </shape>
+      <line id="bqF" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bqx">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bqI">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>02 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqX">
+      <content>
+        <p>Today, anyone responsible for a high-stakes decision faces three structural problems. First, static models miss emergence — they cannot capture how crowds, rumors, and reactions compound. Second, testing in the real world is slow, expensive, and irreversible. Third, disinformation spreads faster than any analyst can write a report. The gap between how fast the world moves and how fast we can understand it is the problem we solve.</p>
+      </content>
+    </note>
+  </slide>

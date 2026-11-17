@@ -1,0 +1,189 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJW">
+    <style>
+      <fill id="fJW">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bWC">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 · 技术壁垒</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bWD">
+        <content textType="title" fontSize="34" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>壁垒二 · 承诺约束</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bWi">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>一句话，先被编译成一份必须兑现的“承诺合同”。</p>
+        </content>
+      </shape>
+      <line id="bWY" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bWv">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bWf">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>08 / 20</p>
+        </content>
+      </shape>
+      <shape width="132" height="52" topLeftX="54" topLeftY="264" presetHandlers="10" type="rect" id="bWa">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="120" height="11" topLeftX="60" topLeftY="275.8" type="text" id="bWg">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>自然语言</p>
+        </content>
+      </shape>
+      <shape width="120" height="10" topLeftX="60" topLeftY="296.2" type="text" id="bWK">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>一句话</p>
+        </content>
+      </shape>
+      <shape width="132" height="52" topLeftX="234" topLeftY="264" presetHandlers="10" type="rect" id="bWO">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="120" height="11" topLeftX="240" topLeftY="275.8" type="text" id="bWh">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>意图规约</p>
+        </content>
+      </shape>
+      <shape width="120" height="10" topLeftX="240" topLeftY="296.2" type="text" id="bWm">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>带类型的意图</p>
+        </content>
+      </shape>
+      <shape width="132" height="52" topLeftX="414" topLeftY="264" presetHandlers="10" type="rect" id="bWe">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="120" height="11" topLeftX="420" topLeftY="275.8" type="text" id="bWJ">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>承诺合同</p>
+        </content>
+      </shape>
+      <shape width="120" height="10" topLeftX="420" topLeftY="296.2" type="text" id="bWx">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>体裁、地点、职业…</p>
+        </content>
+      </shape>
+      <shape width="132" height="52" topLeftX="594" topLeftY="264" presetHandlers="10" type="rect" id="bWL">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.5)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="120" height="11" topLeftX="600" topLeftY="275.8" type="text" id="bWH">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>生成世界</p>
+        </content>
+      </shape>
+      <shape width="120" height="10" topLeftX="600" topLeftY="296.2" type="text" id="bWu">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>合成</p>
+        </content>
+      </shape>
+      <shape width="132" height="52" topLeftX="774" topLeftY="264" presetHandlers="10" type="rect" id="bWR">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="120" height="11" topLeftX="780" topLeftY="275.8" type="text" id="bWj">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>承诺门禁</p>
+        </content>
+      </shape>
+      <shape width="120" height="10" topLeftX="780" topLeftY="296.2" type="text" id="bWQ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>所有承诺兑现</p>
+        </content>
+      </shape>
+      <line id="bWs" startX="190" startY="290" endX="230.0124980474851" endY="290">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.2" height="7.2" topLeftX="223.52" topLeftY="286.4" path="M0,0 L7.2,3.6 L0,7.2 Z" type="custom" id="bWA">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bWG" startX="370" startY="290" endX="410.0124980474851" endY="290">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.2" height="7.2" topLeftX="403.52" topLeftY="286.4" path="M0,0 L7.2,3.6 L0,7.2 Z" type="custom" id="bWt">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bWS" startX="550" startY="290" endX="590.0124980474851" endY="290">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.2" height="7.2" topLeftX="583.52" topLeftY="286.4" path="M0,0 L7.2,3.6 L0,7.2 Z" type="custom" id="bWT">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bWo" startX="730" startY="290" endX="770.0124980474851" endY="290">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7.2" height="7.2" topLeftX="763.52" topLeftY="286.4" path="M0,0 L7.2,3.6 L0,7.2 Z" type="custom" id="bWU">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="183.5" height="67.5" topLeftX="658.25" topLeftY="324.25" path="M181.75,1.75 L181.75,6.75 M181.75,10.75 L181.75,15.75 M181.75,19.75 L181.75,24.75 M181.75,28.75 L181.75,33.75 M181.75,37.75 L181.75,42.75 M181.75,46.75 L181.75,51.75 M181.75,55.75 L181.75,60.75 M181.75,64.75 L181.75,65.75 L177.75,65.75 M173.75,65.75 L168.75,65.75 M164.75,65.75 L159.75,65.75 M155.75,65.75 L150.75,65.75 M146.75,65.75 L141.75,65.75 M137.75,65.75 L132.75,65.75 M128.75,65.75 L123.75,65.75 M119.75,65.75 L114.75,65.75 M110.75,65.75 L105.75,65.75 M101.75,65.75 L96.75,65.75 M92.75,65.75 L87.75,65.75 M83.75,65.75 L78.75,65.75 M74.75,65.75 L69.75,65.75 M65.75,65.75 L60.75,65.75 M56.75,65.75 L51.75,65.75 M47.75,65.75 L42.75,65.75 M38.75,65.75 L33.75,65.75 M29.75,65.75 L24.75,65.75 M20.75,65.75 L15.75,65.75 M11.75,65.75 L6.75,65.75 M2.75,65.75 L1.75,65.75" type="custom" id="bWF">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 1)" lineCap="round" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bWI" startX="660" startY="390" endX="660" endY="325.99218797677895">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="656.5" topLeftY="325.3" path="M0,7 L3.5,0 L7,7 Z" type="custom" id="bWN">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="220" height="10" topLeftX="600" topLeftY="415.2" type="text" id="bWr">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" italic="true" textAlign="center" wrap="false" defaultTabSize="47.0047">
+          <p>不达标，重新生成，直到全部兑现</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bWX">
+      <content>
+        <p>生成式系统要么"幻觉"，要么悄悄塌回同一个默认小镇。我们把这两种情况都挡住。自然语言的一句话，先被编译成带类型的意图，再变成一份承诺合同，也就是作者承诺的体裁、地点、职业和人口。世界是对照这份合同生成的，发布前有一道门禁，逐项核对每个承诺。如果有一个承诺没兑现，系统会重新生成，而不是交出一个模板。作者承诺了什么，世界里就明确有什么。这让输出既有创造性，又有保证。</p>
+      </content>
+    </note>
+  </slide>

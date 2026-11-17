@@ -1,0 +1,18 @@
+﻿python : [drawing 细节审查·需修改] svg1 是图里的主体之一（2 条连线），但只画成图标级 svg_at（1 种简单图元，重复的算一种）：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at
+ 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；svg5 是图里的主体之一（2 条连线），但只画成图标级 svg_at（1 种简单图元，重复的算一种）：如果它是实体（蛋白、细
+胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；svg9 是图里的主体之一（2 条连线），但只画成图标级 svg_at
+（1 种简单图元，重复的算一种）：如果它是实体（蛋白、细胞、器件、颗粒、模型结构…），用对应部件或 svg_at 手写外形、再 node.replace_svg 原位替换（连线跟着走）；如果只是概念或步骤标签，保留方框即可；4 个主体里只
+有 0 个有细节，整张图读起来像流程图而不是机制图 → 写入前先把主体换成部件或带结构的 svg_at，再 d.preview() 看一次
+所在位置 行:1 字符: 70
++ ... enGame-main\OpenGame-main\ppt-work"; python build_p18.py 2>&1 | Out-F ...
++                                          ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([drawing 细节审查·需...d.preview() 看一次:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[drawing 排版提示 @ 900px] 5 条（不阻断）：
+  - 画布留白偏大（上106px、下76px）：缩小画布或把内容铺开，否则放到页面后主体偏小
+  - 连线 link4（点→点）在页面上只有 13px：拉开两端对象，否则箭头会糊在一起
+  - 连线 link8（点→点）在页面上只有 13px：拉开两端对象，否则箭头会糊在一起
+  +2 more，print(d.summary(width=900)) 看全部
+OK: True SID: pJb
+

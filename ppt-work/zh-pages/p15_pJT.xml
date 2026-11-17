@@ -1,0 +1,167 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJT">
+    <style>
+      <fill id="fJT">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bdv">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>08 · BUSINESS</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bdE">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Why users come back on day two</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bBP">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>The world keeps running while you are away, and it leaves open reasons to return.</p>
+        </content>
+      </shape>
+      <line id="bdm" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bdz">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bBb">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>15 / 20</p>
+        </content>
+      </shape>
+      <shape width="165.4" height="13" topLeftX="90" topLeftY="283.8" type="text" id="bBB">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The world never pauses</p>
+        </content>
+      </shape>
+      <shape width="20" height="20" topLeftX="110" topLeftY="340" type="ellipse" id="bdH">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="51.7" height="10" topLeftX="88.5" topLeftY="373.2" type="text" id="bde">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>You leave</p>
+        </content>
+      </shape>
+      <shape width="20" height="20" topLeftX="380" topLeftY="340" type="ellipse" id="bBq">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="60.1" height="10" topLeftX="355" topLeftY="373.2" type="text" id="bBd">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>You return</p>
+        </content>
+      </shape>
+      <shape width="243.4" height="3.4" topLeftX="133.3" topLeftY="348.3" path="M1.7,1.7 L4.7,1.7 M8.7,1.7 L11.7,1.7 M15.7,1.7 L18.7,1.7 M22.7,1.7 L25.7,1.7 M29.7,1.7 L32.7,1.7 M36.7,1.7 L39.7,1.7 M43.7,1.7 L46.7,1.7 M50.7,1.7 L53.7,1.7 M57.7,1.7 L60.7,1.7 M64.7,1.7 L67.7,1.7 M71.7,1.7 L74.7,1.7 M78.7,1.7 L81.7,1.7 M85.7,1.7 L88.7,1.7 M92.7,1.7 L95.7,1.7 M99.7,1.7 L102.7,1.7 M106.7,1.7 L109.7,1.7 M113.7,1.7 L116.7,1.7 M120.7,1.7 L123.7,1.7 M127.7,1.7 L130.7,1.7 M134.7,1.7 L137.7,1.7 M141.7,1.7 L144.7,1.7 M148.7,1.7 L151.7,1.7 M155.7,1.7 L158.7,1.7 M162.7,1.7 L165.7,1.7 M169.7,1.7 L172.7,1.7 M176.7,1.7 L179.7,1.7 M183.7,1.7 L186.7,1.7 M190.7,1.7 L193.7,1.7 M197.7,1.7 L200.7,1.7 M204.7,1.7 L207.7,1.7 M211.7,1.7 L214.7,1.7 M218.7,1.7 L221.7,1.7 M225.7,1.7 L228.7,1.7 M232.7,1.7 L235.7,1.7 M239.7,1.7 L241.7,1.7" alpha="0.5" type="custom" id="bdQ">
+        <fill>
+          <fillColor color="rgba(0, 0, 0, 0)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="186" topLeftY="346" alpha="0.8" type="ellipse" id="bdn">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="246" topLeftY="346" alpha="0.8" type="ellipse" id="bBW">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="8" height="8" topLeftX="306" topLeftY="346" alpha="0.8" type="ellipse" id="bdt">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="207.2" height="10" topLeftX="90" topLeftY="425.2" type="text" id="bdc">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>While you are away, residents keep living</p>
+        </content>
+      </shape>
+      <shape width="149.6" height="10" topLeftX="90" topLeftY="443.2" type="text" id="bBp">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>and the world keeps evolving.</p>
+        </content>
+      </shape>
+      <line id="bdN" startX="450" startY="280" endX="450" endY="450.0029411510283">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="173.2" height="13" topLeftX="480" topLeftY="283.8" type="text" id="bdU">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Three reasons to return</p>
+        </content>
+      </shape>
+      <shape width="21" height="12" topLeftX="476.6" topLeftY="319.3" type="text" id="bdk">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="164.3" height="11" topLeftX="515" topLeftY="319.8" type="text" id="bBy">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Your prediction is still open</p>
+        </content>
+      </shape>
+      <shape width="136.1" height="10" topLeftX="515" topLeftY="337.2" type="text" id="bdD">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>come back to see it settle</p>
+        </content>
+      </shape>
+      <shape width="21" height="12" topLeftX="476.6" topLeftY="365.3" type="text" id="bdr">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="168.7" height="11" topLeftX="515" topLeftY="365.8" type="text" id="bdw">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The world changed overnight</p>
+        </content>
+      </shape>
+      <shape width="155.8" height="10" topLeftX="515" topLeftY="383.2" type="text" id="bBZ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>come back to find what is new</p>
+        </content>
+      </shape>
+      <shape width="21" height="12" topLeftX="476.6" topLeftY="411.3" type="text" id="bdY">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="153.5" height="11" topLeftX="515" topLeftY="411.8" type="text" id="bdi">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Your story is still running</p>
+        </content>
+      </shape>
+      <shape width="132.8" height="10" topLeftX="515" topLeftY="429.2" type="text" id="bdM">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>come back to keep playing</p>
+        </content>
+      </shape>
+      <shape width="230.9" height="10" topLeftX="480" topLeftY="449.2" type="text" id="bBV">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Same-day returning players earn a multiplier.</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bdh">
+      <content>
+        <p>Most generated content is consumed once and never revisited. A living world is different because it does not pause when the user leaves. Residents keep living, opinions keep moving, and the clock on any open prediction keeps running. That gives three concrete reasons to return: a prediction that is still open and waiting to settle, a world that has visibly changed overnight, and a personal story that is still in motion. We reinforce the habit on the game track with a multiplier for same-day returning players. Retention here is not a notification strategy; it is a structural consequence of a world that genuinely continues. The product has a tomorrow, which is the first thing a recurring-revenue business needs.</p>
+      </content>
+    </note>
+  </slide>

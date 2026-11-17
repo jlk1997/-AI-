@@ -1,0 +1,125 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJO">
+    <style>
+      <fill id="fJO">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bBM">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>11 · ROADMAP</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="blW">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Roadmap: from worlds to a market</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="blV">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>The hard technical layer is built; the next phases turn it into a marketplace and an ecosystem.</p>
+        </content>
+      </shape>
+      <line id="blf" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bld">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="blu">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>18 / 20</p>
+        </content>
+      </shape>
+      <line id="bBU" startX="100" startY="310" endX="880.0006410253776" endY="310">
+        <border color="rgba(148, 163, 184, 0.4)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="20" height="20" topLeftX="140" topLeftY="300" path="M10,1.9 L18.1,10 L10,18.1 L1.9,10 Z" type="custom" id="bBe">
+        <fill>
+          <fillColor color="rgba(10, 14, 20, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="31.8" height="11" topLeftX="138.4" topLeftY="270.8" type="text" id="bBw">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>NOW</p>
+        </content>
+      </shape>
+      <shape width="180.7" height="10" topLeftX="31" topLeftY="247.2" type="text" id="blq">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>World generation, forecasting core</p>
+        </content>
+      </shape>
+      <line id="blZ" startX="150" startY="301" endX="150" endY="287.9615951895947">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="20" height="20" topLeftX="380" topLeftY="300" path="M10,1.9 L18.1,10 L10,18.1 L1.9,10 Z" type="custom" id="blB">
+        <fill>
+          <fillColor color="rgba(10, 14, 20, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="41.7" height="11" topLeftX="370.8" topLeftY="338.8" type="text" id="bBv">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Q1–Q2</p>
+        </content>
+      </shape>
+      <shape width="174.9" height="10" topLeftX="271" topLeftY="363.2" type="text" id="bBz">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Calibration library, market launch</p>
+        </content>
+      </shape>
+      <line id="bBk" startX="390" startY="319" endX="390" endY="332.0384048104053">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="20" height="20" topLeftX="620" topLeftY="300" path="M10,1.9 L18.1,10 L10,18.1 L1.9,10 Z" type="custom" id="blb">
+        <fill>
+          <fillColor color="rgba(10, 14, 20, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="41.7" height="11" topLeftX="610.8" topLeftY="270.8" type="text" id="bly">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Q3–Q4</p>
+        </content>
+      </shape>
+      <shape width="196.5" height="10" topLeftX="504" topLeftY="247.2" type="text" id="bll">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Author ecosystem, dual-track revenue</p>
+        </content>
+      </shape>
+      <line id="bBi" startX="630" startY="301" endX="630" endY="287.9615951895947">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="20" height="20" topLeftX="840" topLeftY="300" path="M10,1.9 L18.1,10 L10,18.1 L1.9,10 Z" type="custom" id="bBc">
+        <fill>
+          <fillColor color="rgba(10, 14, 20, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="48.2" height="11" topLeftX="826.9" topLeftY="338.8" type="text" id="bBE">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>YEAR 2</p>
+        </content>
+      </shape>
+      <shape width="96.2" height="10" topLeftX="783.5" topLeftY="363.2" type="text" id="blp">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>City, crisis, civic</p>
+        </content>
+      </shape>
+      <line id="blP" startX="850" startY="319" endX="850" endY="332.0384048104053">
+        <border color="rgba(34, 211, 238, 0.5)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+    </data>
+    <note id="bBn">
+      <content>
+        <p>The roadmap is sequenced so the hardest science comes first and the marketplace follows. Today, world generation and the forecasting core are working. Next, we expand the historical case library that calibrates our probabilities and launch the prediction market. Then we open the author ecosystem and turn on both revenue tracks, so authors create the worlds we monetize. In year two, we extend the engine from the current community and civic scenarios into broader domains such as cities, crises, and public events. Each phase compounds the last: more worlds improve calibration, better calibration drives betting, and betting funds more authors. We are raising now to move from the technical foundation, which is proven, to the marketplace and the supply side.</p>
+      </content>
+    </note>
+  </slide>

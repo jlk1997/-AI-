@@ -1,0 +1,153 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJe">
+    <style>
+      <fill id="fJe">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="byQ">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>07 · PRODUCT</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="byn">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Two surfaces, one world</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="byj">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>The same living world is both a forecasting object and a game you can play.</p>
+        </content>
+      </shape>
+      <line id="byH" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bye">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bPq">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>12 / 20</p>
+        </content>
+      </shape>
+      <shape width="164" height="164" topLeftX="398" topLeftY="236" type="ellipse" id="byL">
+        <fill>
+          <fillColor color="rgba(10, 14, 20, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="89.4" height="13" topLeftX="439.1" topLeftY="297.8" type="text" id="bym">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>ONE WORLD</p>
+        </content>
+      </shape>
+      <shape width="55.4" height="10" topLeftX="445" topLeftY="321.2" type="text" id="byz">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>checkable,</p>
+        </content>
+      </shape>
+      <shape width="31.6" height="10" topLeftX="459" topLeftY="337.2" type="text" id="byh">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>living</p>
+        </content>
+      </shape>
+      <shape width="220" height="140" topLeftX="100" topLeftY="248" presetHandlers="14" type="rect" id="byv">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 0.8)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="117.4" height="12" topLeftX="155.4" topLeftY="266.3" type="text" id="byE">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>WORLD SURFACE</p>
+        </content>
+      </shape>
+      <shape width="154.1" height="10" topLeftX="115.5" topLeftY="289.2" type="text" id="byO">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>For observers &amp; forecasters</p>
+        </content>
+      </shape>
+      <shape width="96.4" height="10.5" topLeftX="151.2" topLeftY="325" type="text" id="byY">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Watch · simulate</p>
+        </content>
+      </shape>
+      <shape width="156.8" height="10.5" topLeftX="107.1" topLeftY="347" type="text" id="byi">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Forecast · place predictions</p>
+        </content>
+      </shape>
+      <shape width="120.2" height="10" topLeftX="136.8" topLeftY="369.2" type="text" id="byM">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The world as an object</p>
+        </content>
+      </shape>
+      <shape width="220" height="140" topLeftX="640" topLeftY="248" presetHandlers="14" type="rect" id="byK">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 0.8)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="108.7" height="12" topLeftX="699.6" topLeftY="266.3" type="text" id="byD">
+        <content fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>GAME SURFACE</p>
+        </content>
+      </shape>
+      <shape width="62.9" height="10" topLeftX="711.5" topLeftY="289.2" type="text" id="byr">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>For players</p>
+        </content>
+      </shape>
+      <shape width="124.7" height="10.5" topLeftX="669.1" topLeftY="325" type="text" id="byw">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Play · enter the world</p>
+        </content>
+      </shape>
+      <shape width="142.9" height="10.5" topLeftX="658.1" topLeftY="347" type="text" id="byN">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Add drama · alter the run</p>
+        </content>
+      </shape>
+      <shape width="134.2" height="10" topLeftX="666.9" topLeftY="369.2" type="text" id="byU">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The world as a playground</p>
+        </content>
+      </shape>
+      <line id="byk" startX="392.00000000000006" startY="318" endX="327.992187976779" endY="318">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="327.3" topLeftY="314.5" path="M7,7 L0,3.5 L7,0 Z" type="custom" id="byI">
+        <fill>
+          <fillColor color="rgba(129, 140, 248, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="byo" startX="568" startY="318" endX="632.007812023221" endY="318">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="625.7" topLeftY="314.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="byt">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="354.2" height="10" topLeftX="228" topLeftY="435.2" type="text" id="byc">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>If the video layer fails, the 2D world keeps running and stays playable.</p>
+        </content>
+      </shape>
+    </data>
+    <note id="byG">
+      <content>
+        <p>There is one world, but it presents two surfaces. To an observer or a forecaster it is an object to watch, simulate, and place predictions on. To a player, that same world is a game to enter and alter. Both sit on the identical checkable, living core, so a player&apos;s action and a forecaster&apos;s prediction are about the same evolving reality. This is why the product is not a game and not a forecasting tool: it is a world that supports both. The architecture also degrades gracefully: if the 3D or video layer fails, the 2D game stays playable, and the world itself keeps running. One world, two ways in, no single point of failure.</p>
+      </content>
+    </note>
+  </slide>

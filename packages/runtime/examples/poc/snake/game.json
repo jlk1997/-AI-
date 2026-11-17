@@ -1,0 +1,16 @@
+{
+  "dslVersion": "1.0.0",
+  "meta": {
+    "title": "Snake",
+    "description": "Classic grid snake — uses a custom module for the grid logic plus the runtime's HUD.",
+    "canvas": { "width": 600, "height": 600, "background": "#0f172a" }
+  },
+  "scenes": [
+    {
+      "id": "main",
+      "hud": { "score": true },
+      "entities": []
+    }
+  ],
+  "customModules": ["src/snake.ts"]
+}

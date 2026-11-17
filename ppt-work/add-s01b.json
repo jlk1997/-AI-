@@ -1,0 +1,45 @@
+﻿lark-cli : {
+所在位置 行:1 字符: 70
++ ... \ppt-work"; lark-cli slides +add-slide --presentation "CzdAsa5Fhlonhs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  "ok": false,
+  "identity": "user",
+  "error": {
+    "type": "api",
+    "subtype": "unknown",
+    "code": 4000153,
+    "message": "{\"schema_version\": \"2.0\", \"tool\": \"xml_lint\", \"file\": null, \"slide_size\": {\"width\": 960, 
+\"height\": 540}, \"summary\": {\"slide_count\": 1, \"error_count\": 1, \"warning_count\": 0, \"info_count\": 0, \"stat
+us\": \"blocked\", \"release_ready\": false, \"screenshot_review_required\": false}, \"document\": {\"errors\": [], \"w
+arnings\": [], \"infos\": []}, \"slides\": [{\"slide_number\": 1, \"status\": \"blocked\", \"element_count\": 8, \"erro
+rs\": [{\"level\": \"error\", \"code\": \"text_may_overflow_shape\", \"overflow_axis\": \"width\", \"elements\": [\"sli
+de[1]/data/shape[3]\"], \"estimated_width\": 479.752, \"available_width\": 460, \"width_ratio\": 1.0429391304347826, \"
+message\": \"text shape slide[1]/data/shape[3] may overflow its own content box (estimated line 479.752px, available 46
+0px); the run has wrap=\\\"false\\\" and cannot reflow, so widen the shape or shorten the text\", \"hint\": \"Locate vi
+a related_objects[].xml_path. Increase shape.width or shorten the text. wrap=\\\"false\\\" text cannot reflow, so a lin
+e wider than the box is clipped or spills past its edge. This is an estimate based on font size, weight, and glyph widt
+hs.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"text_m
+ay_overflow_shape\", \"name\": \"estimated_text_fits_declared_shape\", \"comparison\": \"estimated_width <= available_w
+idth\"}, \"measurement\": {\"violation_count\": 1}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"text\", \"b
+box\": {\"x\": 56, \"y\": 150, \"width\": 460, \"height\": 110}, \"xml_path\": \"slide[1]/data/shape[3]\"}]}], \"warnin
+gs\": [], \"infos\": [], \"issues\": [{\"level\": \"error\", \"code\": \"text_may_overflow_shape\", \"overflow_axis\": 
+\"width\", \"elements\": [\"slide[1]/data/shape[3]\"], \"estimated_width\": 479.752, \"available_width\": 460, \"width_
+ratio\": 1.0429391304347826, \"message\": \"text shape slide[1]/data/shape[3] may overflow its own content box (estimat
+ed line 479.752px, available 460px); the run has wrap=\\\"false\\\" and cannot reflow, so widen the shape or shorten th
+e text\", \"hint\": \"Locate via related_objects[].xml_path. Increase shape.width or shorten the text. wrap=\\\"false\\
+\" text cannot reflow, so a line wider than the box is clipped or spills past its edge. This is an estimate based on fo
+nt size, weight, and glyph widths.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 
+1}, \"rule\": {\"id\": \"text_may_overflow_shape\", \"name\": \"estimated_text_fits_declared_shape\", \"comparison\": \
+"estimated_width <= available_width\"}, \"measurement\": {\"violation_count\": 1}, \"related_objects\": [{\"kind\": \"s
+hape\", \"type\": \"text\", \"bbox\": {\"x\": 56, \"y\": 150, \"width\": 460, \"height\": 110}, \"xml_path\": \"slide[1
+]/data/shape[3]\"}]}]}]}",
+    "hint": "xml lint blocked: 1 error(s). the page was not written. Fix the error-level findings in the message and re
+try; if the lint is wrong about a page that has to ship as-is, re-run with --no-lint",
+    "log_id": "20261028125048B9BE90C95F9D5500774A",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202610281
+25048B9BE90C95F9D5500774A&code=4000153&method_id=7626729071087471804"
+  }
+}

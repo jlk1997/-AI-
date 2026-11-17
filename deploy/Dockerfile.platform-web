@@ -1,0 +1,21 @@
+# Gebi dual-launch web. Same-origin /v1 via the edge (Caddy/nginx).
+#   docker build -f deploy/Dockerfile.platform-web -t gebi-web .
+FROM node:20-bookworm-slim AS build
+WORKDIR /app
+ARG VITE_WEB_API_BASE=/v1
+ENV VITE_WEB_API_BASE=$VITE_WEB_API_BASE
+COPY package.json package-lock.json ./
+COPY packages ./packages
+COPY apps ./apps
+COPY agent-test ./agent-test
+COPY scripts ./scripts
+COPY tsconfig.json ./
+RUN npm ci --ignore-scripts
+RUN npm run build --workspace=@opengame/platform-shared \
+  && npm run build --workspace=@opengame/world-spec \
+  && npm run build --workspace=@opengame/platform-web
+
+FROM nginx:1.27-alpine
+COPY deploy/web-nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/apps/platform-web/dist /usr/share/nginx/html
+EXPOSE 80

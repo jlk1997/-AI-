@@ -1,0 +1,49 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0">
+  <style>
+    <fill>
+      <fillColor color="rgba(10,14,20,1)"/>
+    </fill>
+  </style>
+  <data>
+    <img src="R34ebPSfVoeTKRx7qixc6YZcnOd" topLeftX="0" topLeftY="0" width="960" height="540"/>
+    <shape type="rect" topLeftX="0" topLeftY="0" width="620" height="540">
+      <fill>
+        <fillColor color="linear-gradient(90deg,rgba(10,14,20,0.92) 0%,rgba(10,14,20,0.72) 55%,rgba(10,14,20,0) 100%)"/>
+      </fill>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="118" width="420" height="24">
+      <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34,211,238,1)" letterSpacing="3" bold="true" wrap="false">
+        <p>WORLD SIMULATION  ·  FORECASTING ENGINE</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="56" topLeftY="150" width="520" height="110">
+      <content textType="title" fontSize="84" fontFamily="Montserrat" color="rgba(241,245,249,1)" bold="true" letterSpacing="1" wrap="false" lineSpacing="multiple:1">
+        <p>OpenGame</p>
+      </content>
+    </shape>
+    <line startX="60" startY="278" endX="150" endY="278">
+      <border color="rgba(34,211,238,1)" width="2"/>
+    </line>
+    <shape type="text" topLeftX="60" topLeftY="296" width="440" height="36">
+      <content textType="sub-headline" fontSize="21" fontFamily="Inter" color="rgba(241,245,249,1)" wrap="false">
+        <p>A World Simulation &amp; Forecasting Engine</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="342" width="430" height="72">
+      <content textType="body" fontSize="15" fontFamily="Inter" color="rgba(148,163,184,1)" lineSpacing="multiple:1.5">
+        <p>Simulate, predict, and steer real-world outcomes —</p>
+        <p>before they happen in the real world.</p>
+      </content>
+    </shape>
+    <shape type="text" topLeftX="60" topLeftY="478" width="420" height="20">
+      <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100,116,139,1)" letterSpacing="1" wrap="false">
+        <p>INVESTOR BRIEFING  ·  CONFIDENTIAL</p>
+      </content>
+    </shape>
+  </data>
+  <note>
+    <content textType="body" fontSize="14" fontFamily="Inter">
+      <p>OpenGame is a world simulation and forecasting engine. We build a living digital twin of a community, run its future forward thousands of times, and inject decisions and rumors to see what happens next. The game is just the visible skin; the core product is the ability to predict and steer real-world outcomes before they happen. Over the next few minutes I will cover the problem, our technology, the business model, and why we are positioned to win.</p>
+    </content>
+  </note>
+</slide>

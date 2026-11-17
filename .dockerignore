@@ -1,0 +1,15 @@
+.git
+.cursor
+.platform-work
+**/.platform-work
+**/node_modules
+**/dist
+**/*.tsbuildinfo
+integration-tests
+coverage
+backups
+*.log
+.env
+.env.*
+!.env.example
+docs

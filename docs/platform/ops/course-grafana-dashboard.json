@@ -1,0 +1,140 @@
+{
+  "annotations": { "list": [] },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 0, "y": 0 },
+      "id": 1,
+      "options": { "colorMode": "value", "graphMode": "none", "justifyMode": "auto" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-settle]\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Course settles (range)",
+      "type": "stat"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "max": 1, "min": 0 }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 6, "y": 0 },
+      "id": 2,
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-settle]\" | json | voided=\"true\" [$__range])) / sum(count_over_time({app=\"platform-api\"} |= \"[course-settle]\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Void rate",
+      "type": "gauge"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "percentunit", "max": 1, "min": 0 }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 12, "y": 0 },
+      "id": 3,
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-settle]\" | json | contested=\"true\" [$__range])) / sum(count_over_time({app=\"platform-api\"} |= \"[course-settle]\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Contested rate",
+      "type": "gauge"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 18, "y": 0 },
+      "id": 5,
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-replace]\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Author replaces (range)",
+      "type": "stat"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 0, "y": 12 },
+      "id": 6,
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-push]\" | json | kind=\"contested\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Author contested pushes",
+      "type": "stat"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 6, "y": 12 },
+      "id": 7,
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-push]\" | json | kind=\"closed\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Betting-close pushes",
+      "type": "stat"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "fieldConfig": { "defaults": { "unit": "short" }, "overrides": [] },
+      "gridPos": { "h": 4, "w": 6, "x": 12, "y": 12 },
+      "id": 8,
+      "options": { "colorMode": "value", "graphMode": "none", "justifyMode": "auto" },
+      "targets": [
+        {
+          "expr": "sum(count_over_time({app=\"platform-api\"} |= \"[course-queue]\" [$__range]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Course queue ops (range)",
+      "type": "stat"
+    },
+    {
+      "datasource": { "type": "loki", "uid": "${datasource}" },
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 4 },
+      "id": 4,
+      "targets": [
+        {
+          "expr": "sum by (seedKind) (count_over_time({app=\"platform-api\"} |= \"[course-settle]\" | json [$__range]))",
+          "legendFormat": "{{seedKind}}",
+          "refId": "A"
+        }
+      ],
+      "title": "Settles by seedKind",
+      "type": "timeseries"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": ["opengame", "course"],
+  "templating": {
+    "list": [
+      {
+        "name": "datasource",
+        "type": "datasource",
+        "query": "loki",
+        "current": {}
+      }
+    ]
+  },
+  "time": { "from": "now-24h", "to": "now" },
+  "title": "OpenGame Course Boards",
+  "uid": "opengame-course",
+  "version": 1
+}

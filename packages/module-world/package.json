@@ -1,0 +1,27 @@
+{
+  "name": "@opengame/module-world",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Top-down exploration helpers for OpenGame platform games.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:ci": "node -e \"process.exit(0)\""
+  },
+  "peerDependencies": {
+    "phaser": "^3.80.0"
+  },
+  "devDependencies": {
+    "phaser": "3.90.0",
+    "typescript": "^5.8.3"
+  }
+}

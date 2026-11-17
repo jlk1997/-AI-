@@ -1,0 +1,9 @@
+﻿{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "revision_id": 2,
+    "slide_id": "pJY",
+    "xml_presentation_id": "QDSvseDwklug3Sd4x33csUKHnIh"
+  }
+}

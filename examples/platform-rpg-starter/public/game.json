@@ -1,0 +1,19 @@
+{
+  "dslVersion": "1.1.0",
+  "meta": {
+    "title": "Platform RPG Starter",
+    "canvas": { "width": 960, "height": 540, "background": "#1e1b4b" }
+  },
+  "initialSceneId": "TitleScene",
+  "scenes": [
+    {
+      "id": "TitleScene",
+      "customModule": "TitleScene",
+      "entities": []
+    }
+  ],
+  "dialogue": [
+    { "group": "intro", "speaker": "Guide", "text": "Welcome — press SPACE in battle to advance turns." }
+  ],
+  "assets": []
+}

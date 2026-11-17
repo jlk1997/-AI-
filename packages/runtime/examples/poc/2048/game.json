@@ -1,0 +1,16 @@
+{
+  "dslVersion": "1.0.0",
+  "meta": {
+    "title": "2048",
+    "description": "Slide tiles, combine matches. Pure logic PoC.",
+    "canvas": { "width": 480, "height": 560, "background": "#faf8ef" }
+  },
+  "scenes": [
+    {
+      "id": "main",
+      "hud": { "score": true },
+      "entities": []
+    }
+  ],
+  "customModules": ["src/g2048.ts"]
+}

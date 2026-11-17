@@ -1,0 +1,62 @@
+{
+  "name": "@opengame/runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OpenGame Runtime — Phaser-based capability library for AI-generated 2D web games (Scene/Entity/Behavior/SkillChain/UIKit/SaveStore).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./dsl": {
+      "types": "./dist/dsl/index.d.ts",
+      "import": "./dist/dsl/index.js"
+    },
+    "./behaviors": {
+      "types": "./dist/behaviors/index.d.ts",
+      "import": "./dist/behaviors/index.js"
+    },
+    "./ui": {
+      "types": "./dist/ui/index.d.ts",
+      "import": "./dist/ui/index.js"
+    },
+    "./services": {
+      "types": "./dist/services/index.d.ts",
+      "import": "./dist/services/index.js"
+    },
+    "./bootstrap": {
+      "types": "./dist/bootstrap.d.ts",
+      "import": "./dist/bootstrap.js"
+    },
+    "./skeleton-assets/*": "./skeleton-assets/*",
+    "./dsl/game.schema.json": "./dsl/game.schema.json"
+  },
+  "files": [
+    "dist",
+    "skeleton-assets",
+    "dsl",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run --config vitest.config.ts",
+    "test:ci": "vitest run --config vitest.config.ts"
+  },
+  "peerDependencies": {
+    "phaser": "^3.80.0"
+  },
+  "peerDependenciesMeta": {
+    "phaser": { "optional": false }
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "jsdom": "^26.0.0",
+    "phaser": "3.90.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

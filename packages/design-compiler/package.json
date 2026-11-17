@@ -1,0 +1,25 @@
+{
+  "name": "@opengame/design-compiler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compile GDD / story bible into SYSTEMS.json + CONTENT.json datasets.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

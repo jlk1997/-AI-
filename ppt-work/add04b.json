@@ -1,0 +1,112 @@
+﻿lark-cli : {
+所在位置 行:1 字符: 107
++ ... | Out-Null; lark-cli slides +add-slide --presentation "CzdAsa5Fhlonhs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  "ok": false,
+  "identity": "user",
+  "error": {
+    "type": "api",
+    "subtype": "unknown",
+    "code": 4000153,
+    "message": "{\"schema_version\": \"2.0\", \"tool\": \"xml_lint\", \"file\": null, \"slide_size\": {\"width\": 960, 
+\"height\": 540}, \"summary\": {\"slide_count\": 1, \"error_count\": 5, \"warning_count\": 0, \"info_count\": 0, \"stat
+us\": \"blocked\", \"release_ready\": false, \"screenshot_review_required\": false}, \"document\": {\"errors\": [], \"w
+arnings\": [], \"infos\": []}, \"slides\": [{\"slide_number\": 1, \"status\": \"blocked\", \"element_count\": 33, \"err
+ors\": [{\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[15]\", \"slide[1]/data/
+shape[23]\"], \"measurement\": {\"intersection_area\": 6.561, \"left_fill_alpha\": 1, \"right_fill_alpha\": 1}, \"messa
+ge\": \"shape slide[1]/data/shape[15] overlaps shape slide[1]/data/shape[23]\", \"hint\": \"Locate via related_objects[
+].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0
+\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visua
+l_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"t
+ype\": \"rect\", \"bbox\": {\"x\": 279, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shap
+e[15]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 428.19, \"y\": 408.95, \"width\": 8.1, \"height
+\": 8.1}, \"xml_path\": \"slide[1]/data/shape[23]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\"
+: [\"slide[1]/data/line[2]\", \"slide[1]/data/shape[6]\"], \"message\": \"line slide[1]/data/line[2] crosses shape slid
+e[1]/data/shape[6]\", \"hint\": \"Locate via related_objects[].xml_path. Move or shorten the line so it no longer cuts 
+through the shape body.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\
+": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0
+\"}, \"measurement\": {\"intersection_width\": 15.675, \"intersection_height\": 2.991, \"intersection_area\": 46.879}, 
+\"related_objects\": [{\"kind\": \"line\", \"type\": \"line\", \"bbox\": {\"x\": 539.324561189, \"y\": 212.009373834399
+98, \"width\": 85.3508776220001, \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/data/line[2]\"}, {\"kind\": \
+"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide
+[1]/data/shape[6]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/line[2]\", \"
+slide[1]/data/shape[9]\"], \"message\": \"line slide[1]/data/line[2] crosses shape slide[1]/data/shape[9]\", \"hint\": 
+\"Locate via related_objects[].xml_path. Move or shorten the line so it no longer cuts through the shape body.\", \"sch
+ema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"
+name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"measurement\": {\"interse
+ction_width\": 15.675, \"intersection_height\": 2.991, \"intersection_area\": 46.879}, \"related_objects\": [{\"kind\":
+ \"line\", \"type\": \"line\", \"bbox\": {\"x\": 539.324561189, \"y\": 212.00937383439998, \"width\": 85.3508776220001,
+ \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/data/line[2]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"
+bbox\": {\"x\": 609, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[9]\"}]}, {\"level
+\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/line[6]\", \"slide[1]/data/shape[6]\"], \"mes
+sage\": \"line slide[1]/data/line[6] crosses shape slide[1]/data/shape[6]\", \"hint\": \"Locate via related_objects[].x
+ml_path. Move or shorten the line so it no longer cuts through the shape body.\", \"schema_version\": \"2.0\", \"elemen
+t_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_
+not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"measurement\": {\"intersection_width\": 15.675, \"interse
+ction_height\": 2.991, \"intersection_area\": 46.879}, \"related_objects\": [{\"kind\": \"line\", \"type\": \"line\", \
+"bbox\": {\"x\": 335.324561189, \"y\": 212.00937383439998, \"width\": 85.35087762199998, \"height\": 35.98125233160002}
+, \"xml_path\": \"slide[1]/data/line[6]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159
+, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}]}, {\"level\": \"error\", \"code\": \"bbox
+_overlap\", \"elements\": [\"slide[1]/data/line[6]\", \"slide[1]/data/shape[18]\"], \"message\": \"line slide[1]/data/l
+ine[6] crosses shape slide[1]/data/shape[18]\", \"hint\": \"Locate via related_objects[].xml_path. Move or shorten the 
+line so it no longer cuts through the shape body.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"s
+lide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\"
+: \"intersection_area == 0\"}, \"measurement\": {\"intersection_width\": 15.675, \"intersection_height\": 2.991, \"inte
+rsection_area\": 46.879}, \"related_objects\": [{\"kind\": \"line\", \"type\": \"line\", \"bbox\": {\"x\": 335.32456118
+9, \"y\": 212.00937383439998, \"width\": 85.35087762199998, \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/da
+ta/line[6]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 245, \"width\": 150, \"height\":
+ 56}, \"xml_path\": \"slide[1]/data/shape[18]\"}]}], \"warnings\": [], \"infos\": [], \"issues\": [{\"level\": \"error\
+", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[15]\", \"slide[1]/data/shape[23]\"], \"measurement\
+": {\"intersection_area\": 6.561, \"left_fill_alpha\": 1, \"right_fill_alpha\": 1}, \"message\": \"shape slide[1]/data/
+shape[15] overlaps shape slide[1]/data/shape[23]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize t
+he card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"t
+arget\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \
+"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {
+\"x\": 279, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[15]\"}, {\"kind\": \"shape
+\", \"type\": \"custom\", \"bbox\": {\"x\": 428.19, \"y\": 408.95, \"width\": 8.1, \"height\": 8.1}, \"xml_path\": \"sl
+ide[1]/data/shape[23]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/line[2]\"
+, \"slide[1]/data/shape[6]\"], \"message\": \"line slide[1]/data/line[2] crosses shape slide[1]/data/shape[6]\", \"hint
+\": \"Locate via related_objects[].xml_path. Move or shorten the line so it no longer cuts through the shape body.\", \
+"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\"
+, \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"measurement\": {\"int
+ersection_width\": 15.675, \"intersection_height\": 2.991, \"intersection_area\": 46.879}, \"related_objects\": [{\"kin
+d\": \"line\", \"type\": \"line\", \"bbox\": {\"x\": 539.324561189, \"y\": 212.00937383439998, \"width\": 85.3508776220
+001, \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/data/line[2]\"}, {\"kind\": \"shape\", \"type\": \"rect\"
+, \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}]}, {\"l
+evel\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/line[2]\", \"slide[1]/data/shape[9]\"], \
+"message\": \"line slide[1]/data/line[2] crosses shape slide[1]/data/shape[9]\", \"hint\": \"Locate via related_objects
+[].xml_path. Move or shorten the line so it no longer cuts through the shape body.\", \"schema_version\": \"2.0\", \"el
+ement_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds
+_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"measurement\": {\"intersection_width\": 15.675, \"int
+ersection_height\": 2.991, \"intersection_area\": 46.879}, \"related_objects\": [{\"kind\": \"line\", \"type\": \"line\
+", \"bbox\": {\"x\": 539.324561189, \"y\": 212.00937383439998, \"width\": 85.3508776220001, \"height\": 35.981252331600
+02}, \"xml_path\": \"slide[1]/data/line[2]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 609, \"y\": 
+245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[9]\"}]}, {\"level\": \"error\", \"code\": \"b
+box_overlap\", \"elements\": [\"slide[1]/data/line[6]\", \"slide[1]/data/shape[6]\"], \"message\": \"line slide[1]/data
+/line[6] crosses shape slide[1]/data/shape[6]\", \"hint\": \"Locate via related_objects[].xml_path. Move or shorten the
+ line so it no longer cuts through the shape body.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"
+slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\
+": \"intersection_area == 0\"}, \"measurement\": {\"intersection_width\": 15.675, \"intersection_height\": 2.991, \"int
+ersection_area\": 46.879}, \"related_objects\": [{\"kind\": \"line\", \"type\": \"line\", \"bbox\": {\"x\": 335.3245611
+89, \"y\": 212.00937383439998, \"width\": 85.35087762199998, \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/d
+ata/line[6]\"}, {\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\"
+: 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\
+"slide[1]/data/line[6]\", \"slide[1]/data/shape[18]\"], \"message\": \"line slide[1]/data/line[6] crosses shape slide[1
+]/data/shape[18]\", \"hint\": \"Locate via related_objects[].xml_path. Move or shorten the line so it no longer cuts th
+rough the shape body.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\":
+ {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"
+}, \"measurement\": {\"intersection_width\": 15.675, \"intersection_height\": 2.991, \"intersection_area\": 46.879}, \"
+related_objects\": [{\"kind\": \"line\", \"type\": \"line\", \"bbox\": {\"x\": 335.324561189, \"y\": 212.00937383439998
+, \"width\": 85.35087762199998, \"height\": 35.98125233160002}, \"xml_path\": \"slide[1]/data/line[6]\"}, {\"kind\": \"
+shape\", \"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[
+1]/data/shape[18]\"}]}]}]}",
+    "hint": "xml lint blocked: 5 error(s). the page was not written. Fix the error-level findings in the message and re
+try; if the lint is wrong about a page that has to ship as-is, re-run with --no-lint",
+    "log_id": "20261028125048B9BE90C95F9D5500774A",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202610281
+25048B9BE90C95F9D5500774A&code=4000153&method_id=7626729071087471804"
+  }
+}

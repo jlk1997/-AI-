@@ -1,0 +1,29 @@
+{
+  "name": "@opengame/world-ops",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Atomic world edit ops + revision tree for OpenGame world model.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "dependencies": {
+    "@opengame/world-spec": "*",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

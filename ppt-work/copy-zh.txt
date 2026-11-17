@@ -1,0 +1,14 @@
+﻿{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "copied": true,
+    "file_token": "QDSvseDwklug3Sd4x33csUKHnIh",
+    "file_type": "slides",
+    "folder_token": "nodcnoFKJSpIAFRoJaYPcH3amgf",
+    "name": "OpenGame 投资人汇报（中文优化版）",
+    "source_file_token": "CzdAsa5FhlonhsdqTVVciALPnPb",
+    "source_type": "slides",
+    "url": "https://my.feishu.cn/slides/QDSvseDwklug3Sd4x33csUKHnIh"
+  }
+}

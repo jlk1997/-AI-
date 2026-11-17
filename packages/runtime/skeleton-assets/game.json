@@ -1,0 +1,27 @@
+{
+  "dslVersion": "1.0.0",
+  "meta": {
+    "title": "OpenGame Starter",
+    "description": "A near-empty starter rendered by @opengame/runtime — replace via AI generation.",
+    "canvas": { "width": 960, "height": 540, "background": "#0f172a" }
+  },
+  "scenes": [
+    {
+      "id": "main",
+      "hud": { "score": true },
+      "entities": [
+        {
+          "id": "title",
+          "sprite": {
+            "shape": "rect",
+            "color": "#6366f1",
+            "x": 480,
+            "y": 270,
+            "width": 200,
+            "height": 60
+          }
+        }
+      ]
+    }
+  ]
+}

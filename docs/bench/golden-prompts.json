@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "prompts": [
+    {
+      "id": "snake",
+      "kind": "game",
+      "prompt": "Build a Snake clone with WASD controls and a dark theme."
+    },
+    {
+      "id": "platformer-boss",
+      "kind": "game",
+      "prompt": "Side-scrolling action platformer with a basic attack and a final boss."
+    },
+    {
+      "id": "xiangqi-explore",
+      "kind": "game",
+      "prompt": "俯视探索小镇，中间有一盘中国象棋可以对弈，下完棋再继续走。"
+    },
+    {
+      "id": "tower-defense",
+      "kind": "game",
+      "prompt": "Cute tower defense: place towers, survive three waves, defend a base."
+    },
+    {
+      "id": "match3",
+      "kind": "game",
+      "prompt": "Make a match-3 puzzle: swap gems, get three in a row, reach a score."
+    },
+    {
+      "id": "fishing",
+      "kind": "game",
+      "prompt": "俯视 RPG，可以走到河边钓鱼，钓到鱼加分。"
+    },
+    {
+      "id": "iterate-harder",
+      "kind": "iterate",
+      "prompt": "再难一点，加一个 Boss。"
+    },
+    {
+      "id": "iterate-art",
+      "kind": "iterate",
+      "prompt": "画风改成赛博像素，角色和背景都要换。"
+    },
+    {
+      "id": "society-named-resident",
+      "kind": "world",
+      "prompt": "一座江南水镇，点名居民阿福是茶馆老板，每天和阿兰打招呼。"
+    },
+    {
+      "id": "society-seed-dialogue",
+      "kind": "world",
+      "prompt": "16 小时种子必须有对白，不能只有走路。"
+    },
+    {
+      "id": "society-whisper-next-day",
+      "kind": "world",
+      "prompt": "对阿福耳语：桥要塌了。次日访谈必须能提起这件事。"
+    },
+    {
+      "id": "society-adopt-edge",
+      "kind": "world",
+      "prompt": "认养阿兰后，关系边和记忆里要留下付费痕迹。"
+    },
+    {
+      "id": "society-outsider-no-rumor",
+      "kind": "world",
+      "prompt": "外来货郎不该把只有镇民才知道的私事传成全镇谣言。"
+    }
+  ]
+}

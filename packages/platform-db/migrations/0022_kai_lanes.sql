@@ -1,0 +1,12 @@
+-- 开镇礼 / 加戏包 / 巷议包分轨。生成只能花通用点，加戏包不能缴编译税。
+
+ALTER TABLE wallets
+  ADD COLUMN IF NOT EXISTS jiaxi_balance INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE wallets
+  ADD COLUMN IF NOT EXISTS xiangyi_balance INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE wallets
+  ADD COLUMN IF NOT EXISTS welcome_granted BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE wallets
+  ADD COLUMN IF NOT EXISTS login_streak INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE wallets
+  ADD COLUMN IF NOT EXISTS last_login_day DATE;

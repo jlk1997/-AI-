@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="隔壁">
+  <rect width="512" height="512" fill="#14121A"/>
+  <path d="M256 96v48" stroke="#E0B25A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M186 196c0-18 12-34 34-46 20-12 34-18 36-18s16 6 36 18c22 12 34 28 34 46v110c0 34-34 58-76 58s-76-24-76-58V196z" fill="#C45C26"/>
+  <rect x="236" y="256" width="40" height="70" rx="16" fill="#E0B25A"/>
+</svg>

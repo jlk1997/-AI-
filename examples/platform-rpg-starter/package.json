@@ -1,0 +1,20 @@
+{
+  "name": "platform-rpg-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opengame/module-combat": "file:../../packages/module-combat",
+    "@opengame/module-dialogue": "file:../../packages/module-dialogue",
+    "@opengame/runtime": "file:../../packages/runtime",
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

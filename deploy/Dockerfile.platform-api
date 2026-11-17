@@ -1,0 +1,21 @@
+# Gebi dual-launch API. Build from the repo root:
+#   docker build -f deploy/Dockerfile.platform-api -t gebi-api .
+FROM node:20-bookworm-slim AS build
+WORKDIR /app
+COPY package.json package-lock.json ./
+COPY packages ./packages
+COPY apps ./apps
+COPY agent-test ./agent-test
+COPY scripts ./scripts
+COPY tsconfig.json ./
+RUN npm ci --ignore-scripts
+RUN npm run build --workspace=@opengame/platform-shared \
+  && npm run build --workspace=@opengame/platform-db \
+  && npm run build --workspaces --if-present
+
+FROM node:20-bookworm-slim
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=build /app /app
+EXPOSE 3847
+CMD ["npm", "run", "start", "--workspace=@opengame/platform-api"]

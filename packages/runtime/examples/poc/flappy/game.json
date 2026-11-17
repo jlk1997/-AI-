@@ -1,0 +1,33 @@
+{
+  "dslVersion": "1.0.0",
+  "meta": {
+    "title": "Flappy Square",
+    "description": "Tap to flap. A near-empty Flappy Bird-style PoC rendered entirely from DSL.",
+    "canvas": { "width": 480, "height": 720, "background": "#0ea5e9" }
+  },
+  "scenes": [
+    {
+      "id": "main",
+      "hud": { "score": true },
+      "entities": [
+        {
+          "id": "player",
+          "tags": ["player"],
+          "sprite": {
+            "shape": "rect",
+            "color": "#fbbf24",
+            "x": 120,
+            "y": 360,
+            "width": 36,
+            "height": 36
+          },
+          "tunables": {
+            "gravity": { "type": "number", "value": 1200, "min": 200, "max": 2400, "step": 50 },
+            "flapImpulse": { "type": "number", "value": 380, "min": 150, "max": 700, "step": 10 }
+          }
+        }
+      ]
+    }
+  ],
+  "customModules": ["src/flappy.ts"]
+}

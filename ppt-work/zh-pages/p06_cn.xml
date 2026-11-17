@@ -1,0 +1,130 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJJ">
+    <style>
+      <fill id="fJJ">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bbR">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>04 · 技术架构</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bbC">
+        <content textType="title" fontSize="34" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>混合世界模型</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bbL">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>核心是符号真相，神经层只做参谋，渲染层只是皮肤。</p>
+        </content>
+      </shape>
+      <line id="bbN" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bbm">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bbx">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>06 / 20</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="170" presetHandlers="10" type="rect" id="bbI">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="190.6" type="text" id="bbo">
+        <content fontSize="22" fontFamily="Montserrat" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L3</p>
+        </content>
+      </shape>
+      <shape width="123.9" height="14" topLeftX="180" topLeftY="184.3" type="text" id="bbh">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>渲染层</p>
+        </content>
+      </shape>
+      <shape width="560" height="10.5" topLeftX="180" topLeftY="208" type="text" id="bbt">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Phaser / Three / LingBot / Marble —— 可玩的皮肤；视频崩了，2D 游戏照样能玩</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="242" presetHandlers="10" type="rect" id="bbQ">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="262.6" type="text" id="bbg">
+        <content fontSize="22" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L2</p>
+        </content>
+      </shape>
+      <shape width="151.3" height="14" topLeftX="180" topLeftY="256.4" type="text" id="bbT">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>神经动力学</p>
+        </content>
+      </shape>
+      <shape width="460" height="10.5" topLeftX="180" topLeftY="280" type="text" id="bbO">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>小网络想象动作后果，只做建议，永远不能改写 L1</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="314" presetHandlers="10" type="rect" id="bbG">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.35)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="126" height="14" topLeftX="180" topLeftY="328.4" type="text" id="bbY">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>活社会</p>
+        </content>
+      </shape>
+      <shape width="460" height="10.5" topLeftX="180" topLeftY="352" type="text" id="bbr">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>居民带记忆、日程、需求，以及意见与谣言的动态变化</p>
+        </content>
+      </shape>
+      <shape width="840" height="62" topLeftX="60" topLeftY="386" presetHandlers="10" type="rect" id="bbA">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="40.7" height="22" topLeftX="104.6" topLeftY="406.6" type="text" id="bbK">
+        <content fontSize="22" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>L1</p>
+        </content>
+      </shape>
+      <shape width="141.1" height="14" topLeftX="180" topLeftY="400.4" type="text" id="bbj">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>符号真相</p>
+        </content>
+      </shape>
+      <shape width="520" height="10.5" topLeftX="180" topLeftY="424" type="text" id="bbD">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>世界规约（唯一真相源）· 确定性模拟器 · 世界算子版本谱系</p>
+        </content>
+      </shape>
+      <shape width="130" height="10" topLeftX="720" topLeftY="412.2" type="text" id="bbH">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>唯一真相源</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bbU">
+      <content>
+        <p>纯神经的世界模型会"幻觉"，无法核对；纯符号的引擎又太死板。我们把两者结合。最底层是 L1 符号真相：带类型校验的世界规约、确定性模拟器、可回滚的版本化世界算子。上面是由居民组成的活社会。L2 是一个小的神经层，只负责想象后果、给建议，永远不能覆盖 L1。L3 是渲染层，是可玩的皮肤。即使视频崩了，2D 游戏照样能玩，因为 L1 始终让世界保持一致。这就是我们的世界既能生成、又能核对的原因。</p>
+      </content>
+    </note>
+  </slide>

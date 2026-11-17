@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- lang=zh-CN so shared Han characters get Chinese glyph variants, not the
+     Japanese forms a CJK face defaults to under lang=en. -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OpenGame World</title>
+    <style>
+      html,
+      body,
+      #game-container {
+        margin: 0;
+        height: 100%;
+        background: #0b0f14;
+        font-family:
+          'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+          'Source Han Sans SC', 'WenQuanYi Micro Hei', system-ui, sans-serif;
+      }
+      body {
+        overflow: hidden;
+      }
+      /* RESIZE mode sizes the canvas to the container exactly; an inline canvas
+         adds baseline space below it, which shows up as a sliver and a scrollbar. */
+      #game-container canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJY">
+    <style>
+      <fill id="fJY">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <img id="bqo" src="SDKbb2uvUo6YaWxkaChcO6UanYg" width="960" height="540" topLeftX="0" topLeftY="0">
+        <crop type="rect" leftOffset="0" rightOffset="0" topOffset="0.0659340659340728" bottomOffset="0.06593406593412965"/>
+      </img>
+      <shape width="620" height="540" topLeftX="0" topLeftY="0" presetHandlers="0" type="rect" id="bqD">
+        <fill>
+          <fillColor color="linear-gradient(90deg,rgba(10, 14, 20, 0.92) 0%,rgba(10, 14, 20, 0.72) 55%,rgba(10, 14, 20, 0) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="420" height="24" topLeftX="60" topLeftY="118" type="text" id="bqh">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>WORLD SIMULATION · FORECASTING ENGINE</p>
+        </content>
+      </shape>
+      <shape width="520" height="110" topLeftX="56" topLeftY="150" type="text" id="bqH">
+        <content textType="title" fontSize="84" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" lineSpacing="multiple:1" letterSpacing="1" wrap="false">
+          <p>OpenGame</p>
+        </content>
+      </shape>
+      <line id="bqL" startX="60" startY="278" endX="150.0055553840984" endY="278">
+        <border color="rgba(34, 211, 238, 1)"/>
+      </line>
+      <shape width="440" height="36" topLeftX="60" topLeftY="296" type="text" id="bqG">
+        <content textType="sub-headline" fontSize="21" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>A World Simulation &amp; Forecasting Engine</p>
+        </content>
+      </shape>
+      <shape width="430" height="72" topLeftX="60" topLeftY="342" type="text" id="bqN">
+        <content fontSize="15" fontFamily="Inter" color="rgba(148, 163, 184, 1)">
+          <p>Simulate, predict, and steer real-world outcomes —</p>
+          <p>before they happen in the real world.</p>
+        </content>
+      </shape>
+      <shape width="420" height="20" topLeftX="60" topLeftY="478" type="text" id="bqY">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100, 116, 139, 1)" letterSpacing="1" wrap="false">
+          <p>INVESTOR BRIEFING · CONFIDENTIAL</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqj">
+      <content>
+        <p>OpenGame is a world simulation and forecasting engine. We build a living digital twin of a community, run its future forward thousands of times, and inject decisions and rumors to see what happens next. The game is just the visible skin; the core product is the ability to predict and steer real-world outcomes before they happen. Over the next few minutes I will cover the problem, our technology, the business model, and why we are positioned to win.</p>
+      </content>
+    </note>
+  </slide>

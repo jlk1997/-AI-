@@ -1,0 +1,227 @@
+﻿lark-cli : {
+所在位置 行:1 字符: 138
++ ... oding utf8; lark-cli slides +add-slide --presentation "CzdAsa5Fhlonhs ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ({:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  "ok": false,
+  "identity": "user",
+  "error": {
+    "type": "api",
+    "subtype": "unknown",
+    "code": 4000153,
+    "message": "{\"schema_version\": \"2.0\", \"tool\": \"xml_lint\", \"file\": null, \"slide_size\": {\"width\": 960, 
+\"height\": 540}, \"summary\": {\"slide_count\": 1, \"error_count\": 12, \"warning_count\": 0, \"info_count\": 0, \"sta
+tus\": \"blocked\", \"release_ready\": false, \"screenshot_review_required\": false}, \"document\": {\"errors\": [], \"
+warnings\": [], \"infos\": []}, \"slides\": [{\"slide_number\": 1, \"status\": \"blocked\", \"element_count\": 33, \"er
+rors\": [{\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[6]\", \"slide[1]/data/
+shape[21]\"], \"measurement\": {\"intersection_area\": 85.966, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"mess
+age\": \"shape slide[1]/data/shape[6] overlaps shape slide[1]/data/shape[21]\", \"hint\": \"Locate via related_objects[
+].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0
+\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visua
+l_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"t
+ype\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shap
+e[6]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 537.42, \"y\": 210.11, \"width\": 89.15, \"heigh
+t\": 40.96}, \"xml_path\": \"slide[1]/data/shape[21]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"element
+s\": [\"slide[1]/data/shape[6]\", \"slide[1]/data/shape[29]\"], \"measurement\": {\"intersection_area\": 85.917, \"left
+_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[6] overlaps shape slide[1]/data/sh
+ape[29]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent car
+ds no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\":
+ {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"
+}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \
+"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\"
+: 333.42, \"y\": 210.11, \"width\": 89.15, \"height\": 40.96}, \"xml_path\": \"slide[1]/data/shape[29]\"}]}, {\"level\"
+: \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[6]\", \"slide[1]/data/shape[30]\"], \"mea
+surement\": {\"intersection_area\": 29.346, \"left_fill_alpha\": 1, \"right_fill_alpha\": 1}, \"message\": \"shape slid
+e[1]/data/shape[6] overlaps shape slide[1]/data/shape[30]\", \"hint\": \"Locate via related_objects[].xml_path. Move or
+ resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\"
+: [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_ove
+rlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"
+bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}, {\"kind\":
+ \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 413.11, \"y\": 211.35, \"width\": 8.04, \"height\": 8.93}, \"xml_pa
+th\": \"slide[1]/data/shape[30]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data
+/shape[9]\", \"slide[1]/data/shape[21]\"], \"measurement\": {\"intersection_area\": 106.65, \"left_fill_alpha\": 1, \"r
+ight_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[9] overlaps shape slide[1]/data/shape[21]\", \"hint\": 
+\"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.
+\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_over
+lap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\
+": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 609, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml
+_path\": \"slide[1]/data/shape[9]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 537.42, \"y\": 210.
+11, \"width\": 89.15, \"height\": 40.96}, \"xml_path\": \"slide[1]/data/shape[21]\"}]}, {\"level\": \"error\", \"code\"
+: \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[9]\", \"slide[1]/data/shape[23]\"], \"measurement\": {\"inters
+ection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[9] ov
+erlaps shape slide[1]/data/shape[23]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card back
+ground shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"
+slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\
+": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 609, 
+\"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[9]\"}, {\"kind\": \"shape\", \"type\":
+ \"custom\", \"bbox\": {\"x\": 619.68, \"y\": 299.1, \"width\": 50.62, \"height\": 87.8}, \"xml_path\": \"slide[1]/data
+/shape[23]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[12]\", \"slide
+[1]/data/shape[23]\"], \"measurement\": {\"intersection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0
+}, \"message\": \"shape slide[1]/data/shape[12] overlaps shape slide[1]/data/shape[23]\", \"hint\": \"Locate via relate
+d_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_versio
+n\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"
+text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"sh
+ape\", \"type\": \"rect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]
+/data/shape[12]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 619.68, \"y\": 299.1, \"width\": 50.6
+2, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[23]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", 
+\"elements\": [\"slide[1]/data/shape[12]\", \"slide[1]/data/shape[24]\"], \"measurement\": {\"intersection_area\": 6.56
+1, \"left_fill_alpha\": 1, \"right_fill_alpha\": 1}, \"message\": \"shape slide[1]/data/shape[12] overlaps shape slide[
+1]/data/shape[24]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so ad
+jacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1},
+ \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_a
+rea == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width
+\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[12]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbo
+x\": {\"x\": 617.41, \"y\": 377.63, \"width\": 8.1, \"height\": 8.18}, \"xml_path\": \"slide[1]/data/shape[24]\"}]}, {\
+"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[12]\", \"slide[1]/data/shape[25]\
+"], \"measurement\": {\"intersection_area\": 33.82, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"sh
+ape slide[1]/data/shape[12] overlaps shape slide[1]/data/shape[25]\", \"hint\": \"Locate via related_objects[].xml_path
+. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"elem
+ent_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_d
+o_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"r
+ect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[12]\"}, 
+{\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 427.1, \"y\": 397.1, \"width\": 105.8, \"height\": 17.8},
+ \"xml_path\": \"slide[1]/data/shape[25]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slid
+e[1]/data/shape[15]\", \"slide[1]/data/shape[25]\"], \"measurement\": {\"intersection_area\": 33.82, \"left_fill_alpha\
+": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[15] overlaps shape slide[1]/data/shape[25]\", 
+\"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longe
+r overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \
+"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"relate
+d_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 279, \"y\": 385, \"width\": 150, \"height\": 
+56}, \"xml_path\": \"slide[1]/data/shape[15]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 427.1, \
+"y\": 397.1, \"width\": 105.8, \"height\": 17.8}, \"xml_path\": \"slide[1]/data/shape[25]\"}]}, {\"level\": \"error\", 
+\"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[15]\", \"slide[1]/data/shape[27]\"], \"measurement\": 
+{\"intersection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/sh
+ape[15] overlaps shape slide[1]/data/shape[27]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the
+ card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"tar
+get\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"c
+omparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"
+x\": 279, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[15]\"}, {\"kind\": \"shape\"
+, \"type\": \"custom\", \"bbox\": {\"x\": 289.7, \"y\": 299.1, \"width\": 50.62, \"height\": 87.8}, \"xml_path\": \"sli
+de[1]/data/shape[27]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[18]\
+", \"slide[1]/data/shape[27]\"], \"measurement\": {\"intersection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_
+alpha\": 0}, \"message\": \"shape slide[1]/data/shape[18] overlaps shape slide[1]/data/shape[27]\", \"hint\": \"Locate 
+via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"sch
+ema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"
+name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"ki
+nd\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": 
+\"slide[1]/data/shape[18]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 289.7, \"y\": 299.1, \"widt
+h\": 50.62, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[27]\"}]}, {\"level\": \"error\", \"code\": \"bbox_ov
+erlap\", \"elements\": [\"slide[1]/data/shape[18]\", \"slide[1]/data/shape[29]\"], \"measurement\": {\"intersection_are
+a\": 106.711, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[18] overlaps s
+hape slide[1]/data/shape[29]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background s
+hapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_nu
+mber\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"int
+ersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 2
+45, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[18]\"}, {\"kind\": \"shape\", \"type\": \"cust
+om\", \"bbox\": {\"x\": 333.42, \"y\": 210.11, \"width\": 89.15, \"height\": 40.96}, \"xml_path\": \"slide[1]/data/shap
+e[29]\"}]}], \"warnings\": [], \"infos\": [], \"issues\": [{\"level\": \"error\", \"code\": \"bbox_overlap\", \"element
+s\": [\"slide[1]/data/shape[6]\", \"slide[1]/data/shape[21]\"], \"measurement\": {\"intersection_area\": 85.966, \"left
+_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[6] overlaps shape slide[1]/data/sh
+ape[21]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent car
+ds no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\":
+ {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"
+}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \
+"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\"
+: 537.42, \"y\": 210.11, \"width\": 89.15, \"height\": 40.96}, \"xml_path\": \"slide[1]/data/shape[21]\"}]}, {\"level\"
+: \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[6]\", \"slide[1]/data/shape[29]\"], \"mea
+surement\": {\"intersection_area\": 85.917, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slid
+e[1]/data/shape[6] overlaps shape slide[1]/data/shape[29]\", \"hint\": \"Locate via related_objects[].xml_path. Move or
+ resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\"
+: [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_ove
+rlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"
+bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[6]\"}, {\"kind\":
+ \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 333.42, \"y\": 210.11, \"width\": 89.15, \"height\": 40.96}, \"xml_
+path\": \"slide[1]/data/shape[29]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/da
+ta/shape[6]\", \"slide[1]/data/shape[30]\"], \"measurement\": {\"intersection_area\": 29.346, \"left_fill_alpha\": 1, \
+"right_fill_alpha\": 1}, \"message\": \"shape slide[1]/data/shape[6] overlaps shape slide[1]/data/shape[30]\", \"hint\"
+: \"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overla
+p.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_ov
+erlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_object
+s\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 405, \"y\": 159, \"width\": 150, \"height\": 56}, \"x
+ml_path\": \"slide[1]/data/shape[6]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 413.11, \"y\": 21
+1.35, \"width\": 8.04, \"height\": 8.93}, \"xml_path\": \"slide[1]/data/shape[30]\"}]}, {\"level\": \"error\", \"code\"
+: \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[9]\", \"slide[1]/data/shape[21]\"], \"measurement\": {\"inters
+ection_area\": 106.65, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[9] ov
+erlaps shape slide[1]/data/shape[21]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card back
+ground shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"
+slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\
+": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 609, 
+\"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[9]\"}, {\"kind\": \"shape\", \"type\":
+ \"custom\", \"bbox\": {\"x\": 537.42, \"y\": 210.11, \"width\": 89.15, \"height\": 40.96}, \"xml_path\": \"slide[1]/da
+ta/shape[21]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[9]\", \"slid
+e[1]/data/shape[23]\"], \"measurement\": {\"intersection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_alpha\": 
+0}, \"message\": \"shape slide[1]/data/shape[9] overlaps shape slide[1]/data/shape[23]\", \"hint\": \"Locate via relate
+d_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_versio
+n\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"
+text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"sh
+ape\", \"type\": \"rect\", \"bbox\": {\"x\": 609, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]
+/data/shape[9]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 619.68, \"y\": 299.1, \"width\": 50.62
+, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[23]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \
+"elements\": [\"slide[1]/data/shape[12]\", \"slide[1]/data/shape[23]\"], \"measurement\": {\"intersection_area\": 96.17
+8, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[12] overlaps shape slide[
+1]/data/shape[23]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so ad
+jacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1},
+ \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_a
+rea == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width
+\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[12]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbo
+x\": {\"x\": 619.68, \"y\": 299.1, \"width\": 50.62, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[23]\"}]}, {
+\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[12]\", \"slide[1]/data/shape[24]
+\"], \"measurement\": {\"intersection_area\": 6.561, \"left_fill_alpha\": 1, \"right_fill_alpha\": 1}, \"message\": \"s
+hape slide[1]/data/shape[12] overlaps shape slide[1]/data/shape[24]\", \"hint\": \"Locate via related_objects[].xml_pat
+h. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"ele
+ment_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_
+do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"
+rect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[12]\"},
+ {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 617.41, \"y\": 377.63, \"width\": 8.1, \"height\": 8.18}
+, \"xml_path\": \"slide[1]/data/shape[24]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"sli
+de[1]/data/shape[12]\", \"slide[1]/data/shape[25]\"], \"measurement\": {\"intersection_area\": 33.82, \"left_fill_alpha
+\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[12] overlaps shape slide[1]/data/shape[25]\",
+ \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no long
+er overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": 
+\"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"relat
+ed_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 531, \"y\": 385, \"width\": 150, \"height\":
+ 56}, \"xml_path\": \"slide[1]/data/shape[12]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 427.1, 
+\"y\": 397.1, \"width\": 105.8, \"height\": 17.8}, \"xml_path\": \"slide[1]/data/shape[25]\"}]}, {\"level\": \"error\",
+ \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[15]\", \"slide[1]/data/shape[25]\"], \"measurement\":
+ {\"intersection_area\": 33.82, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/sh
+ape[15] overlaps shape slide[1]/data/shape[25]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the
+ card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"tar
+get\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"c
+omparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"
+x\": 279, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[15]\"}, {\"kind\": \"shape\"
+, \"type\": \"custom\", \"bbox\": {\"x\": 427.1, \"y\": 397.1, \"width\": 105.8, \"height\": 17.8}, \"xml_path\": \"sli
+de[1]/data/shape[25]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[15]\
+", \"slide[1]/data/shape[27]\"], \"measurement\": {\"intersection_area\": 96.178, \"left_fill_alpha\": 1, \"right_fill_
+alpha\": 0}, \"message\": \"shape slide[1]/data/shape[15] overlaps shape slide[1]/data/shape[27]\", \"hint\": \"Locate 
+via related_objects[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"sch
+ema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"
+name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"ki
+nd\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 279, \"y\": 385, \"width\": 150, \"height\": 56}, \"xml_path\": 
+\"slide[1]/data/shape[15]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 289.7, \"y\": 299.1, \"widt
+h\": 50.62, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[27]\"}]}, {\"level\": \"error\", \"code\": \"bbox_ov
+erlap\", \"elements\": [\"slide[1]/data/shape[18]\", \"slide[1]/data/shape[27]\"], \"measurement\": {\"intersection_are
+a\": 96.178, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"message\": \"shape slide[1]/data/shape[18] overlaps sh
+ape slide[1]/data/shape[27]\", \"hint\": \"Locate via related_objects[].xml_path. Move or resize the card background sh
+apes so adjacent cards no longer overlap.\", \"schema_version\": \"2.0\", \"element_ids\": [], \"target\": {\"slide_num
+ber\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_visual_bounds_do_not_overlap\", \"comparison\": \"inte
+rsection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 24
+5, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/shape[18]\"}, {\"kind\": \"shape\", \"type\": \"custo
+m\", \"bbox\": {\"x\": 289.7, \"y\": 299.1, \"width\": 50.62, \"height\": 87.8}, \"xml_path\": \"slide[1]/data/shape[27
+]\"}]}, {\"level\": \"error\", \"code\": \"bbox_overlap\", \"elements\": [\"slide[1]/data/shape[18]\", \"slide[1]/data/
+shape[29]\"], \"measurement\": {\"intersection_area\": 106.711, \"left_fill_alpha\": 1, \"right_fill_alpha\": 0}, \"mes
+sage\": \"shape slide[1]/data/shape[18] overlaps shape slide[1]/data/shape[29]\", \"hint\": \"Locate via related_object
+s[].xml_path. Move or resize the card background shapes so adjacent cards no longer overlap.\", \"schema_version\": \"2
+.0\", \"element_ids\": [], \"target\": {\"slide_number\": 1}, \"rule\": {\"id\": \"bbox_overlap\", \"name\": \"text_vis
+ual_bounds_do_not_overlap\", \"comparison\": \"intersection_area == 0\"}, \"related_objects\": [{\"kind\": \"shape\", \
+"type\": \"rect\", \"bbox\": {\"x\": 201, \"y\": 245, \"width\": 150, \"height\": 56}, \"xml_path\": \"slide[1]/data/sh
+ape[18]\"}, {\"kind\": \"shape\", \"type\": \"custom\", \"bbox\": {\"x\": 333.42, \"y\": 210.11, \"width\": 89.15, \"he
+ight\": 40.96}, \"xml_path\": \"slide[1]/data/shape[29]\"}]}]}]}",
+    "hint": "xml lint blocked: 12 error(s). the page was not written. Fix the error-level findings in the message and r
+etry; if the lint is wrong about a page that has to ship as-is, re-run with --no-lint",
+    "log_id": "20261028125048B9BE90C95F9D5500774A",
+    "troubleshooter": "排查建议查看(Troubleshooting suggestions): https://open.feishu.cn/search?from=openapi&log_id=202610281
+25048B9BE90C95F9D5500774A&code=4000153&method_id=7626729071087471804"
+  }
+}

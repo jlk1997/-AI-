@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- lang=zh-CN so shared Han characters get Chinese glyph variants, not the
+     Japanese forms a CJK face defaults to under lang=en. -->
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>OpenGame World 3D</title>
+    <style>
+      html,
+      body,
+      #game-container {
+        margin: 0;
+        height: 100%;
+        background: #0b0f14;
+        overflow: hidden;
+        font-family:
+          'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+          'Source Han Sans SC', 'WenQuanYi Micro Hei', system-ui, sans-serif;
+      }
+      #hud {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        color: #e8f5e9;
+        /* ui-monospace has no CJK glyphs — HUD lines are Chinese. */
+        font: 14px/1.4 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui,
+          sans-serif;
+        text-shadow: 0 1px 2px #000;
+        z-index: 2;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hud">Loading world…</div>
+    <div id="game-container"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

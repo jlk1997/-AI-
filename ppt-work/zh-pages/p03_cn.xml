@@ -1,0 +1,69 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJy">
+    <style>
+      <fill id="fJy">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bqd">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>02 · 我们的答案</p>
+        </content>
+      </shape>
+      <shape width="850" height="120" topLeftX="56" topLeftY="120" type="text" id="bql">
+        <content textType="title" fontSize="52" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" lineSpacing="multiple:1.08" wrap="false">
+          <p>先把世界，</p>
+          <p><span color="rgba(34, 211, 238, 1)">跑在前面。</span></p>
+        </content>
+      </shape>
+      <line id="bqu" startX="56" startY="270" endX="120.00781202322105" endY="270">
+        <border color="rgba(34, 211, 238, 1)"/>
+      </line>
+      <shape width="848" height="80" topLeftX="56" topLeftY="290" type="text" id="bqq">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.6">
+          <p>OpenGame 用一句话，为一个社区构建一个会自主运行、可核对、可游玩的<strong><span color="rgba(241, 245, 249, 1)">数字孪生</span></strong>。我们把它的未来推演成千上万次，注入决策与谣言，读出会发生什么——赶在现实之前。</p>
+        </content>
+      </shape>
+      <shape width="200" height="30" topLeftX="56" topLeftY="410" type="text" id="bqp">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>模拟</p>
+        </content>
+      </shape>
+      <line id="bqZ" startX="252" startY="426" endX="300.0104155366312" endY="426">
+        <border color="rgba(34, 211, 238, 1)"/>
+        <endArrow type="arrow"/>
+      </line>
+      <shape width="200" height="30" topLeftX="312" topLeftY="410" type="text" id="bqV">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>干预</p>
+        </content>
+      </shape>
+      <line id="bqB" startX="508" startY="426" endX="556.0104155366312" endY="426">
+        <border color="rgba(34, 211, 238, 1)"/>
+        <endArrow type="arrow"/>
+      </line>
+      <shape width="200" height="30" topLeftX="568" topLeftY="410" type="text" id="bqf">
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" letterSpacing="1" wrap="false">
+          <p>预测</p>
+        </content>
+      </shape>
+      <line id="bqb" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bqW">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bqy">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>03 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqP">
+      <content>
+        <p>我们的答案是一个"活的数字孪生"。你不需要再对着一个静态模型去猜世界，而是直接建起一个会自己运行、可以核对、可以游玩的社区，把它的未来往前跑。你把正在考虑的决策、或者一条谣言注入进去，看它怎么扩散。整个闭环很简单：模拟、干预、预测。这个闭环就是产品的核心，下一页我会详细展开。</p>
+      </content>
+    </note>
+  </slide>

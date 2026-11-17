@@ -1,0 +1,15 @@
+﻿bbox_overlap ['slide[1]/data/shape[15]', 'slide[1]/data/shape[23]'] meas: {'intersection_area': 6.561, 'left_fill_alpha': 1, 'right_fill_alpha': 1}
+    rect {'x': 279, 'y': 385, 'width': 150, 'height': 56}
+    custom {'x': 428.19, 'y': 408.95, 'width': 8.1, 'height': 8.1}
+bbox_overlap ['slide[1]/data/line[2]', 'slide[1]/data/shape[6]'] meas: {'intersection_width': 15.675, 'intersection_height': 2.991, 'intersection_area': 46.879}
+    line {'x': 539.324561189, 'y': 212.00937383439998, 'width': 85.3508776220001, 'height': 35.98125233160002}
+    rect {'x': 405, 'y': 159, 'width': 150, 'height': 56}
+bbox_overlap ['slide[1]/data/line[2]', 'slide[1]/data/shape[9]'] meas: {'intersection_width': 15.675, 'intersection_height': 2.991, 'intersection_area': 46.879}
+    line {'x': 539.324561189, 'y': 212.00937383439998, 'width': 85.3508776220001, 'height': 35.98125233160002}
+    rect {'x': 609, 'y': 245, 'width': 150, 'height': 56}
+bbox_overlap ['slide[1]/data/line[6]', 'slide[1]/data/shape[6]'] meas: {'intersection_width': 15.675, 'intersection_height': 2.991, 'intersection_area': 46.879}
+    line {'x': 335.324561189, 'y': 212.00937383439998, 'width': 85.35087762199998, 'height': 35.98125233160002}
+    rect {'x': 405, 'y': 159, 'width': 150, 'height': 56}
+bbox_overlap ['slide[1]/data/line[6]', 'slide[1]/data/shape[18]'] meas: {'intersection_width': 15.675, 'intersection_height': 2.991, 'intersection_area': 46.879}
+    line {'x': 335.324561189, 'y': 212.00937383439998, 'width': 85.35087762199998, 'height': 35.98125233160002}
+    rect {'x': 201, 'y': 245, 'width': 150, 'height': 56}

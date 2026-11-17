@@ -1,0 +1,52 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJZ">
+    <style>
+      <fill id="fJZ">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <img id="bBH" src="Q9BhbDJh6olpOaxs4aSccjKhnFh" width="960" height="540" topLeftX="0" topLeftY="0">
+        <crop type="rect" leftOffset="0" rightOffset="0" topOffset="0.0659340659340728" bottomOffset="0.06593406593412965"/>
+      </img>
+      <shape width="960" height="540" topLeftX="0" topLeftY="0" presetHandlers="0" type="rect" id="bBt">
+        <fill>
+          <fillColor color="linear-gradient(90deg,rgba(10, 14, 20, 0.94) 0%,rgba(10, 14, 20, 0.78) 55%,rgba(10, 14, 20, 0.55) 100%)"/>
+        </fill>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="500" height="24" topLeftX="60" topLeftY="150" type="text" id="bBr">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>THANK YOU</p>
+        </content>
+      </shape>
+      <shape width="820" height="136" topLeftX="56" topLeftY="192" type="text" id="bBD">
+        <content textType="title" fontSize="60" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" lineSpacing="multiple:1.05" wrap="false">
+          <p>Run the world forward,</p>
+          <p>before it runs you.</p>
+        </content>
+      </shape>
+      <line id="bBY" startX="60" startY="372" endX="150.0055553840984" endY="372">
+        <border color="rgba(34, 211, 238, 1)"/>
+      </line>
+      <shape width="820" height="28" topLeftX="56" topLeftY="390" type="text" id="bBm">
+        <content fontSize="16" fontFamily="Inter" color="rgba(241, 245, 249, 1)" wrap="false">
+          <p>A playable, checkable, living world — with a forecasting market on top.</p>
+        </content>
+      </shape>
+      <shape width="820" height="22" topLeftX="56" topLeftY="452" type="text" id="bBQ">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>We would love to walk you through a live world and discuss the round.</p>
+        </content>
+      </shape>
+      <shape width="820" height="20" topLeftX="56" topLeftY="474" type="text" id="bBN">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing · Contact: [your name / email]</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bBh">
+      <content>
+        <p>To close, the idea is simple. Most systems react to the world after it moves. We run the world forward first, inside a living, checkable simulation, and let people place predictions on what comes next. The game is the skin; the moat is the combination of a checkable world, promise-constrained generation, and a living society, and the business is a two-track model with a self-policing prediction market. We would be glad to walk you through a live world and answer questions. Thank you.</p>
+      </content>
+    </note>
+  </slide>

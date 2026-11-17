@@ -1,0 +1,29 @@
+{
+  "name": "@opengame/platform-rag",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RAG knowledge retrieval for OpenGame platform (keyword R1 + embedding R2).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:ci": "vitest run"
+  },
+  "dependencies": {
+    "@opengame/platform-db": "*",
+    "drizzle-orm": "^0.36.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

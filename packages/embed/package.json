@@ -1,0 +1,30 @@
+{
+  "name": "@opengame/embed",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tiny client for embedding OpenGame community games in any web page (React + vanilla).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./react": { "types": "./dist/react.d.ts", "import": "./dist/react.js" }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test:ci": "node -e \"process.exit(0)\""
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "typescript": "^5.8.3"
+  }
+}

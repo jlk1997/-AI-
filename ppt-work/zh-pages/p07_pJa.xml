@@ -1,0 +1,178 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJa">
+    <style>
+      <fill id="fJa">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bpx">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 · MOAT</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bbk">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Moat 1 · A checkable world</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bpy">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Every world is a typed, versioned specification — reproducible and auditable.</p>
+        </content>
+      </shape>
+      <line id="bpu" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bpR">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bbw">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>07 / 20</p>
+        </content>
+      </shape>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="300.9" type="text" id="bpZ">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="135.7" height="14" topLeftX="130" topLeftY="299.4" type="text" id="bpf">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Typed World Spec</p>
+        </content>
+      </shape>
+      <shape width="239.7" height="10.5" topLeftX="130" topLeftY="321" type="text" id="bpg">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Schema-validated; one single source of truth</p>
+        </content>
+      </shape>
+      <line id="bbn" startX="90" startY="354" endX="410.00156249618533" endY="354">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="368.9" type="text" id="bpW">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="193.2" height="14" topLeftX="130" topLeftY="367.4" type="text" id="bpl">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Deterministic simulation</p>
+        </content>
+      </shape>
+      <shape width="259.1" height="10.5" topLeftX="130" topLeftY="389" type="text" id="bpa">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Same inputs, same outcomes — fully reproducible</p>
+        </content>
+      </shape>
+      <line id="bpC" startX="90" startY="422" endX="410.00156249618533" endY="422">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="436.9" type="text" id="bbc">
+        <content fontSize="15" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="151.3" height="14" topLeftX="130" topLeftY="435.4" type="text" id="bpp">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Versioned WorldOps</p>
+        </content>
+      </shape>
+      <shape width="310.9" height="10.5" topLeftX="130" topLeftY="457" type="text" id="bpB">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Typed mutations with a revision lineage; roll back any step</p>
+        </content>
+      </shape>
+      <shape width="113.1" height="13" topLeftX="670" topLeftY="283.8" type="text" id="bpF">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Revision lineage</p>
+        </content>
+      </shape>
+      <line id="bbz" startX="514" startY="350" endX="586.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="487" topLeftY="337" type="ellipse" id="bpb">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="17.4" height="10.5" topLeftX="492.6" topLeftY="373" type="text" id="bpd">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v1</p>
+        </content>
+      </shape>
+      <line id="bpX" startX="614" startY="350" endX="686.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="587" topLeftY="337" type="ellipse" id="bbe">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="17.4" height="10.5" topLeftX="592.6" topLeftY="373" type="text" id="bpq">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v2</p>
+        </content>
+      </shape>
+      <line id="bpV" startX="714" startY="350" endX="786.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="687" topLeftY="337" type="ellipse" id="bps">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="17.4" height="10.5" topLeftX="692.6" topLeftY="373" type="text" id="bpA">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v3</p>
+        </content>
+      </shape>
+      <shape width="26" height="26" topLeftX="787" topLeftY="337" type="ellipse" id="bbi">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="17.4" height="10.5" topLeftX="792.6" topLeftY="373" type="text" id="bbM">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v4</p>
+        </content>
+      </shape>
+      <line id="bpP" startX="600" startY="363" endX="600" endY="408.0111097397076">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <line id="bpS" startX="600" startY="408" endX="650.0099990002" endY="408">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="24" height="24" topLeftX="650" topLeftY="396" type="ellipse" id="bpT">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="23.3" height="10.5" topLeftX="651" topLeftY="429" type="text" id="bbv">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v2b</p>
+        </content>
+      </shape>
+      <shape width="141.5" height="11" topLeftX="670" topLeftY="464.8" type="text" id="bbE">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Audit why, then roll back</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bpJ">
+      <content>
+        <p>Video world models give you pixels you cannot verify. Our world is a typed specification, validated by schema, with one source of truth. The simulator is deterministic: the same inputs always produce the same world, so a result can be reproduced. Every change is a typed WorldOp that records its parent, forming a revision lineage. You can inspect why a resident did something and roll back to any earlier state. A world that can be checked and replayed is trustworthy in a way that a generated video never is. That is the first layer of the moat.</p>
+      </content>
+    </note>
+  </slide>

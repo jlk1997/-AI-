@@ -1,0 +1,210 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJH">
+    <style>
+      <fill id="fJH">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bVm">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>08 · BUSINESS</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bVp">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Prediction market mechanics</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bVl">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>One world, one market — settled by the world&apos;s own evidence, never by the author.</p>
+        </content>
+      </shape>
+      <line id="bVa" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bVx">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bVo">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>14 / 20</p>
+        </content>
+      </shape>
+      <shape width="60" height="60" topLeftX="90" topLeftY="280" type="ellipse" id="bVt">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.6)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="34.1" height="10" topLeftX="106.7" topLeftY="305.2" type="text" id="bVW">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>LOCK</p>
+        </content>
+      </shape>
+      <shape width="71.1" height="10" topLeftX="73.5" topLeftY="347.2" type="text" id="bVf">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>12 / 24 / 48 h</p>
+        </content>
+      </shape>
+      <shape width="60" height="60" topLeftX="270" topLeftY="280" type="ellipse" id="bVg">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.6)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="34.1" height="10" topLeftX="286.7" topLeftY="305.2" type="text" id="bVT">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>OPEN</p>
+        </content>
+      </shape>
+      <shape width="87.2" height="10" topLeftX="246.8" topLeftY="347.2" type="text" id="bVu">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>both sides stake</p>
+        </content>
+      </shape>
+      <shape width="60" height="60" topLeftX="450" topLeftY="280" type="ellipse" id="bVA">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.6)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="41.4" height="10" topLeftX="463.4" topLeftY="305.2" type="text" id="bVG">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>CLOSE</p>
+        </content>
+      </shape>
+      <shape width="51.2" height="10" topLeftX="450.1" topLeftY="347.2" type="text" id="bVQ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>after 4 h</p>
+        </content>
+      </shape>
+      <shape width="60" height="60" topLeftX="630" topLeftY="280" type="ellipse" id="bVZ">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(148, 163, 184, 0.6)" width="1" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="41.4" height="10" topLeftX="643.4" topLeftY="305.2" type="text" id="bVJ">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>PROOF</p>
+        </content>
+      </shape>
+      <shape width="45.6" height="10" topLeftX="633.4" topLeftY="347.2" type="text" id="bVC">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>next 4 h</p>
+        </content>
+      </shape>
+      <shape width="60" height="60" topLeftX="810" topLeftY="280" type="ellipse" id="bVD">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="48.7" height="10" topLeftX="820" topLeftY="305.2" type="text" id="bVy">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>SETTLE</p>
+        </content>
+      </shape>
+      <shape width="67.4" height="10" topLeftX="800.1" topLeftY="347.2" type="text" id="bVS">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>by the world</p>
+        </content>
+      </shape>
+      <line id="bVI" startX="150" startY="310" endX="270.0041665943312" endY="310">
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="263.7" topLeftY="306.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bVN">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bVh" startX="330" startY="310" endX="450.0041665943312" endY="310">
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="443.7" topLeftY="306.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bVP">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bVV" startX="510" startY="310" endX="630.0041665943312" endY="310">
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="623.7" topLeftY="306.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bVs">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bVO" startX="690" startY="310" endX="810.0041665943312" endY="310">
+        <border color="rgba(34, 211, 238, 1)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="7" height="7" topLeftX="803.7" topLeftY="306.5" path="M0,0 L7,3.5 L0,7 Z" type="custom" id="bVd">
+        <fill>
+          <fillColor color="rgba(34, 211, 238, 1)"/>
+        </fill>
+        <border color="rgba(0, 0, 0, 0)" width="0"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <line id="bVX" startX="90" startY="375" endX="870.0006410253776" endY="375">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="61.8" height="10" topLeftX="90" topLeftY="392.2" type="text" id="bVK">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(129, 140, 248, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>INTEGRITY</p>
+        </content>
+      </shape>
+      <shape width="216.6" height="10" topLeftX="90" topLeftY="414.2" type="text" id="bVY">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Settled by real dialogue and living evidence</p>
+        </content>
+      </shape>
+      <shape width="193.7" height="10" topLeftX="90" topLeftY="432.2" type="text" id="bVj">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The author cannot change the verdict</p>
+        </content>
+      </shape>
+      <shape width="222.3" height="10" topLeftX="90" topLeftY="450.2" type="text" id="bVH">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>The author cannot bet on their own market</p>
+        </content>
+      </shape>
+      <shape width="103.4" height="10" topLeftX="500" topLeftY="392.2" type="text" id="bVb">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>MONEY &amp; SAFETY</p>
+        </content>
+      </shape>
+      <shape width="176.5" height="10" topLeftX="500" topLeftY="414.2" type="text" id="bVB">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>15% rake; 70% of it to the author</p>
+        </content>
+      </shape>
+      <shape width="194.3" height="10" topLeftX="500" topLeftY="432.2" type="text" id="bVF">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Winners split the rest; 8x cap per bet</p>
+        </content>
+      </shape>
+      <shape width="237.2" height="10" topLeftX="500" topLeftY="450.2" type="text" id="bVR">
+        <content fontSize="10" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>One-sided, silent, stopped, or tied: full refund</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bVL">
+      <content>
+        <p>Each world runs one market, seeded automatically. The lock point is set at 12, 24, or 48 hours. The market opens, closes four hours later, and then spends four hours gathering evidence. The verdict comes from the town&apos;s real dialogue and living evidence, not from the author, who cannot change the result and cannot bet on their own market. A market forms only when both sides have stakes. The platform takes 15 percent, 70 percent of that goes to the author, and winners split the rest, with an 8x cap per bet. If the market is one-sided, silent, the clock stops, or the result is tied, every stake is refunded. The rules are designed to be fair and self-policing, which is what makes strangers willing to bet.</p>
+      </content>
+    </note>
+  </slide>

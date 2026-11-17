@@ -1,0 +1,112 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJh">
+    <style>
+      <fill id="fJh">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="blK">
+        <content textType="caption" fontSize="12" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>12 · HONESTY</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="blG">
+        <content textType="title" fontSize="34" fontFamily="Montserrat" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>Honest limitations</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="blD">
+        <content fontSize="14" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>We would rather show you the edges of the system than overclaim it.</p>
+        </content>
+      </shape>
+      <shape width="380" height="22" topLeftX="56" topLeftY="160" type="text" id="bls">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(100, 116, 139, 1)" bold="true" wrap="false">
+          <p>LIMITATION</p>
+        </content>
+      </shape>
+      <shape width="434" height="22" topLeftX="470" topLeftY="160" type="text" id="blg">
+        <content textType="caption" fontSize="11" fontFamily="Inter" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>HOW WE HANDLE IT</p>
+        </content>
+      </shape>
+      <line id="blC" startX="56" startY="188" endX="904.0005896224365" endY="188">
+        <border color="rgba(148, 163, 184, 0.25)" width="1"/>
+      </line>
+      <shape width="380" height="22" topLeftX="56" topLeftY="204" type="text" id="blj">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" wrap="false">
+          <p>Forecasts are probabilities, not certainties</p>
+        </content>
+      </shape>
+      <shape width="434" height="22" topLeftX="470" topLeftY="204" type="text" id="blN">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>We show P10–P90 bands and calibrate them; true black swans stay open.</p>
+        </content>
+      </shape>
+      <line id="blX" startX="56" startY="238" endX="904.0005896224365" endY="238">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="380" height="22" topLeftX="56" topLeftY="252" type="text" id="blR">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" wrap="false">
+          <p>Output depends on the quality of the world spec</p>
+        </content>
+      </shape>
+      <shape width="434" height="22" topLeftX="470" topLeftY="252" type="text" id="blx">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Typed specs and deterministic simulation keep inputs honest.</p>
+        </content>
+      </shape>
+      <line id="blI" startX="56" startY="286" endX="904.0005896224365" endY="286">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="380" height="22" topLeftX="56" topLeftY="300" type="text" id="blL">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" wrap="false">
+          <p>Calibration needs a large historical case library</p>
+        </content>
+      </shape>
+      <shape width="434" height="22" topLeftX="470" topLeftY="300" type="text" id="blh">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>We expand it continuously and disclose the nearest-case distance.</p>
+        </content>
+      </shape>
+      <line id="blJ" startX="56" startY="334" endX="904.0005896224365" endY="334">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="380" height="22" topLeftX="56" topLeftY="348" type="text" id="blF">
+        <content fontSize="12" fontFamily="Inter" color="rgba(241, 245, 249, 1)" wrap="false">
+          <p>Generation can still fail on edge cases</p>
+        </content>
+      </shape>
+      <shape width="434" height="22" topLeftX="470" topLeftY="348" type="text" id="blT">
+        <content fontSize="12" fontFamily="Inter" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>Gates plus a template fallback; a human reviews before release.</p>
+        </content>
+      </shape>
+      <line id="blO" startX="56" startY="400" endX="904.0005896224365" endY="400">
+        <border color="rgba(34, 211, 238, 0.3)" width="1"/>
+      </line>
+      <shape width="848" height="28" topLeftX="56" topLeftY="420" type="text" id="blo">
+        <content fontSize="14" fontFamily="Inter" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>This is decision support. We make the trade-offs visible; the human still decides.</p>
+        </content>
+      </shape>
+      <line id="blY" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="blS">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · Investor Briefing</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bla">
+        <content textType="caption" fontSize="10" fontFamily="Inter" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>19 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="blA">
+      <content>
+        <p>We want to be candid about what the system is and is not. It outputs probabilities, not certainties, and a genuinely unprecedented event cannot be forecast; we show the bands and keep the tails open. The quality of a prediction depends on the quality of the world spec, which is why specs are typed and the simulator is deterministic. Calibration is only as good as the case library, and we are growing it while disclosing how close the nearest case is. On edge cases, generation can still fail, so gates and a template fallback protect the output and a human reviews. The system is a decision aid that makes trade-offs visible, not a replacement for judgment. We believe this honesty is itself a reason to trust the numbers.</p>
+      </content>
+    </note>
+  </slide>

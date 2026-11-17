@@ -1,0 +1,178 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJa">
+    <style>
+      <fill id="fJa">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bpx">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>05 · 技术壁垒</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bbk">
+        <content textType="title" fontSize="34" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>壁垒一 · 可核对的世界</p>
+        </content>
+      </shape>
+      <shape width="848" height="24" topLeftX="56" topLeftY="118" type="text" id="bpy">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" wrap="false">
+          <p>每个世界都是一份带类型、有版本的规约，可复现、可审计。</p>
+        </content>
+      </shape>
+      <line id="bpu" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bpR">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bbw">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>07 / 20</p>
+        </content>
+      </shape>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="300.9" type="text" id="bpZ">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="160" height="14" topLeftX="130" topLeftY="299.4" type="text" id="bpf">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>带类型的世界规约</p>
+        </content>
+      </shape>
+      <shape width="280" height="10.5" topLeftX="130" topLeftY="321" type="text" id="bpg">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>Schema 校验，唯一真相源</p>
+        </content>
+      </shape>
+      <line id="bbn" startX="90" startY="354" endX="410.00156249618533" endY="354">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="368.9" type="text" id="bpW">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="200" height="14" topLeftX="130" topLeftY="367.4" type="text" id="bpl">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>确定性模拟</p>
+        </content>
+      </shape>
+      <shape width="300" height="10.5" topLeftX="130" topLeftY="389" type="text" id="bpa">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>相同输入，相同结果，完全可复现</p>
+        </content>
+      </shape>
+      <line id="bpC" startX="90" startY="422" endX="410.00156249618533" endY="422">
+        <border color="rgba(148, 163, 184, 0.2)" width="1" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26.2" height="15" topLeftX="90" topLeftY="436.9" type="text" id="bbc">
+        <content fontSize="15" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="200" height="14" topLeftX="130" topLeftY="435.4" type="text" id="bpp">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>版本化世界算子</p>
+        </content>
+      </shape>
+      <shape width="360" height="10.5" topLeftX="130" topLeftY="457" type="text" id="bpB">
+        <content fontSize="10.5" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>类型化突变，带修订谱系，任何一步都可回滚</p>
+        </content>
+      </shape>
+      <shape width="120" height="13" topLeftX="670" topLeftY="283.8" type="text" id="bpF">
+        <content fontSize="13" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>修订谱系</p>
+        </content>
+      </shape>
+      <line id="bbz" startX="514" startY="350" endX="586.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="487" topLeftY="337" type="ellipse" id="bpb">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="24" height="10.5" topLeftX="488" topLeftY="373" type="text" id="bpd">
+        <content fontSize="10.5" fontFamily="Montserrat" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v1</p>
+        </content>
+      </shape>
+      <line id="bpX" startX="614" startY="350" endX="686.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="587" topLeftY="337" type="ellipse" id="bbe">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="24" height="10.5" topLeftX="568" topLeftY="373" type="text" id="bpq">
+        <content fontSize="10.5" fontFamily="Montserrat" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v2</p>
+        </content>
+      </shape>
+      <line id="bpV" startX="714" startY="350" endX="786.0069441095787" endY="350">
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="26" height="26" topLeftX="687" topLeftY="337" type="ellipse" id="bps">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="24" height="10.5" topLeftX="688" topLeftY="373" type="text" id="bpA">
+        <content fontSize="10.5" fontFamily="Montserrat" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v3</p>
+        </content>
+      </shape>
+      <shape width="26" height="26" topLeftX="787" topLeftY="337" type="ellipse" id="bbi">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(34, 211, 238, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="24" height="10.5" topLeftX="788" topLeftY="373" type="text" id="bbM">
+        <content fontSize="10.5" fontFamily="Montserrat" color="rgba(148, 163, 184, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v4</p>
+        </content>
+      </shape>
+      <line id="bpP" startX="600" startY="363" endX="600" endY="408.0111097397076">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <line id="bpS" startX="600" startY="408" endX="650.0099990002" endY="408">
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="47"/>
+      </line>
+      <shape width="24" height="24" topLeftX="650" topLeftY="396" type="ellipse" id="bpT">
+        <fill>
+          <fillColor color="rgba(17, 24, 39, 1)"/>
+        </fill>
+        <border color="rgba(129, 140, 248, 1)" lineJoin="miter" miterLimit="4"/>
+        <content fontSize="16" fontFamily="思源黑体" color="rgba(31, 35, 41, 1)"/>
+      </shape>
+      <shape width="30" height="10.5" topLeftX="648" topLeftY="429" type="text" id="bbv">
+        <content fontSize="10.5" fontFamily="Montserrat" color="rgba(129, 140, 248, 1)" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>v2b</p>
+        </content>
+      </shape>
+      <shape width="160" height="11" topLeftX="670" topLeftY="464.8" type="text" id="bbE">
+        <content fontSize="11" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" italic="true" textAlign="left" wrap="false" defaultTabSize="47.0047">
+          <p>先审计原因，再回滚</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bpJ">
+      <content>
+        <p>视频世界模型给你的是一堆无法核实的像素。我们的世界是一份带类型的规约，用 Schema 校验，只有一个真相源。模拟器是确定性的，相同输入永远产生相同世界，所以结果可以复现。每一次改动都是一个带类型的世界算子，记录它的上一版，形成修订谱系。你可以查清一个居民为什么这么做，也可以回滚到任何一个更早的状态。一个能核对、能复盘的世界，可信度是生成视频永远无法比拟的。这是壁垒的第一层。</p>
+      </content>
+    </note>
+  </slide>

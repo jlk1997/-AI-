@@ -1,0 +1,79 @@
+<slide xmlns="https://www.larkoffice.com/sml/2.0" id="pJB">
+    <style>
+      <fill id="fJB">
+        <fillColor color="rgba(10, 14, 20, 1)"/>
+      </fill>
+    </style>
+    <data>
+      <shape width="500" height="20" topLeftX="56" topLeftY="42" type="text" id="bqR">
+        <content textType="caption" fontSize="12" fontFamily="思源黑体" color="rgba(34, 211, 238, 1)" bold="true" letterSpacing="3" wrap="false">
+          <p>01 · 问题</p>
+        </content>
+      </shape>
+      <shape width="848" height="48" topLeftX="56" topLeftY="70" type="text" id="bqC">
+        <content textType="title" fontSize="34" fontFamily="思源黑体" color="rgba(241, 245, 249, 1)" bold="true" wrap="false">
+          <p>决策者，正在摸黑前行</p>
+        </content>
+      </shape>
+      <line id="bqs" startX="56" startY="130" endX="904.0005896224365" endY="130">
+        <border color="rgba(148, 163, 184, 0.2)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="158" type="text" id="bqg">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>01</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="156" type="text" id="bqA">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">静态模型，算不出"涌现"。</span></strong></p>
+          <p>固定看板和单点预测，无法呈现人群、谣言与反应如何层层叠加，最终酿成没人预料到的结果。</p>
+        </content>
+      </shape>
+      <line id="bqK" startX="120" startY="252" endX="904.0006377548426" endY="252">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="270" type="text" id="bqS">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>02</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="268" type="text" id="bqa">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">真实世界的试错，慢且无法重来。</span></strong></p>
+          <p>在现实中验证一项政策、一次部署或一条消息，要花数周、耗费成本，一旦造成伤害，就再也无法挽回。</p>
+        </content>
+      </shape>
+      <line id="bqT" startX="120" startY="364" endX="904.0006377548426" endY="364">
+        <border color="rgba(148, 163, 184, 0.12)" width="1"/>
+      </line>
+      <shape width="60" height="44" topLeftX="56" topLeftY="382" type="text" id="bqO">
+        <content textType="headline" fontSize="30" fontFamily="Montserrat" color="rgba(34, 211, 238, 1)" bold="true" wrap="false">
+          <p>03</p>
+        </content>
+      </shape>
+      <shape width="784" height="86" topLeftX="120" topLeftY="380" type="text" id="bqJ">
+        <content fontSize="14" fontFamily="思源黑体" color="rgba(148, 163, 184, 1)" lineSpacing="multiple:1.55">
+          <p><strong><span color="rgba(241, 245, 249, 1)" fontSize="17">谣言，跑得比分析更快。</span></strong></p>
+          <p>情绪和虚假信息几小时内就扩散开，等报告写出来，人群早已有了定论。</p>
+        </content>
+      </shape>
+      <line id="bqF" startX="56" startY="496" endX="904.0005896224365" endY="496">
+        <border color="rgba(148, 163, 184, 0.15)" width="1"/>
+      </line>
+      <shape width="500" height="18" topLeftX="56" topLeftY="504" type="text" id="bqx">
+        <content textType="caption" fontSize="10" fontFamily="思源黑体" color="rgba(100, 116, 139, 1)" wrap="false">
+          <p>OpenGame · 投资人汇报</p>
+        </content>
+      </shape>
+      <shape width="84" height="18" topLeftX="820" topLeftY="504" type="text" id="bqI">
+        <content textType="caption" fontSize="10" fontFamily="Montserrat" color="rgba(100, 116, 139, 1)" textAlign="right" wrap="false">
+          <p>02 / 20</p>
+        </content>
+      </shape>
+    </data>
+    <note id="bqX">
+      <content>
+        <p>今天，任何要为高风险决策负责的人，都面临三个结构性难题。第一，静态模型算不出"涌现"，它无法刻画人群、谣言和反应如何层层叠加。第二，在真实世界里试错，慢、贵，而且一旦造成伤害就无法挽回。第三，虚假信息的扩散速度，比任何分析师写报告的速度都快。世界变化的速度，和我们理解世界的速度之间，这道鸿沟正是我们要解决的问题。</p>
+      </content>
+    </note>
+  </slide>
